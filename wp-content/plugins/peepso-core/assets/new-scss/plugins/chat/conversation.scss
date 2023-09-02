@@ -1,0 +1,144 @@
+.ps-page--conversation {}
+
+.ps-conversation {
+  --bg: var(--PS-COLOR--APP);
+}
+
+.ps-conversation__header {
+  background-color: var(--bg);
+  border-radius: var(--BORDER-RADIUS--MD);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: var(--BOX-SHADOW--HARD);
+}
+
+.ps-conversation__header-inner {
+  padding: var(--PADD);
+
+  @include mq($from: desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.ps-conversation__back {
+  @include mq($until: desktop) {
+    margin-bottom: var(--PADD);
+
+    .ps-btn {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  @include mq($from: desktop) {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+}
+
+.ps-conversation__actions {
+  @include mq($until: desktop) {
+    .ps-btn {
+      flex-grow: 1;
+      text-align: center;
+    }
+  }
+}
+
+.ps-conversation__add {
+  display: none;
+  padding: var(--PADD);
+  padding-top: 0;
+
+  .ps-btn {
+    margin-top: var(--PADD--SM);
+  }
+}
+
+.ps-conversation__participants {
+  padding: var(--PADD);
+  font-size: 80%;
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-conversation__status {
+  margin-left: var(--PADD--SM);
+  margin-right: var(--PADD--SM);
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  .gci-circle {
+    color: var(--PS-COLOR--SUCCESS);
+  }
+}
+
+.ps-conversation__chat {
+  background-color: var(--bg);
+  box-shadow: var(--BOX-SHADOW--HARD);
+
+  .ps-chat__message {
+    margin-bottom: var(--PADD--MD);
+  }
+
+  .ps-chat__message-avatar {
+    --width: var(--medium);
+  }
+
+  .ps-chat__message-content {
+    font-size: 90%;
+  }
+
+  .ps-chat__info {
+    margin-bottom: var(--PADD--MD);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.ps-conversation__postbox {
+  --shadow: var(--BOX-SHADOW--HARD);
+
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  @include mq($until: desktop) {
+    .ps-checkbox--enter {
+      width: 100%;
+      margin-top: var(--PADD);
+      font-size: 80%;
+    }
+
+    .ps-postbox__actions {
+      flex-wrap: wrap;
+
+      .ps-btn {
+        flex-grow: 1;
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+  @include mq($from: desktop) {
+    .ps-checkbox--enter {
+      @if $rtl {
+        margin-left: var(--PADD);
+      } @else {
+        margin-right: var(--PADD);
+      }
+
+      font-size: 80%;
+    }
+  }
+}
+
+.ps-conversation__postbox-footer {
+  display: flex !important;
+}

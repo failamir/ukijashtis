@@ -1,0 +1,360 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: PeepSo Monetization: LearnDash\n"
+"POT-Creation-Date: 2020-04-03 08:21+0700\n"
+"PO-Revision-Date: 2020-04-03 08:21+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsolearndash.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/configsectionlearndash.php:24
+msgid "Show \"LearnDash\" tab in user profiles."
+msgstr ""
+
+#: classes/configsectionlearndash.php:27 classes/configsectionlearndash.php:86
+msgid "Enabled"
+msgstr ""
+
+#: classes/configsectionlearndash.php:39
+msgid ""
+"Optional. Comma separated list of course IDs you want to hide from the "
+"profiles."
+msgstr ""
+
+#: classes/configsectionlearndash.php:42
+msgid "Hide courses"
+msgstr ""
+
+#: classes/configsectionlearndash.php:78
+msgid "Profiles"
+msgstr ""
+
+#: classes/configsectionlearndash.php:95
+msgid "Box height (px)"
+msgstr ""
+
+#: classes/configsectionlearndash.php:102
+msgid "Two column layout"
+msgstr ""
+
+#: classes/configsectionlearndash.php:115
+msgid "Course titles"
+msgstr ""
+
+#: classes/configsectionlearndash.php:121
+msgid "0 for no content"
+msgstr ""
+
+#: classes/configsectionlearndash.php:124
+msgid "Description length (words)"
+msgstr ""
+
+#: classes/configsectionlearndash.php:128
+msgid ""
+"Forced removal of some shortcodes immune to native WP methods (eg Divi "
+"Builder and similar). This is an experimental feature, we recommend using "
+"plain-text excerpts instead."
+msgstr ""
+
+#: classes/configsectionlearndash.php:131
+msgid "Aggressive shortcode removal"
+msgstr ""
+
+#: classes/configsectionlearndash.php:137
+msgid "Text"
+msgstr ""
+
+#: classes/configsectionlearndash.php:145
+msgid "Show featured images"
+msgstr ""
+
+#: classes/configsectionlearndash.php:149
+msgid "Display an empty box if an image is not found (to maintain the layout)"
+msgstr ""
+
+#: classes/configsectionlearndash.php:152
+msgid "Placeholder"
+msgstr ""
+
+#: classes/configsectionlearndash.php:157
+msgid "Top (rectangle)"
+msgstr ""
+
+#: classes/configsectionlearndash.php:158
+msgid "Left (square)"
+msgstr ""
+
+#: classes/configsectionlearndash.php:159
+msgid "Right (square)"
+msgstr ""
+
+#: classes/configsectionlearndash.php:166
+msgid "Position"
+msgstr ""
+
+#: classes/configsectionlearndash.php:176
+msgid "Height (px)"
+msgstr ""
+
+#: classes/configsectionlearndash.php:183
+msgid "Featured Images"
+msgstr ""
+
+#: classes/configsectionlearndash.php:191
+msgid "Creates an activity entry when user enrolls in a course."
+msgstr ""
+
+#: classes/configsectionlearndash.php:194
+#: classes/configsectionlearndash.php:239
+msgid "Post to activity"
+msgstr ""
+
+#: classes/configsectionlearndash.php:200
+#: classes/configsectionlearndash.php:245
+msgid "Leave empty for default"
+msgstr ""
+
+#: classes/configsectionlearndash.php:203
+#: classes/configsectionlearndash.php:248
+msgid "Action text"
+msgstr ""
+
+#: classes/configsectionlearndash.php:222
+#: classes/configsectionlearndash.php:267
+msgid "Default privacy"
+msgstr ""
+
+#: classes/configsectionlearndash.php:229
+msgid "Action - user enrolled in a course"
+msgstr ""
+
+#: classes/configsectionlearndash.php:236
+msgid "Creates an activity entry when user completes a course."
+msgstr ""
+
+#: classes/configsectionlearndash.php:274
+msgid "Action - user completed a course"
+msgstr ""
+
+#: classes/configsectionlearndash.php:281
+#: classes/configsectionlearndash.php:289
+msgid "Leave empty for default value"
+msgstr ""
+
+#: classes/configsectionlearndash.php:284
+msgid "Profile label"
+msgstr ""
+
+#: classes/configsectionlearndash.php:292
+msgid "Profile slug"
+msgstr ""
+
+#: classes/configsectionlearndash.php:297
+msgid "FontAwesome (or similar). Leave empty for default value"
+msgstr ""
+
+#: classes/configsectionlearndash.php:300
+msgid "Custom icon CSS class"
+msgstr ""
+
+#: classes/configsectionlearndash.php:307
+msgid "Advanced"
+msgstr ""
+
+#: classes/configsectionlearndash.php:308
+#, php-format
+msgid ""
+"This section is for <b>advanced users only</b>.<br/>When modifying the "
+"profile slug, please do NOT use any keyword already in use (eg %s)."
+msgstr ""
+
+#: classes/widgets/widgetldgroups.php:9
+msgid "PeepSo LearnDash: Courses &amp; Groups integration"
+msgstr ""
+
+#: classes/widgets/widgetldgroups.php:10
+msgid ""
+"Displays information about PeepSo Groups assigned to a LearnDash Course (on "
+"a Course page) or LearnDash Courses assigned to a PeepSo Group (on a Group "
+"page)."
+msgstr ""
+
+#: classes/widgets/widgetldgroups.php:86
+msgid "Groups related to this Course"
+msgstr ""
+
+#: classes/widgets/widgetldgroups.php:90
+msgid "Courses related to this Group"
+msgstr ""
+
+#: classes/widgets/widgetldgroups.php:103
+msgid "Title (Course Page)"
+msgstr ""
+
+#: classes/widgets/widgetldgroups.php:109
+#: classes/widgets/widgetldgroups.php:120
+msgid "Title when on PeepSo Group"
+msgstr ""
+
+#: classes/widgets/widgetldgroups.php:114
+msgid "Title (Group Page)"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:9
+msgid "PeepSo LearnDash: About Course Instructor"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:10
+msgid "Displays PeepSo details about the Course Instructor"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:50
+msgid "About The Course Instructor"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:62
+msgid "Override instructor ID"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:70
+msgid "Invalid Instructor ID"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:76
+msgid "Leave empty to treat the Course Author as Course Instructor"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:90
+msgid "Enable \"Chat\" Button"
+msgstr ""
+
+#: classes/widgets/widgetldinstructor.php:99
+msgid ""
+"Warning: this widget will print Course Instructors \"about me\" profile "
+"field without checking the field privacy."
+msgstr ""
+
+#: peepsolearndash.php:150
+msgid "LearnDash"
+msgstr ""
+
+#: peepsolearndash.php:187
+msgid "Courses"
+msgstr ""
+
+#: peepsolearndash.php:286
+msgid "enrolled in a course"
+msgstr ""
+
+#: peepsolearndash.php:290
+msgid "completed a course"
+msgstr ""
+
+#: peepsolearndash.php:331
+msgid "PeepSo Groups - related groups"
+msgstr ""
+
+#: peepsolearndash.php:332
+msgid "PeepSo Groups automation - course enrolled"
+msgstr ""
+
+#: peepsolearndash.php:356
+msgid "PeepSo VIP automation - course completed"
+msgstr ""
+
+#: peepsolearndash.php:513
+msgid "You have not enrolled in any courses yet"
+msgstr ""
+
+#: peepsolearndash.php:513
+#, php-format
+msgid "%s has not enrolled in any courses yet"
+msgstr ""
+
+#: peepsolearndash.php:526
+msgid ""
+"Automatically add users to PeepSo Groups when they enroll in this course"
+msgstr ""
+
+#: peepsolearndash.php:548 peepsolearndash.php:590
+#: templates/widgets/learndash-course-groups.php:26
+msgid "Open"
+msgstr ""
+
+#: peepsolearndash.php:549 peepsolearndash.php:591
+#: templates/widgets/learndash-course-groups.php:27
+msgid "Closed"
+msgstr ""
+
+#: peepsolearndash.php:550 peepsolearndash.php:592
+#: templates/widgets/learndash-course-groups.php:28
+msgid "Secret"
+msgstr ""
+
+#: peepsolearndash.php:568
+msgid "Show these Groups as \"related\" to this Course"
+msgstr ""
+
+#: peepsolearndash.php:610
+msgid "Assign users these VIP Badges when they complete this course"
+msgstr ""
+
+#: peepsolearndash.php:629
+msgid "unpublished"
+msgstr ""
+
+#: peepsolearndash.php:670
+#, php-format
+msgid "The %s requires the PeepSo plugin to be installed and activated."
+msgstr ""
+
+#: peepsolearndash.php:672
+msgid "Get it now!"
+msgstr ""
+
+#: peepsolearndash.php:690
+#, php-format
+msgid "PeepSo %s requires the LearnDash plugin (%s or newer)."
+msgstr ""
+
+#: templates/widgets/learndash-instructor.php:24
+#, php-format
+msgid "%s - avatar"
+msgstr ""
+
+#: templates/widgets/learndash-instructor.php:62
+#, php-format
+msgid "Start a chat with %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: LearnDash"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<strong>Requires the LearnDash plugin.</strong> Integrates LearnDash LMS "
+"into user profiles and streams."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""

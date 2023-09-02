@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:20+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsogiphy.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: peepso-giphy.pot\n"
+"Language: hu_HU\n"
+
+#: classes/admin/configsectiongiphy.php:19
+msgid "Giphy API Key"
+msgstr "Giphy API kulcs"
+
+#: classes/admin/configsectiongiphy.php:32
+msgid "Limit"
+msgstr "Határ"
+
+#: classes/admin/configsectiongiphy.php:38
+msgid "Illustrated content only"
+msgstr "Csak illusztrált tartalom"
+
+#: classes/admin/configsectiongiphy.php:39
+msgid "Suitable for everyone"
+msgstr "Alkalmas mindenki számára"
+
+#: classes/admin/configsectiongiphy.php:40
+msgid "May be inappropriate for children"
+msgstr "Lehet, hogy nem megfelelő a gyermekek számára"
+
+#: classes/admin/configsectiongiphy.php:41
+msgid "May be inappropriate under the age of 13"
+msgstr "Lehet, hogy nem megfelelő 13 éves kor alatt"
+
+#: classes/admin/configsectiongiphy.php:42
+msgid "Inappropriate under the age of 17"
+msgstr "17 éves kor alatt nem megfelelő"
+
+#: classes/admin/configsectiongiphy.php:43
+msgid "No limit"
+msgstr "Nincs korlát"
+
+#: classes/admin/configsectiongiphy.php:50
+msgid "Max content rating"
+msgstr "Max tartalom minősítés"
+
+#: classes/admin/configsectiongiphy.php:57
+msgid "Width set to 200px. Good for mobile use."
+msgstr "Szélesség beállítása 200px. Jó mobilhasználathoz."
+
+#: classes/admin/configsectiongiphy.php:58
+msgid "Static preview image for fixed_width"
+msgstr "Statikus előnézeti kép rögzített szélességre"
+
+#: classes/admin/configsectiongiphy.php:59
+msgid "Width set to 200px. Reduced to 6 frames. Works well for unlimited scroll on mobile and as animated previews."
+msgstr "Szélesség beállítása 200px. 6 képkockára csökkentve. Jól működik korlátlan görgetésnél a mobilon és animált előnézeteken."
+
+#: classes/admin/configsectiongiphy.php:60
+msgid "Height set to 200px. Good for mobile use."
+msgstr "Magasság beállítása 200px. Jó a mobilhasználathoz."
+
+#: classes/admin/configsectiongiphy.php:61
+msgid "Static preview image for fixed_height"
+msgstr "Statikus előnézeti kép rögzített magassághoz"
+
+#: classes/admin/configsectiongiphy.php:62
+msgid "Height set to 200px. Reduced to 6 frames to minimize file size to the lowest. Works well for unlimited scroll on mobile and as animated previews. See GIPHY.com on mobile web as an example."
+msgstr "Magasság beállítása 200px. 6 képkockára redukálva a fájlméret legalacsonyabbra való csökkentéséhez. Jól működik korlátlan görgetésnél a mobilon és animált előnézeteken. Példaként nézd meg a GIPHY.com webhelyet mobilon."
+
+#: classes/admin/configsectiongiphy.php:63
+msgid "Width set to 100px. Good for mobile keyboards"
+msgstr "A szélesség értéke 100px. Jó a mobil billentyűzet számára"
+
+#: classes/admin/configsectiongiphy.php:64
+msgid "Static preview image for fixed_width_small"
+msgstr "Statikus előnézeti kép rögzített_minimális_szélesség számára"
+
+#: classes/admin/configsectiongiphy.php:65
+msgid "Height set to 100px. Good for mobile keyboards."
+msgstr "A magasság 100 px. Jó a mobil billentyűzet számára."
+
+#: classes/admin/configsectiongiphy.php:66
+msgid "Static preview image for fixed_height_small"
+msgstr "Statikus előnézeti kép rögzített_minimális_magasság számára"
+
+#: classes/admin/configsectiongiphy.php:67
+msgid "File size under 50kb. Duration may be truncated to meet file size requirements. Good for thumbnails and previews."
+msgstr "A fájl mérete 50 kB alatt van. A tartalom csökkenthetne a fájlméret követelményeinek teljesítéséhez. Jó a bélyegképekhez és az előnézetekhez."
+
+#: classes/admin/configsectiongiphy.php:68
+msgid "Original file size and file dimensions. Good for desktop use."
+msgstr "Eredeti fájlméret és fájl dimenziók. Jó desktop használatra."
+
+#: classes/admin/configsectiongiphy.php:69
+msgid "Preview image for original"
+msgstr "Előnézeti kép eredeti"
+
+#: classes/admin/configsectiongiphy.php:76
+msgid "Giphy Rendition on Comments"
+msgstr "Giphy Rendition a megjegyzésekben"
+
+#: classes/admin/configsectiongiphy.php:84
+msgid "Giphy Rendition on Messages"
+msgstr "Giphy Rendition az üzenetekben"
+
+#: classes/admin/configsectiongiphy.php:113
+msgid "General"
+msgstr "Általános"
+
+#: classes/admin/configsectiongiphy.php:122
+msgid "This plugin integrates world-famous <a href=\"https://giphy.com/\" target=\"_blank\">Giphy</a>. It is thanks to their service your community now has the possibility to share all of their amazing gifs in both comments and chat."
+msgstr "Ez a plugin integrálja a világhírű <a href=\"https://giphy.com/\" target=\"_blank\"> Giphy</a>.Köszönhetően a szolgáltatásnak, a közösségednek lehetősége van megosztani a csodálatos gifjeit mind a megjegyzésekben, mind pedig a csevegésekben."
+
+#: classes/admin/configsectiongiphy.php:134
+msgid "Information"
+msgstr "Információ"
+
+#: peepsogiphy.php:230
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "A(z) %s bővítményhez szükséges a PeepSo telepítése és aktiválása."
+
+#: peepsogiphy.php:232 peepsogiphy.php:251
+msgid "Get it now!"
+msgstr "Szerezd be most!"
+
+#: peepsogiphy.php:249
+msgid "Please provide Giphy API Key."
+msgstr "Kérjük, add meg a Giphy API kulcsot."
+
+#: peepsogiphy.php:323 peepsogiphy.php:326
+msgid "GIPHY"
+msgstr "GIPHY"
+
+#: peepsogiphy.php:349
+msgid "Giphy"
+msgstr ""
+
+#: peepsogiphy.php:379
+msgid "Send gif"
+msgstr "Gif küldése"
+
+#: templates/giphy/comments-content.php:9
+#, php-format
+msgid "%s shared a GIF"
+msgstr ""
+
+#: templates/giphy/comments-content.php:10
+msgid "Shared a GIF"
+msgstr ""
+
+#: templates/giphy/dialog-giphy.php:4 templates/giphy/message-input.php:5
+#: templates/giphy/postbox-giphy.php:10
+msgid "Search..."
+msgstr "Keresés..."
+
+#: templates/giphy/postbox-giphy.php:4
+msgid "Change image"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: GIPHY"
+msgstr "PeepSo integráció: GIPHY"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Send GIPHY gifs and stickers in comments and chat"
+msgstr "Küldj GIPHY gifeket és matricákat a megjegyzésekben és a csevegésben"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

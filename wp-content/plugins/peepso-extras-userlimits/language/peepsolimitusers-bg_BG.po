@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:16+0700\n"
+"PO-Revision-Date: 2018-04-18 05:30-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: limitusers.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: peepsolimitusers.pot\n"
+"Language: bg_BG\n"
+
+#: classes/configsectionlimitusers.php:39
+msgid "Hide Users From Listings"
+msgstr "Скриване на потребители от списъците"
+
+#: classes/configsectionlimitusers.php:40
+msgid "Selected users will not show in any PeepSo user listing.<br/>Administrators will always see everyone."
+msgstr "Избраните потребители няма да се показват в списъка с регистрирани потребители. <br/> Администраторите винаги ще виждат всички."
+
+#: classes/configsectionlimitusers.php:47
+msgid "Disable new posts"
+msgstr "Забрани за нови постове"
+
+#: classes/configsectionlimitusers.php:48
+msgid "Selected users will not be able to create any new posts.<br/>That includes posting in groups."
+msgstr "Избраните потребители няма да могат да създават нови публикации. <br/> Това включва и публикации в групите."
+
+#: classes/configsectionlimitusers.php:55
+msgid "Disable comments"
+msgstr "Забрани коментарите"
+
+#: classes/configsectionlimitusers.php:56
+msgid "Selected users will not be able to add any comments.<br/>That includes commenting in groups."
+msgstr "Избраните потребители няма да могат да пишат коментари. <br/> Това включва и коментари в групите."
+
+#: classes/configsectionlimitusers.php:67
+msgid "Friends - disable sending friend requests"
+msgstr "Приятели - забрани за изпращане на покани за приятелство"
+
+#: classes/configsectionlimitusers.php:68
+msgid "Selected users will not be able to send friend requests.<br/>They can receive and accept friend requests."
+msgstr "Избраните потребители няма да могат да изпращат покани за приятел. <br/> Те могат да получават и приемат покани за приятелство."
+
+#: classes/configsectionlimitusers.php:76
+msgid "Groups - disable groups"
+msgstr "Групи - забрани за групи"
+
+#: classes/configsectionlimitusers.php:77
+msgid "Selected Users will be unable to create groups, join or be invited.<br/>They can manage groups created earlier."
+msgstr "Избраните потребители няма да могат да създават групи, да се присъединят или да бъдат поканени. <br/> Те ще могат да управляват групи, създадени по-рано."
+
+#: classes/configsectionlimitusers.php:85
+msgid "Chat - disable starting new threads"
+msgstr "Чат - забрани за нов чат"
+
+#: classes/configsectionlimitusers.php:86
+msgid "Selected users will not be able to create new message threads.<br/>They can still participate in existing threads."
+msgstr "Избрани потребители няма да могат да създават нови разговори. <br/> Те все още могат да участват в съществуващите теми."
+
+#: classes/configsectionlimitusers.php:94
+msgid "Photos - disable photo uploads"
+msgstr "Снимки - забрани за качване на снимки"
+
+#: classes/configsectionlimitusers.php:95
+msgid "Selected users will not be able to upload photos in posts and comments and create albums.<br/>They can change their avatar and cover."
+msgstr "Избраните потребители няма да могат да качват снимки в постове и коментари, както и да създават нови албуми. <br/> Те ще могат да променят своята снимка на профила и на корицата."
+
+#: classes/configsectionlimitusers.php:103
+msgid "Polls - disable new polls"
+msgstr "Анкети - забрани за нови анкети"
+
+#: classes/configsectionlimitusers.php:104
+msgid "Selected users will not be able to create new polls.<br/>They can vote."
+msgstr "Избраните потребители няма да могат да създават нови анкети. <br/> Те ще могат само да гласуват."
+
+#: classes/configsectionlimitusers.php:112
+msgid "Videos - disable videos"
+msgstr "Видео - забрани за клиповете"
+
+#: classes/configsectionlimitusers.php:113
+msgid "Selected users will not be able to embed videos in their posts.<br/>They can post video links."
+msgstr "Избраните потребители няма да могат публикуват клипове в постовете си. <br/> Те ще могат само да публикуват видео връзки."
+
+#: classes/configsectionlimitusers.php:135
+msgid "Administrator can't be limited"
+msgstr "Администратор не може да бъде ограничен"
+
+#: classes/configsectionlimitusers.php:148
+msgid "Based on profile completeness"
+msgstr "Според попълването на профила"
+
+#: classes/configsectionlimitusers.php:158
+msgid "-- no limit --"
+msgstr "--без ограничение--"
+
+#: classes/configsectionlimitusers.php:164
+msgid "Require"
+msgstr "Задължително"
+
+#: classes/configsectionlimitusers.php:170
+msgid "Based on avatar"
+msgstr "Според снимката на корицата"
+
+#: classes/widgets/widgetlimitusers.php:9
+msgid "PeepSo User Limits"
+msgstr "PeepSo User Limits"
+
+#: classes/widgets/widgetlimitusers.php:10
+msgid "PeepSo User Limits Widget"
+msgstr "PeepSo User Limits джаджа"
+
+#: classes/widgets/widgetlimitusers.php:45
+msgid "Your actions in the Community are limited."
+msgstr "Вашите действия в рамките на Мрежата са ограничени."
+
+#: classes/widgets/widgetlimitusers.php:63
+msgid "Message:"
+msgstr "Съобщение:"
+
+#: limitusers.php:113
+msgid "show on members page"
+msgstr "показване в списъка с потребители"
+
+#: limitusers.php:114
+msgid "add new posts"
+msgstr "писане на нови постове"
+
+#: limitusers.php:115
+msgid "comment on posts"
+msgstr "коментар на публикации"
+
+#: limitusers.php:120
+msgid "send friend requests"
+msgstr "изпращане на покани за приятелство"
+
+#: limitusers.php:125
+msgid "join &amp; create groups"
+msgstr "присъединяване и създаване на групи"
+
+#: limitusers.php:130
+msgid "write new messages"
+msgstr "изпращане на нови съобщения"
+
+#: limitusers.php:135
+msgid "add photos"
+msgstr "добавяне на снимки"
+
+#: limitusers.php:140
+msgid "add polls"
+msgstr "добавяне на анкети"
+
+#: limitusers.php:145
+msgid "add videos"
+msgstr "добавяне на видеоклипове"
+
+#: limitusers.php:317
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: limitusers.php:372
+msgid "User Limits"
+msgstr "User Limits"
+
+#: limitusers.php:375
+msgid "Configure which users to hide from the listings"
+msgstr "Настройване кои потребители да не се показват в списъците"
+
+#: limitusers.php:461
+msgid "You are currently not allowed to create new posts"
+msgstr "В момента не можете да създавате нови публикации"
+
+#: templates/limitusers/debug-formatted.php:5
+msgid "Upload an avatar to:"
+msgstr "Качете снимка на профила, за да"
+
+#: templates/limitusers/debug-formatted.php:19
+msgid "Complete your profile to:"
+msgstr "Попълнете вашия профил, за да"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: User Limits"
+msgstr "PeepSo Extras: User Limits"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Limit user privileges and/or hide them from PeepSo user listings based on role and profile completeness"
+msgstr "Ограничава правата на потребителите и/или ги скрива от PeepSo списъците на базата на ролята и попълването на профила."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

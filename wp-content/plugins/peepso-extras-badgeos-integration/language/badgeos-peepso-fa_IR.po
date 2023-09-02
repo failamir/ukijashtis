@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:12+0700\n"
+"PO-Revision-Date: 2018-04-18 05:31-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-badgeos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: badgeos-peepso.pot\n"
+"Language: fa_IR\n"
+
+#: classes/BadgeOS_PeepSoTriggers.php:246
+#, php-format
+msgid "%1$s triggered %2$s (%3$dx)"
+msgstr "%1$s به راه انداخت %2$s (%3$dx)"
+
+#: classes/admin/configsectionbadgeos.php:18
+msgid "Configure the use of PeepSo - BadgeOS Integration"
+msgstr "پیکربندی استفاده از یکپارچه سازی پیپ سو و BadgeOS"
+
+#: classes/admin/configsectionbadgeos.php:24
+msgid "Turn on the use of BadgeOS Integration"
+msgstr "روشن کردن استفاده از یکپارچه سازی BadgeOS"
+
+#: classes/admin/configsectionbadgeos.php:27
+msgid "Enable BadgeOS Integration"
+msgstr "فعالسازی یکپارچه سازی BadgeOS"
+
+#: classes/admin/configsectionbadgeos.php:33
+msgid "Turn on to show 'Badges' link in the PeepSo Profile menu"
+msgstr "روشن کنید تا لینک \"مدال ها\" در منوی پروفایل پیپ سو نمایش داده شود"
+
+#: classes/admin/configsectionbadgeos.php:36
+msgid "Show 'Badges' link in the PeepSo Profile menu"
+msgstr "نمایش لینک \"مدال ها\" در منوی پروفایل پیپ سو"
+
+#: classes/admin/configsectionbadgeos.php:45
+msgid "Create posts when user earns a new badge"
+msgstr "وقتی کاربر یک مدال جدید کسب می کند یک پست ایجاد می کند"
+
+#: classes/admin/configsectionbadgeos.php:54
+msgid "Display recent badges on profile cover"
+msgstr "نمایش مدال های اخیر بر روی کاور پروفایل"
+
+#: classes/admin/configsectionbadgeos.php:72
+msgid "How many recent badges to display on the cover"
+msgstr "چه تعداد مدال اخیر روی کاور نمایش داده شود"
+
+#: classes/admin/configsectionbadgeos.php:83
+msgid "Display recent badges on profile widget"
+msgstr "نمایش مدال های اخیر روی ابزارک پروفایل"
+
+#: classes/admin/configsectionbadgeos.php:101
+msgid "How many recent badges to display on the profile widget"
+msgstr "چه تعداد مدال اخیر روی ابزارک پروفایل نمایش داده شود"
+
+#: classes/admin/configsectionbadgeos.php:128
+msgid "General"
+msgstr "عمومی"
+
+#: peepso-badgeos.php:83
+msgid "PeepSo Activity"
+msgstr "دیوار پیپ سو"
+
+#: peepso-badgeos.php:84
+msgid "Change Profile Avatar."
+msgstr "تغییر آواتار پروفایل."
+
+#: peepso-badgeos.php:85
+msgid "Change Profile Cover."
+msgstr "تغییر کاور پروفایل."
+
+#: peepso-badgeos.php:86
+msgid "Admin Approves User Account."
+msgstr "مدیر حساب کاربر را تایید می کند."
+
+#: peepso-badgeos.php:87
+msgid "Write a post / status update."
+msgstr "نوشتن یک بروزرسانی برای پست / استاتوس"
+
+#: peepso-badgeos.php:88
+msgid "Comment on a post / status update."
+msgstr "نظر دادن روی یک پست یا استاتوس."
+
+#: peepso-badgeos.php:159
+msgid "PeepSo Friends"
+msgstr "دوستان پیپ سو"
+
+#: peepso-badgeos.php:160
+msgid "Send a Friend Request."
+msgstr "ارسال یک درخواست دوستی."
+
+#: peepso-badgeos.php:161
+msgid "Add a new friend."
+msgstr "افزودن یک دوست جدید."
+
+#: peepso-badgeos.php:167
+msgid "PeepSo Groups"
+msgstr "گروه های پیپ سو"
+
+#: peepso-badgeos.php:168
+msgid "Create a Group."
+msgstr "ایجاد یک گروه."
+
+#: peepso-badgeos.php:169
+msgid "Join a Group."
+msgstr "پیوستن به یک گروه."
+
+#: peepso-badgeos.php:170
+msgid "Change Group Avatar."
+msgstr "تغییر آواتار گروه."
+
+#: peepso-badgeos.php:171
+msgid "Change Group Cover."
+msgstr "تغییر کاور گروه."
+
+#: peepso-badgeos.php:177
+msgid "PeepSo Messages"
+msgstr "پیغام های پیپ سو"
+
+#: peepso-badgeos.php:178
+msgid "Send a Message."
+msgstr "ارسال یگ پیغام."
+
+#: peepso-badgeos.php:183
+msgid "PeepSo PMP Integration"
+msgstr "پیپ سو ادغام با PMP"
+
+#: peepso-badgeos.php:184
+msgid "Checkout membership level upon registration."
+msgstr "پرداخت برای سطح عضویت در حین ثبت نام."
+
+#: peepso-badgeos.php:287
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "افزونه %s نیازمند نصب و فعال بودن افزونه پیپ سو می باشد."
+
+#: peepso-badgeos.php:289 peepso-badgeos.php:326
+msgid "Get it now!"
+msgstr "اکنون دریافت کنید!"
+
+#: peepso-badgeos.php:324
+msgid "Please make sure BadgeOS is installed and activated."
+msgstr "لطفا مطمئن شوید که BadgeOS نصب و فعال شده است."
+
+#: peepso-badgeos.php:358
+#, php-format
+msgid "The %s plugin works with BadgeOS minimum version: %s."
+msgstr "افزونه %s با BadgeOS در نسخه حداقل: %s کار می کند."
+
+#: peepso-badgeos.php:434
+msgid "BadgeOS"
+msgstr "BadgeOS"
+
+#: peepso-badgeos.php:437
+msgid "PeepSo - BadgeOS Integration"
+msgstr "یکپارچه سازی پیپ سو - BadgeOS"
+
+#: peepso-badgeos.php:554
+msgid " congratulations! You earned a new badge"
+msgstr " تبریک میگم! یک مدال جدید به دست آوردید"
+
+#: peepso-badgeos.php:572
+msgid " earned a new badge!"
+msgstr " یک مدال جدید به دست آورد!"
+
+#: peepso-badgeos.php:634 templates/badges/profile-badges.php:9
+msgid "Badges"
+msgstr "مدالها"
+
+#: peepso-badgeos.php:945
+msgid "Recently earned badge"
+msgid_plural "Recently earned badges"
+msgstr[0] "اخیرا یک مدال به دست آورد"
+msgstr[1] "اخیرا چند مدال به دست آورد"
+
+#: peepso-badgeos.php:1084
+msgid "Show Details"
+msgstr "نمایش جزییات"
+
+#: peepso-badgeos.php:1130
+msgid "PeepSo Community Engagement"
+msgstr "نامزدی انجمن پیپ سو"
+
+#: peepso-badgeos.php:1146
+msgid "Select a PeepSo Trigger"
+msgstr "یک اقدام پیپ سو را انتخاب کنید"
+
+#: peepso-badgeos.php:1177
+msgid "Select a Group"
+msgstr "یک گروه را انتخاب کنید"
+
+#: peepso-badgeos.php:1204
+msgid "Select a Membership Level"
+msgstr "انتخاب سطح عضویت"
+
+#: peepso-badgeos.php:1249
+#, php-format
+msgid "Join group \"%s\""
+msgstr "پیوستن به گروه \"%s\""
+
+#: peepso-badgeos.php:1261
+#, php-format
+msgid "Checkout membership level \"%s\""
+msgstr "پرداخت سطح عضویت \"%s\""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: BadgeOS"
+msgstr "یکپارچه سازی پیپ سو: BadgeOS"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Bridge BadgeOS and PeepSo points and badge systems"
+msgstr "پل زدن بین پیپ سو و BadgeOS و سیستم مدال ها"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "پیپ‌ سو"
+

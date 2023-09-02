@@ -1,0 +1,25 @@
+.ps-giphy__slider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.ps-giphy__slides {
+	display: block;
+	width: auto;
+	white-space: nowrap;
+	transition: margin-left .5s;
+}
+
+.ps-giphy__slides-item {
+	display: inline-block;
+	height: 100px;
+	vertical-align: middle;
+	overflow: hidden;
+
+	> img {
+		display: inline;
+		height: 100px;
+		cursor: pointer;
+	}
+}

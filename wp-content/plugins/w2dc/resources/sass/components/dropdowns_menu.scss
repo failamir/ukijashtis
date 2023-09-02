@@ -1,0 +1,83 @@
+/* .ui-widget-content.w2dc-dropdowns-menu {
+	background-color: $dropdown-menu-background-color;
+} */
+/* full screen map requires menu to have giant z-index (when it is not on sticky-scroll map)  */
+body > .w2dc-dropdowns-menu {
+	z-index: 100002;
+}
+.w2dc-dropdowns-menu-search-counter {
+	font-weight: normal;
+	font-size: 10px;
+	right: 8px;
+	position: absolute;
+}
+.w2dc-dropdowns-menu-search-sublabel {
+	display: block;
+	font-size: 11px;
+	color: $dropdown-menu-item-sublabel-color;
+}
+.w2dc-dropdowns-menu-search-sublabel b {
+	color: $dropdown-menu-item-sublabel-bold-color;
+}
+.w2dc-dropdowns-menu-search-root.w2dc-dropdowns-menu-search-term {
+	display: inline-flex;
+	align-items: center;
+	min-height: 40px;
+	font-weight: bold;
+}
+.w2dc-dropdowns-menu-search-term {
+	padding-right: 50px;
+}
+.w2dc-dropdowns-menu.ui-autocomplete {
+	max-height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.w2dc-content .ui-selectmenu-menu .ui-icon,
+.w2dc-dropdowns-menu.ui-autocomplete .ui-icon {
+	width: 32px;
+	height: 32px;
+	left: 9px;
+}
+.w2dc-dropdowns-menu.ui-autocomplete .w2dc-dropdowns-menu-search-listing .ui-icon {
+	width: 42px;
+	height: 42px;
+	left: 4px;
+}
+.w2dc-dropdowns-menu.ui-menu .ui-menu-item {
+	color: $dropdown-menu-item-text-color;
+	padding: 3px 8px 3px 50px !important;
+	font-family: inherit;
+	font-size: 15px;
+	border: none;
+	border-bottom: 1px solid $dropdown-menu-item-border-color;
+}
+.w2dc-dropdowns-menu.ui-menu .ui-menu-item.ui-state-hover,
+.w2dc-dropdowns-menu.ui-menu .ui-menu-item.ui-state-focus {
+	border: none;
+	border-bottom: 1px solid $dropdown-menu-item-border-color;
+	background: none;
+	background-color: $dropdown-menu-item-hover-color;
+	font-weight: inherit;
+	color: $dropdown-menu-item-text-color;
+	margin: 0;
+	padding: 3px 8px 3px 50px !important;
+}
+.w2dc-dropdowns-menu-only-address.ui-menu .ui-menu-item,
+.w2dc-dropdowns-menu-only-address.ui-menu .ui-menu-item.ui-state-hover,
+.w2dc-dropdowns-menu-only-address.ui-menu .ui-menu-item.ui-state-focus  {
+	padding: 3px 8px 3px 8px !important;
+}
+
+.w2dc-dropdowns-menu.ui-menu .ui-menu-item a {
+	color: $dropdown-menu-item-text-color;
+}
+.w2dc-dropdowns-menu.ui-menu .ui-menu-item a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.w2dc-content .w2dc-form-control.ui-autocomplete-input[readonly] {
+	cursor: pointer;
+	background-color: #FFFFFF;
+}

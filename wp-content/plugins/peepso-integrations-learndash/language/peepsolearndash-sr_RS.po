@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:21+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsolearndash.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: peepsolearndash.pot\n"
+"Language: sr_SP\n"
+
+#: classes/configsectionlearndash.php:24
+msgid "Show \"LearnDash\" tab in user profiles."
+msgstr "Прикажи \"LearnDash\" језичак на корисничким профилима."
+
+#: classes/configsectionlearndash.php:27 classes/configsectionlearndash.php:86
+msgid "Enabled"
+msgstr "Омогућено"
+
+#: classes/configsectionlearndash.php:39
+msgid "Optional. Comma separated list of course IDs you want to hide from the profiles."
+msgstr "Произвољан избор. Листа идентификационих бројева који су одвојени зарезима и које желите да сакријете од профила."
+
+#: classes/configsectionlearndash.php:42
+msgid "Hide courses"
+msgstr "Сакриј курсеве"
+
+#: classes/configsectionlearndash.php:78
+msgid "Profiles"
+msgstr "Профили"
+
+#: classes/configsectionlearndash.php:95
+msgid "Box height (px)"
+msgstr "Висина оквира (рх)"
+
+#: classes/configsectionlearndash.php:102
+msgid "Two column layout"
+msgstr "Распоред у две колоне"
+
+#: classes/configsectionlearndash.php:115
+msgid "Course titles"
+msgstr "Називи курсева"
+
+#: classes/configsectionlearndash.php:121
+msgid "0 for no content"
+msgstr "0 за празан садржај"
+
+#: classes/configsectionlearndash.php:124
+msgid "Description length (words)"
+msgstr "Дужина описа (речи)"
+
+#: classes/configsectionlearndash.php:128
+msgid "Forced removal of some shortcodes immune to native WP methods (eg Divi Builder and similar). This is an experimental feature, we recommend using plain-text excerpts instead."
+msgstr "Насилно уклањање неких shortcodes имуних на WP методе (нпр. Divi Builder и слично). Ово је експериментална одлика, тако да препоручујемо да уместо ње користите изводе из обичног текста."
+
+#: classes/configsectionlearndash.php:131
+msgid "Aggressive shortcode removal"
+msgstr "Агресивно уклањање shortcode"
+
+#: classes/configsectionlearndash.php:137
+msgid "Text"
+msgstr "Текст"
+
+#: classes/configsectionlearndash.php:145
+msgid "Show featured images"
+msgstr "Прикажи истакнуте слике"
+
+#: classes/configsectionlearndash.php:149
+msgid "Display an empty box if an image is not found (to maintain the layout)"
+msgstr "Прикажи празан оквир ако слика није нађена (ради одржавања распореда)"
+
+#: classes/configsectionlearndash.php:152
+msgid "Placeholder"
+msgstr "Место за детаљ"
+
+#: classes/configsectionlearndash.php:157
+msgid "Top (rectangle)"
+msgstr "Врх (правоугаоно)"
+
+#: classes/configsectionlearndash.php:158
+msgid "Left (square)"
+msgstr "Лево (четвртасто)"
+
+#: classes/configsectionlearndash.php:159
+msgid "Right (square)"
+msgstr "Десно (четвртасто)"
+
+#: classes/configsectionlearndash.php:166
+msgid "Position"
+msgstr "Позиција"
+
+#: classes/configsectionlearndash.php:176
+msgid "Height (px)"
+msgstr "Висина (рх)"
+
+#: classes/configsectionlearndash.php:183
+msgid "Featured Images"
+msgstr "Истакнуте слике"
+
+#: classes/configsectionlearndash.php:191
+msgid "Creates an activity entry when user enrolls in a course."
+msgstr "Креира унос активности када се корисник пријави на курс."
+
+#: classes/configsectionlearndash.php:194
+#: classes/configsectionlearndash.php:239
+msgid "Post to activity"
+msgstr "Постуј на активност"
+
+#: classes/configsectionlearndash.php:200
+#: classes/configsectionlearndash.php:245
+msgid "Leave empty for default"
+msgstr "Остави празно за основну поставку"
+
+#: classes/configsectionlearndash.php:203
+#: classes/configsectionlearndash.php:248
+msgid "Action text"
+msgstr "Текст радње"
+
+#: classes/configsectionlearndash.php:222
+#: classes/configsectionlearndash.php:267
+msgid "Default privacy"
+msgstr "Основна поставка приватности"
+
+#: classes/configsectionlearndash.php:229
+msgid "Action - user enrolled in a course"
+msgstr "Радња - корисник се пријавио/ла на курс"
+
+#: classes/configsectionlearndash.php:236
+msgid "Creates an activity entry when user completes a course."
+msgstr "Креира унос активности када корисник заврши курс."
+
+#: classes/configsectionlearndash.php:274
+msgid "Action - user completed a course"
+msgstr "Радња - корисник је завршио/ла курс"
+
+#: classes/configsectionlearndash.php:281
+#: classes/configsectionlearndash.php:289
+msgid "Leave empty for default value"
+msgstr "Остави празно за основну вредност"
+
+#: classes/configsectionlearndash.php:284
+msgid "Profile label"
+msgstr "Етикета профила"
+
+#: classes/configsectionlearndash.php:292
+msgid "Profile slug"
+msgstr "Ѕlug назив профила"
+
+#: classes/configsectionlearndash.php:297
+msgid "FontAwesome (or similar). Leave empty for default value"
+msgstr "FontAwesome (или слично). Остави празно за основну вредност"
+
+#: classes/configsectionlearndash.php:300
+msgid "Custom icon CSS class"
+msgstr "Произвољна иконица CSS класе"
+
+#: classes/configsectionlearndash.php:307
+msgid "Advanced"
+msgstr "Напредно"
+
+#: classes/configsectionlearndash.php:308
+#, php-format
+msgid "This section is for <b>advanced users only</b>.<br/>When modifying the profile slug, please do NOT use any keyword already in use (eg %s)."
+msgstr "Овај одељак је <b>само за напредне кориснике</b>.<br/>Када модификујете slug назив профила, молимо да НЕ користите кључне речи који су већ у употреби (нпр %s)."
+
+#: classes/widgets/widgetldgroups.php:9
+msgid "PeepSo LearnDash: Courses &amp; Groups integration"
+msgstr "PeepSo LearnDash: Курсеви &amp; Интеграције група"
+
+#: classes/widgets/widgetldgroups.php:10
+msgid "Displays information about PeepSo Groups assigned to a LearnDash Course (on a Course page) or LearnDash Courses assigned to a PeepSo Group (on a Group page)."
+msgstr "Приказује информације о PeepSo Групама које су додељене LearnDash Курсу (на страници Курса), или LearnDash Курсевима који су додељени PeepSo Групи (на страници Групе)."
+
+#: classes/widgets/widgetldgroups.php:86
+msgid "Groups related to this Course"
+msgstr "Групе које се односе на овај Курс"
+
+#: classes/widgets/widgetldgroups.php:90
+msgid "Courses related to this Group"
+msgstr "Курсеви који се односе на ову Групу"
+
+#: classes/widgets/widgetldgroups.php:103
+msgid "Title (Course Page)"
+msgstr "Наслов (страница курса)"
+
+#: classes/widgets/widgetldgroups.php:109
+#: classes/widgets/widgetldgroups.php:120
+msgid "Title when on PeepSo Group"
+msgstr "Наслов када је у PeepSo групи"
+
+#: classes/widgets/widgetldgroups.php:114
+msgid "Title (Group Page)"
+msgstr "Наслов (страница групе)"
+
+#: classes/widgets/widgetldinstructor.php:9
+msgid "PeepSo LearnDash: About Course Instructor"
+msgstr "PeepSo LearnDash: О инструктору курса"
+
+#: classes/widgets/widgetldinstructor.php:10
+msgid "Displays PeepSo details about the Course Instructor"
+msgstr "Приказује PeepSo детаље о инструктору курса"
+
+#: classes/widgets/widgetldinstructor.php:50
+msgid "About The Course Instructor"
+msgstr "О инструктору курса"
+
+#: classes/widgets/widgetldinstructor.php:62
+msgid "Override instructor ID"
+msgstr "Преправи (override) идентификациони број инструктора"
+
+#: classes/widgets/widgetldinstructor.php:70
+msgid "Invalid Instructor ID"
+msgstr "Неважећи идентификациони број инструктора"
+
+#: classes/widgets/widgetldinstructor.php:76
+msgid "Leave empty to treat the Course Author as Course Instructor"
+msgstr "Остави празно да би аутор курса уједно био и инструктор курса"
+
+#: classes/widgets/widgetldinstructor.php:90
+msgid "Enable \"Chat\" Button"
+msgstr "Омогући \"Ћаскање\" дугме"
+
+#: classes/widgets/widgetldinstructor.php:99
+msgid "Warning: this widget will print Course Instructors \"about me\" profile field without checking the field privacy."
+msgstr "Упозорење: овај виџет ће одштампати поље \"о мени\" инструктора курса без провере приватности поља."
+
+#: peepsolearndash.php:150
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: peepsolearndash.php:187
+msgid "Courses"
+msgstr "Курсеви"
+
+#: peepsolearndash.php:286
+msgid "enrolled in a course"
+msgstr "се пријавио/ла на курс"
+
+#: peepsolearndash.php:290
+msgid "completed a course"
+msgstr "је завршио/ла курс"
+
+#: peepsolearndash.php:331
+msgid "PeepSo Groups - related groups"
+msgstr "PeepSo Групе - повезане групе"
+
+#: peepsolearndash.php:332
+msgid "PeepSo Groups automation - course enrolled"
+msgstr "Аутоматизација PeepSo Група - курс који се похађа"
+
+#: peepsolearndash.php:356
+msgid "PeepSo VIP automation - course completed"
+msgstr "Аутоматизација PeepSo VIP - курс који је завршен"
+
+#: peepsolearndash.php:513
+msgid "You have not enrolled in any courses yet"
+msgstr "Још увек се нисте пријавили на неки од курсева"
+
+#: peepsolearndash.php:513
+#, php-format
+msgid "%s has not enrolled in any courses yet"
+msgstr "%s се још увек није пријавио/ла на неки од курсева"
+
+#: peepsolearndash.php:526
+msgid "Automatically add users to PeepSo Groups when they enroll in this course"
+msgstr "Аутоматски додаје корисника у PeepSo Групе када се пријаве на овај курс"
+
+#: peepsolearndash.php:548 peepsolearndash.php:590
+#: templates/widgets/learndash-course-groups.php:26
+msgid "Open"
+msgstr "Отворено"
+
+#: peepsolearndash.php:549 peepsolearndash.php:591
+#: templates/widgets/learndash-course-groups.php:27
+msgid "Closed"
+msgstr "Затворено"
+
+#: peepsolearndash.php:550 peepsolearndash.php:592
+#: templates/widgets/learndash-course-groups.php:28
+msgid "Secret"
+msgstr "Тајно"
+
+#: peepsolearndash.php:568
+msgid "Show these Groups as \"related\" to this Course"
+msgstr "Прикажи ове групе као \"повезане\" са овим курсем"
+
+#: peepsolearndash.php:610
+msgid "Assign users these VIP Badges when they complete this course"
+msgstr "Додели корисницима ове VIP Значке када заврше овај курс"
+
+#: peepsolearndash.php:629
+msgid "unpublished"
+msgstr "уклоњено из објаве"
+
+#: peepsolearndash.php:670
+#, php-format
+msgid "The %s requires the PeepSo plugin to be installed and activated."
+msgstr "%s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsolearndash.php:672
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsolearndash.php:690
+#, php-format
+msgid "PeepSo %s requires the LearnDash plugin (%s or newer)."
+msgstr "PeepSo %s захтева LearnDash додатак (%s или новији)."
+
+#: templates/widgets/learndash-instructor.php:24
+#, php-format
+msgid "%s - avatar"
+msgstr "%s - аватар"
+
+#: templates/widgets/learndash-instructor.php:62
+#, php-format
+msgid "Start a chat with %s"
+msgstr "Започни ћаскање са %s"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: LearnDash"
+msgstr "PeepSo монетизација: LearnDash"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the LearnDash plugin.</strong> Integrates LearnDash LMS into user profiles and streams."
+msgstr "<strong>Захтева LearnDash додатак.</strong> Интегрише LearnDash LMS у корисничке профиле и протоке активности."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

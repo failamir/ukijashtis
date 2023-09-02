@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:21+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsolearndash.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: peepsolearndash.pot\n"
+"Language: tr_TR\n"
+
+#: classes/configsectionlearndash.php:24
+msgid "Show \"LearnDash\" tab in user profiles."
+msgstr "Kullanıcı profillerinde \"Kurs\" sekmesini göster."
+
+#: classes/configsectionlearndash.php:27 classes/configsectionlearndash.php:86
+msgid "Enabled"
+msgstr "Aktif"
+
+#: classes/configsectionlearndash.php:39
+msgid "Optional. Comma separated list of course IDs you want to hide from the profiles."
+msgstr "İsteğe bağlı. Profillerden gizlemek istediğiniz virgülle ayrılmış kurs ID'si listesi."
+
+#: classes/configsectionlearndash.php:42
+msgid "Hide courses"
+msgstr "Kursları gizle"
+
+#: classes/configsectionlearndash.php:78
+msgid "Profiles"
+msgstr "Profil"
+
+#: classes/configsectionlearndash.php:95
+msgid "Box height (px)"
+msgstr "Kutu yüksekliği (px)"
+
+#: classes/configsectionlearndash.php:102
+msgid "Two column layout"
+msgstr "İki sütun düzeni"
+
+#: classes/configsectionlearndash.php:115
+msgid "Course titles"
+msgstr "Kurs başlığı"
+
+#: classes/configsectionlearndash.php:121
+msgid "0 for no content"
+msgstr "0 içerik yok için"
+
+#: classes/configsectionlearndash.php:124
+msgid "Description length (words)"
+msgstr "Açıklama uzunluğu (kelime)"
+
+#: classes/configsectionlearndash.php:128
+msgid "Forced removal of some shortcodes immune to native WP methods (eg Divi Builder and similar). This is an experimental feature, we recommend using plain-text excerpts instead."
+msgstr "Doğal WP yöntemlerine bağışık bazı kısa kodların zorla çıkarılması (örn. Divi Builder ve benzeri). Bu deneysel bir özelliktir, bunun yerine düz metin alıntıları kullanmanızı öneririz."
+
+#: classes/configsectionlearndash.php:131
+msgid "Aggressive shortcode removal"
+msgstr "Agresif kısa kod kaldırma"
+
+#: classes/configsectionlearndash.php:137
+msgid "Text"
+msgstr "Yazı"
+
+#: classes/configsectionlearndash.php:145
+msgid "Show featured images"
+msgstr "Öne çıkan resimleri göster"
+
+#: classes/configsectionlearndash.php:149
+msgid "Display an empty box if an image is not found (to maintain the layout)"
+msgstr "Bir resim bulunamazsa boş bir kutu göster (görsel düzeni korumak için)"
+
+#: classes/configsectionlearndash.php:152
+msgid "Placeholder"
+msgstr "Yer tutucu"
+
+#: classes/configsectionlearndash.php:157
+msgid "Top (rectangle)"
+msgstr "Üst (dikdörtgen)"
+
+#: classes/configsectionlearndash.php:158
+msgid "Left (square)"
+msgstr "Sol (kare)"
+
+#: classes/configsectionlearndash.php:159
+msgid "Right (square)"
+msgstr "Sağ (kare)"
+
+#: classes/configsectionlearndash.php:166
+msgid "Position"
+msgstr "Konum"
+
+#: classes/configsectionlearndash.php:176
+msgid "Height (px)"
+msgstr "Yükseklik (px)"
+
+#: classes/configsectionlearndash.php:183
+msgid "Featured Images"
+msgstr "Öne Çıkan Görseller"
+
+#: classes/configsectionlearndash.php:191
+msgid "Creates an activity entry when user enrolls in a course."
+msgstr "Kullanıcı kursa kaydolduğunda bir etkinlik girişi oluşturur."
+
+#: classes/configsectionlearndash.php:194
+#: classes/configsectionlearndash.php:239
+msgid "Post to activity"
+msgstr "Aktivitelerde paylaş"
+
+#: classes/configsectionlearndash.php:200
+#: classes/configsectionlearndash.php:245
+msgid "Leave empty for default"
+msgstr "Varsayılan için boş bırakın"
+
+#: classes/configsectionlearndash.php:203
+#: classes/configsectionlearndash.php:248
+msgid "Action text"
+msgstr "Eylem metni"
+
+#: classes/configsectionlearndash.php:222
+#: classes/configsectionlearndash.php:267
+msgid "Default privacy"
+msgstr "Varsayılan gizlilik"
+
+#: classes/configsectionlearndash.php:229
+msgid "Action - user enrolled in a course"
+msgstr "İşlem - bir kursa kayıtlı kullanıcı"
+
+#: classes/configsectionlearndash.php:236
+msgid "Creates an activity entry when user completes a course."
+msgstr "Kullanıcı bir kursu tamamladığında bir etkinlik girişi oluşturur."
+
+#: classes/configsectionlearndash.php:274
+msgid "Action - user completed a course"
+msgstr "İşlem - kullanıcı bir kursu tamamladı"
+
+#: classes/configsectionlearndash.php:281
+#: classes/configsectionlearndash.php:289
+msgid "Leave empty for default value"
+msgstr "Varsayılan değer için boş bırakın"
+
+#: classes/configsectionlearndash.php:284
+msgid "Profile label"
+msgstr "Profil etiketi"
+
+#: classes/configsectionlearndash.php:292
+msgid "Profile slug"
+msgstr "Profil bağlantısı"
+
+#: classes/configsectionlearndash.php:297
+msgid "FontAwesome (or similar). Leave empty for default value"
+msgstr "FontAwesome (veya benzeri). Varsayılan değer için boş bırakın"
+
+#: classes/configsectionlearndash.php:300
+msgid "Custom icon CSS class"
+msgstr "Özel simge CSS sınıfı"
+
+#: classes/configsectionlearndash.php:307
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: classes/configsectionlearndash.php:308
+#, php-format
+msgid "This section is for <b>advanced users only</b>.<br/>When modifying the profile slug, please do NOT use any keyword already in use (eg %s)."
+msgstr "Bu bölüm <b>yalnızca gelişmiş kullanıcılar içindir</b>.<br/>Profil bağlantısını değiştirirken, lütfen kullanımda olan herhangi bir anahtar kelimeyi KULLANMAYIN (eg %s)."
+
+#: classes/widgets/widgetldgroups.php:9
+msgid "PeepSo LearnDash: Courses &amp; Groups integration"
+msgstr "PeepSo Kurslar: Grup &amp; Kursları Entegrasyonu"
+
+#: classes/widgets/widgetldgroups.php:10
+msgid "Displays information about PeepSo Groups assigned to a LearnDash Course (on a Course page) or LearnDash Courses assigned to a PeepSo Group (on a Group page)."
+msgstr "Bir Kursa atanan PeepSo Grupları (bir kurs sayfasında) veya PeepSo Grubuna atanan (bir grup sayfasında) LearnDash Kursları hakkındaki bilgileri görüntüler."
+
+#: classes/widgets/widgetldgroups.php:86
+msgid "Groups related to this Course"
+msgstr "Bu Kursla İlgili Gruplar"
+
+#: classes/widgets/widgetldgroups.php:90
+msgid "Courses related to this Group"
+msgstr "Bu Grupla İlgili Kurslar"
+
+#: classes/widgets/widgetldgroups.php:103
+msgid "Title (Course Page)"
+msgstr "Başlık (Kurs Sayfası)"
+
+#: classes/widgets/widgetldgroups.php:109
+#: classes/widgets/widgetldgroups.php:120
+msgid "Title when on PeepSo Group"
+msgstr "PeepSo Grup'taki başlık"
+
+#: classes/widgets/widgetldgroups.php:114
+msgid "Title (Group Page)"
+msgstr "Başlık (Grup Sayfası)"
+
+#: classes/widgets/widgetldinstructor.php:9
+msgid "PeepSo LearnDash: About Course Instructor"
+msgstr "PeepSo Kurs: Kursu Verenler Hakkında"
+
+#: classes/widgets/widgetldinstructor.php:10
+msgid "Displays PeepSo details about the Course Instructor"
+msgstr "Kurs Eğitmeni hakkında PeepSo detaylarını görüntüler"
+
+#: classes/widgets/widgetldinstructor.php:50
+msgid "About The Course Instructor"
+msgstr "Dersi Verenler Hakkında"
+
+#: classes/widgets/widgetldinstructor.php:62
+msgid "Override instructor ID"
+msgstr "Eğitmen ID'sini geçersiz kıl"
+
+#: classes/widgets/widgetldinstructor.php:70
+msgid "Invalid Instructor ID"
+msgstr "Geçersiz Eğitmen ID'si"
+
+#: classes/widgets/widgetldinstructor.php:76
+msgid "Leave empty to treat the Course Author as Course Instructor"
+msgstr "Kurs Yazarına Kurs Eğitmeni olarak davranmak için boş bırakın"
+
+#: classes/widgets/widgetldinstructor.php:90
+msgid "Enable \"Chat\" Button"
+msgstr "\"Sohbet\" Butonunu Etkinleştir"
+
+#: classes/widgets/widgetldinstructor.php:99
+msgid "Warning: this widget will print Course Instructors \"about me\" profile field without checking the field privacy."
+msgstr "Uyarı: Bu bileşen, Kurs Eğitmenlerinin alan gizliliğini kontrol etmeden \"hakkımda\" profil alanına yazdıracaktır."
+
+#: peepsolearndash.php:150
+msgid "LearnDash"
+msgstr "Kurs"
+
+#: peepsolearndash.php:187
+msgid "Courses"
+msgstr "Kurslar"
+
+#: peepsolearndash.php:286
+msgid "enrolled in a course"
+msgstr "kursa kayıtlı"
+
+#: peepsolearndash.php:290
+msgid "completed a course"
+msgstr "bir kursu tamamladı"
+
+#: peepsolearndash.php:331
+msgid "PeepSo Groups - related groups"
+msgstr "PeepSo Grupları - ilgili gruplar"
+
+#: peepsolearndash.php:332
+msgid "PeepSo Groups automation - course enrolled"
+msgstr "PeepSo Grupları otomasyonu - kursa kayıtlı"
+
+#: peepsolearndash.php:356
+msgid "PeepSo VIP automation - course completed"
+msgstr "PeepSo VIP otomasyonu - kurs tamamlandı"
+
+#: peepsolearndash.php:513
+msgid "You have not enrolled in any courses yet"
+msgstr "Henüz hiçbir kursa kayıt olmadınız"
+
+#: peepsolearndash.php:513
+#, php-format
+msgid "%s has not enrolled in any courses yet"
+msgstr "%s henüz herhangi bir kursa kaydolmamış"
+
+#: peepsolearndash.php:526
+msgid "Automatically add users to PeepSo Groups when they enroll in this course"
+msgstr "Bu kursa kaydolurken kullanıcıları PeepSo Gruplarına otomatik olarak ekle"
+
+#: peepsolearndash.php:548 peepsolearndash.php:590
+#: templates/widgets/learndash-course-groups.php:26
+msgid "Open"
+msgstr "Açık"
+
+#: peepsolearndash.php:549 peepsolearndash.php:591
+#: templates/widgets/learndash-course-groups.php:27
+msgid "Closed"
+msgstr "Kapalı"
+
+#: peepsolearndash.php:550 peepsolearndash.php:592
+#: templates/widgets/learndash-course-groups.php:28
+msgid "Secret"
+msgstr "Gizli"
+
+#: peepsolearndash.php:568
+msgid "Show these Groups as \"related\" to this Course"
+msgstr "Bu Grupları Bu Kursla \"İlgili\" Olarak Göster"
+
+#: peepsolearndash.php:610
+msgid "Assign users these VIP Badges when they complete this course"
+msgstr "Bu kursu tamamladıklarında kullanıcılara bu VIP Rozetlerini atayın"
+
+#: peepsolearndash.php:629
+msgid "unpublished"
+msgstr "yayınlanmamış"
+
+#: peepsolearndash.php:670
+#, php-format
+msgid "The %s requires the PeepSo plugin to be installed and activated."
+msgstr "%s eklentisi, PeepSo eklentisinin kurulmasını ve etkinleştirilmesini gerektirir."
+
+#: peepsolearndash.php:672
+msgid "Get it now!"
+msgstr "Şimdi yükleyin!"
+
+#: peepsolearndash.php:690
+#, php-format
+msgid "PeepSo %s requires the LearnDash plugin (%s or newer)."
+msgstr "PeepSo %s Kurs eklentisini gerektirir (%s veya daha yeni)."
+
+#: templates/widgets/learndash-instructor.php:24
+#, php-format
+msgid "%s - avatar"
+msgstr "%s - profil resmi"
+
+#: templates/widgets/learndash-instructor.php:62
+#, php-format
+msgid "Start a chat with %s"
+msgstr "%s İle sohbet başlat"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: LearnDash"
+msgstr "PeepSo Para Kazanma: Kurs"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the LearnDash plugin.</strong> Integrates LearnDash LMS into user profiles and streams."
+msgstr "<strong>Kurs eklentisi gerektirir.</strong> Kurs EYS'yi kullanıcı profillerine ve akışlarına entegre eder."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

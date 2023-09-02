@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:24+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsovip.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: peepso-vip.pot\n"
+"Language: it_IT\n"
+
+#: classes/admin/configsectionvip.php:19
+msgid "<b>Managing the icons</b>: please go to  <a href=\"admin.php?page=peepso-manage&tab=vip-icons\"><i>VIP Icons</i></a>. You can  also find it inside <i>PeepSo</i> option in the side menu."
+msgstr "<b>Gestire le icone</b>: Vai in <a href=\"admin.php?page=peepso-manage&tab=vip-icons\"><i>icone VIP</i></a>. Puoi trovarle anche all'interno della voce <i>PeepSo</i> nel menù laterale."
+
+#: classes/admin/configsectionvip.php:25
+msgid "<b>Assigning icons</b>: edit a particular user and configure their <i>VIP</i> section. Go to <a href=\"users.php\">users</a> or try it on <a href=\"profile.php\">yourself</a>"
+msgstr "<b>Assegnazione delle icone</b>: modifica un particolare utente e configura la sua sezione <i>VIP</i>. Vai a <a href=\"users.php\">utenti</a> o provalo su <a href=\"profile.php\"> te stesso</a>"
+
+#: classes/admin/configsectionvip.php:31
+msgid "<b>Get more icons</b>:  <a href=\"http://www.flaticon.com/\" target=\"_blank\">http://www.flaticon.com/</a>"
+msgstr "<b>Ottenere ulteriori icone</b>: <a href=\"http://www.flaticon.com/\" target=\"_blank\"> http://www.flaticon.com/</a>"
+
+#: classes/admin/configsectionvip.php:37
+msgid "<b>Default icons</b>: made by <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\" target=\"_blank\">Roundicons</a> from <a href=\"http://www.flaticon.com\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>"
+msgstr "<b>Icone di default</b> tratte da <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\"> Roundicons</a>realizzato da <a href=\"http://www.flaticon.com\" title=\"Flaticon\"> www.flaticon.com</a> concesse in licenza da <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\"> CC 3.0 BY</a>"
+
+#: classes/admin/configsectionvip.php:45
+msgid "Quick Tips"
+msgstr "Suggerimenti rapidi"
+
+#: classes/admin/configsectionvip.php:53
+msgid "Left"
+msgstr "Sinistra"
+
+#: classes/admin/configsectionvip.php:54
+msgid "Right"
+msgstr "Destra"
+
+#: classes/admin/configsectionvip.php:60
+msgid "Icon position relative to user name"
+msgstr "Posizione dell'icona relativa al nome utente"
+
+#: classes/admin/configsectionvip.php:92
+msgid "Defines how many icons show next to user name in stream, widgets etc."
+msgstr "Definisce quante icone vengono mostrate accanto al nome utente nel flusso di attività, nei widget, ecc."
+
+#: classes/admin/configsectionvip.php:95
+msgid "How many icons to show"
+msgstr "Quante icone mostrare"
+
+#: classes/admin/configsectionvip.php:100
+msgid "if user has more icons assigned than the limit, a small indicator with the amount of remaining icons will show. If there is only one remaining icon, it will be simply displayed."
+msgstr "se l'utente ha troppe icone assegnate, verrà mostrato un piccolo indicatore con la quantità di icone rimanenti. Se c'è solo un'icona rimanente, verrà semplicemente visualizzata."
+
+#: classes/admin/configsectionvip.php:103
+msgid "Show \"more icons\" indicator"
+msgstr "Mostra indicatore \"più icone\""
+
+#: classes/admin/configsectionvip.php:110
+msgid "General"
+msgstr "Generale"
+
+#: classes/api/adminconfigvipicons.php:9 classes/api/adminconfigvipicons.php:55
+#: classes/api/adminconfigvipicons.php:97
+#: classes/api/adminconfigvipicons.php:118
+msgid "Insufficient permissions."
+msgstr "Autorizzazioni insufficienti."
+
+#: classes/api/adminconfigvipicons.php:15
+msgid "New VIP Icon"
+msgstr "Nuova icona VIP"
+
+#: classes/api/adminconfigvipicons.php:17
+msgid "VIP Icon description"
+msgstr "Descrizione icona VIP"
+
+#: classes/api/adminconfigvipicons.php:105
+msgid "Cannot delete core vip icon"
+msgstr "Non è possibile eliminare l'icona vip core"
+
+#: install/activate.php:19 install/activate.php:20
+msgid "Verified icon 1"
+msgstr "Icona verificata 1"
+
+#: install/activate.php:26 install/activate.php:27
+msgid "Verified icon 2"
+msgstr "Icona verificata 2"
+
+#: install/activate.php:34 install/activate.php:35
+msgid "Verified icon 3"
+msgstr "Icona verificata 3"
+
+#: install/activate.php:42 install/activate.php:43
+msgid "Verified icon 4"
+msgstr "Icona verificata 4"
+
+#: install/activate.php:49 install/activate.php:50
+msgid "Verified icon 5"
+msgstr "Icona verificata 5"
+
+#: install/activate.php:56 install/activate.php:57
+msgid "Verified icon 6"
+msgstr "Icona verificata 6"
+
+#: install/activate.php:63 install/activate.php:64
+msgid "Verified icon 7"
+msgstr "Icona verificata 7"
+
+#: install/activate.php:70 install/activate.php:71
+msgid "Verified icon 8"
+msgstr "Icona verificata 8"
+
+#: peepsovip.php:102 peepsovip.php:275
+#: templates/peepsovip/admin_vipicons.php:51
+msgid "VIP Icons"
+msgstr "Icone VIP"
+
+#: peepsovip.php:256
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Il plugin %s richiede che il plugin PeepSo sia installato e attivato."
+
+#: peepsovip.php:258
+msgid "Get it now!"
+msgstr "Scaricalo ora!"
+
+#: peepsovip.php:344 peepsovip.php:358
+msgid "VIP"
+msgstr "VIP"
+
+#: peepsovip.php:347
+msgid "PeepSo - VIP"
+msgstr "PeepSo - VIP"
+
+#: peepsovip.php:361
+msgid "Icon to display next to name/username in PeepSo"
+msgstr "Icona da visualizzare accanto al nome/nome utente in PeepSo"
+
+#: peepsovip.php:364
+msgid "Icon to display"
+msgstr "Icona da visualizzare"
+
+#: peepsovip.php:375
+msgid "unpublished"
+msgstr "non pubblicata"
+
+#: peepsovip.php:500
+msgid "PeepSo VIP icons"
+msgstr ""
+
+#: templates/peepsovip/admin_vipicon.php:15
+msgid "PeepSo-VIP Default"
+msgstr "PeepSo-VIP predefinita"
+
+#: templates/peepsovip/admin_vipicon.php:18
+msgid "PeepSo-VIP Custom"
+msgstr "PeepSo-VIP personalizzata"
+
+#: templates/peepsovip/admin_vipicon.php:57
+#: templates/peepsovip/admin_vipicon.php:98
+#: templates/peepsovip/admin_vipicons.php:77
+msgid "Cancel"
+msgstr "Annulla"
+
+#: templates/peepsovip/admin_vipicon.php:58
+#: templates/peepsovip/admin_vipicon.php:99
+msgid "Save"
+msgstr "Salva"
+
+#: templates/peepsovip/admin_vipicon.php:74
+msgid "Published"
+msgstr "Pubblicata"
+
+#: templates/peepsovip/admin_vipicon.php:89
+msgid "Icon Description"
+msgstr "Descrizione Icona"
+
+#: templates/peepsovip/admin_vipicons.php:28
+msgid "Welcome to  PeepSo VIP"
+msgstr "Benvenuto a PeepSo VIP"
+
+#: templates/peepsovip/admin_vipicons.php:29
+msgid "Here's what you should know:"
+msgstr "Ecco quello che è importante sapere:"
+
+#: templates/peepsovip/admin_vipicons.php:30
+msgid "click here to dismiss permanently"
+msgstr "clicca qui per chiudere definitivamente"
+
+#: templates/peepsovip/admin_vipicons.php:52
+msgid "FTP Uploads"
+msgstr "Upload FTP"
+
+#: templates/peepsovip/admin_vipicons.php:81
+msgid "Add icon"
+msgstr "Aggiungere icona"
+
+#: templates/peepsovip/admin_vipicons.php:84
+msgid "Want to use SVG files with Media Library? We recommend"
+msgstr "Utilizzare i file SVG con libreria multimediale? E' raccomandato"
+
+#: templates/peepsovip/admin_vipicons.php:98
+msgid "Use FTP to upload your custom SVG images to"
+msgstr "Utilizzare FTP per caricare le immagini SVG personalizzate a"
+
+#: templates/peepsovip/admin_vipicons.php:103
+msgid "No icons"
+msgstr "Nessuna icona"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:4
+msgid "Expand All"
+msgstr "Espandi Tutto"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:7
+msgid "Collapse All"
+msgstr "Comprimi tutto"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:13
+msgid "Add New"
+msgstr "Aggiungi Nuova"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:18
+msgid "reacted to"
+msgstr "ha reagito a"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: VIP"
+msgstr "PeepSo extra: VIP"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://www.peepso.com"
+
+#. Description of the plugin/theme
+msgid "Assign custom badges to users"
+msgstr "Assegnare badge personalizzati agli utenti"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

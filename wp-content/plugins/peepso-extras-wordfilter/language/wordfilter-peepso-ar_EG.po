@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:25+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Arabic, Egypt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsowordfilter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: ar-EG\n"
+"X-Crowdin-File: wordfilter-peepso.pot\n"
+"Language: ar_EG\n"
+
+#: classes/admin/configsectionwordfilter.php:17
+msgid "PHP functions mb_substr and mb_strlen are recommended for accurate text processing, especially for languages with accents (French, Spanish, Polish, Vietnamese etc) or using non-latin script (Russian, Chinese, Japanese etc)."
+msgstr "يوصى باستخدام وظائف PHP mb_substr و mb_strlen لمعالجة النصوص بدقة ، خاصة بالنسبة للغات التي لها لهجات (الفرنسية والإسبانية والبولندية والفيتنامية وغيرها) أو باستخدام نصوص غير لاتينية (الروسية والصينية واليابانية وغيرها)."
+
+#: classes/admin/configsectionwordfilter.php:25
+msgid "Enabled"
+msgstr "مفعل"
+
+#: classes/admin/configsectionwordfilter.php:33
+msgid "Keywords cannot be empty and separated by comma."
+msgstr "الكلمات الدلالية لا يمكن أن تكون خالية ومنفصلة عن بعضها البعض بفواصل."
+
+#: classes/admin/configsectionwordfilter.php:37
+msgid "Separate words or phrases with a comma."
+msgstr "افصل بين الكلمات أو العبارات بفاصلة."
+
+#: classes/admin/configsectionwordfilter.php:40
+msgid "Keywords to remove"
+msgstr "الكلمات الدلالية الواجب إزالتها"
+
+#: classes/admin/configsectionwordfilter.php:49
+msgid "Filter posts"
+msgstr "تصفية المشاركات"
+
+#: classes/admin/configsectionwordfilter.php:56
+msgid "Filter comments"
+msgstr "تصفية التعليقات"
+
+#: classes/admin/configsectionwordfilter.php:64
+msgid "Filter chat messages"
+msgstr "تصفية رسائل الدردشة"
+
+#: classes/admin/configsectionwordfilter.php:78
+msgid "How to render"
+msgstr "كيفية التقديم"
+
+#: classes/admin/configsectionwordfilter.php:91
+msgid "Filter character"
+msgstr "تصفية الحروف"
+
+#: classes/admin/configsectionwordfilter.php:118
+msgid "General"
+msgstr "عام"
+
+#: peepsowordfilter.php:195
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "البرنامج المساعد %s يتطلب أن يتم تثبيت البرنامج المساعد لبيبسو PeepSo وتفعيله."
+
+#: peepsowordfilter.php:197
+msgid "Get it now!"
+msgstr "احصل عليه الآن!"
+
+#: peepsowordfilter.php:317
+msgid "WordFilter"
+msgstr "ووردفيلتير WordFilter"
+
+#: peepsowordfilter.php:320
+msgid "PeepSo - WordFilter"
+msgstr "بيبسو-ووردفيلتير PeepSo - WordFilter"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: WordFilter"
+msgstr "إضافات بيبسو PeepSo: ووردفيلتير WordFilter"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Filter unwanted words"
+msgstr "تصفية الكلمات غير المرغوب فيها"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "بيبسو PeepSo"
+

@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:19+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoemaildigest.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: peepso-email-digest.pot\n"
+"Language: nl_NL\n"
+
+#: classes/configsectionemaildigest.php:25
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Deze instellingen bepalen de E-mail samenvatting-plugin. De plugin is ontworpen om interesse op te wekken en inactieve gebruikers terug te brengen naar uw gemeenschap door hen de meeste interessante en boeiende berichten uit een bepaalde periode te tonen."
+
+#: classes/configsectionemaildigest.php:30
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "E-mail Samenvatting emails bevat alleen berichten die 'Iedereen' of 'De leden van de Site' privacy-instellingen hebben. Alle andere berichten, met de privacy-instellingen van 'Alleen ik' en 'Alleen vrienden' zullen worden genegeerd en niet als onderdeel van de E-mail Samenvatting worden verzonden."
+
+#: classes/configsectionemaildigest.php:38
+msgid "Send Email Digest emails"
+msgstr "Verstuur E-mail Samenvatting e-mails"
+
+#: classes/configsectionemaildigest.php:44 peepsoemaildigest.php:295
+#: peepsoemaildigest.php:501 peepsoemaildigest.php:730
+msgid "Email Digest"
+msgstr "E-mail Samenvatting"
+
+#: classes/configsectionemaildigest.php:48
+msgid "Email Digest Title"
+msgstr "E-mail Samenvatting Titel"
+
+#: classes/configsectionemaildigest.php:57
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Gebruikers die de site niet bezocht hebben in de geselecteerde aantal dagen of meer zullen de E-mail Samenvatting ontvangen."
+
+#: classes/configsectionemaildigest.php:64
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Verstuur E-mail Samenvatting naar gebruikers die inactief zijn voor meer dan"
+
+#: classes/configsectionemaildigest.php:68
+msgid "Use Images"
+msgstr "Gebruik Afbeeldingen"
+
+#: classes/configsectionemaildigest.php:76
+msgid "Use images in emails"
+msgstr "Gebruik afbeeldingen in e-mails"
+
+#: classes/configsectionemaildigest.php:93
+msgid "How often should the Email Digest emails be sent"
+msgstr "Hoe vaak moeten de E-mail Samenvattingen worden verzonden"
+
+#: classes/configsectionemaildigest.php:102
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "Als de geselecteerde datum groter is dan het aantal dagen van de maand, wordt de e-mail samenvattingen aan het eind van de maand verzonden."
+
+#: classes/configsectionemaildigest.php:109
+#: classes/configsectionemaildigest.php:129
+msgid "Every"
+msgstr "Elke"
+
+#: classes/configsectionemaildigest.php:113
+msgid "Sun"
+msgstr "Zon"
+
+#: classes/configsectionemaildigest.php:114
+msgid "Mon"
+msgstr "Ma"
+
+#: classes/configsectionemaildigest.php:115
+msgid "Tue"
+msgstr "Di"
+
+#: classes/configsectionemaildigest.php:116
+msgid "Wed"
+msgstr "Wo"
+
+#: classes/configsectionemaildigest.php:117
+msgid "Thu"
+msgstr "Do"
+
+#: classes/configsectionemaildigest.php:118
+msgid "Fri"
+msgstr "Vr"
+
+#: classes/configsectionemaildigest.php:119
+msgid "Sat"
+msgstr "Zat"
+
+#: classes/configsectionemaildigest.php:150
+#: classes/configsectionemaildigest.php:187
+#: classes/configsectionemaildigest.php:219
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "Het tijdstip wanneer E-mail sammenvattingen zullen worden verzonden. E-mails worden verzonden in partijen door de mail rij, ze worden niet allemaal tegelijk verzonden, dus gebruikers kunnen ze op verschillende tijdstippen ontvangen."
+
+#: classes/configsectionemaildigest.php:157
+#: classes/configsectionemaildigest.php:171
+#: classes/configsectionemaildigest.php:194
+#: classes/configsectionemaildigest.php:226
+msgid "At"
+msgstr "Om"
+
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:263
+msgid "How many posts should be included per one email"
+msgstr "Hoeveel berichten moeten worden opgenomen per een e-mail"
+
+#: classes/configsectionemaildigest.php:267
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "Een E-mail Samenvatting moet ten minste 1 nieuw bericht bevatten om te worden verstuurd. Als er geen nieuwe zijn wordt er geen verzonden."
+
+#: classes/configsectionemaildigest.php:275
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Stuur E-mail Samenvattingen zelfs als er minder berichten zijn"
+
+#: classes/configsectionemaildigest.php:279
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Met deze instelling ingeschakeld, Zal E-mail Samenvatting ook de meest populaire post van een bepaalde periode bevatten en het ook zo tonen."
+
+#: classes/configsectionemaildigest.php:286
+msgid "Include most liked post"
+msgstr "Toevoegen van de populairste post"
+
+#: classes/configsectionemaildigest.php:290
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Met deze instelling ingeschakeld, Zal E-mail Samenvatting ook de meest besproken post van een bepaalde periode bevatten en het ook zo tonen."
+
+#: classes/configsectionemaildigest.php:297
+msgid "Include most commented post"
+msgstr "Toevoegen van de meest besproken post"
+
+#: classes/configsectionemaildigest.php:301
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Met deze instelling aan worden de meest gewaardeerde en meest besproken berichten worden getoond. Ze zullen wellicht ook getoond worden in de inhoud van de Email Samenvatting."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Allow duplicate posts"
+msgstr "Dubbele berichten toestaan"
+
+#: classes/configsectionemaildigest.php:319
+msgid "Limit the post length in Email Digest email to"
+msgstr "De lengte van het bericht in de E-mail Samenvatting beperken tot"
+
+#: classes/configsectionemaildigest.php:323
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Toon \"leesmodus\" als de berichten niet volledig kunnen worden weergegeven en ze de limiet van tekens bereiken."
+
+#: classes/configsectionemaildigest.php:335
+#, php-format
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Het is aangeraden om deze instelling in te schakelen en om een server-side cronjob in te stellen. U kunt deze opdracht gebruiken: wget %s het kan gemakkelijk elk uur uitgevoerd worden."
+
+#: classes/configsectionemaildigest.php:342
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Aanmaken van E-mail Samenvatting via cron job uitvoeren"
+
+#: classes/configsectionemaildigest.php:346
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "Afhankelijk van de hoeveelheid inactieve gebruikers in uw gemeenschap is er, om geen overbelasting van de site te hebben, een batch (alles in één keer) systeem. Deze instelling bepaalt hoeveel e-mails er worden gegenereerd in één keer. Deze instelling stuurt niet het e-mailbericht. PeepSo mailrij zorgt voor de levering."
+
+#: classes/configsectionemaildigest.php:353
+msgid "How many emails should be created in a batch"
+msgstr "Hoeveel e-mails moeten worden gemaakt in 1 keer"
+
+#: classes/configsectionemaildigest.php:366
+msgid "Which User Roles should receive the emails"
+msgstr "Welke gebruikersrollen moeten de e-mails krijgen"
+
+#: classes/configsectionemaildigest.php:407
+msgid "General"
+msgstr "Algemeen"
+
+#: classes/configsectionemaildigest.php:413
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "De logs bewaren de laatste 100 verzonden Email Samenvattingen. Je kan zien welke gebruikers de emails hebben ontvangen en wanneer hun laatste login was toen de mail gegenereerd en verzonden werd. Je kan ook de mail bekijken in preview."
+
+#: classes/configsectionemaildigest.php:418
+msgid "Sent Email Digest Logs"
+msgstr "Verstuur E-mail Samenvatting logs"
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "E-mail Samenvatting"
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Dit zal worden verstuurd naar de gebruiker op basis van schema."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Geen log gevonden."
+
+#: peepsoemaildigest.php:264
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "De plugin %s vereist dat de PeepSo plugin wordt geïnstalleerd en geactiveerd."
+
+#: peepsoemaildigest.php:266
+msgid "Get it now!"
+msgstr "Haal het nu!"
+
+#: peepsoemaildigest.php:298
+msgid "PeepSo Email Digest"
+msgstr "PeepSo E-mail Samenvatting"
+
+#: peepsoemaildigest.php:314
+msgid "Preview email was sent success"
+msgstr "Voorbeeldmail was succesvol verzonden"
+
+#: peepsoemaildigest.php:315
+msgid "Preview email was sent failed"
+msgstr "Voorbeeldmail is niet verzonden"
+
+#: peepsoemaildigest.php:316
+msgid "Clear Logs"
+msgstr "Log wissen"
+
+#: peepsoemaildigest.php:317
+#, php-format
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "Er zijn %d Logboeken in uw database. U kunt de logboeken wissen door te klikken op de knop hieronder."
+
+#: peepsoemaildigest.php:353
+#, php-format
+msgid "Current time is %s, cron scheduled at %s"
+msgstr "Huidige tijd is %s, cron gepland op %s"
+
+#: peepsoemaildigest.php:421
+#, php-format
+msgid "There are only %d posts, required at least %d"
+msgstr "Er zijn slechts %d berichten, minstens %d vereist"
+
+#: peepsoemaildigest.php:428
+msgid "Other popular posts"
+msgstr "Andere populaire posten"
+
+#: peepsoemaildigest.php:531
+#, php-format
+msgid "Email digest sent to %d users"
+msgstr "E-mail samenvatting verzonden naar %d gebruikers"
+
+#: peepsoemaildigest.php:536
+msgid "Email digest is not activated"
+msgstr "Email samenvatting is niet geactiveerd"
+
+#: peepsoemaildigest.php:598
+msgid "Most liked post"
+msgstr "Populairste post"
+
+#: peepsoemaildigest.php:636
+msgid "Most commented post"
+msgstr "Meest besproken post"
+
+#: peepsoemaildigest.php:723
+msgid "Receive Digest Email notifications"
+msgstr "Ontvangt E-mail Samenvatting notificaties"
+
+#: peepsoemaildigest.php:842
+msgid "Preview email was sent"
+msgstr "Voorbeeldmail is verzonden"
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Gebruiker laatste login: "
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Laatste mail verzonden: "
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "heeft een bericht gedeeld"
+
+#: templates/general/email-digest.php:29
+msgid "Read more"
+msgstr "Lees meer"
+
+#: templates/general/email-digest.php:31
+msgid "Like"
+msgstr "Vind ik leuk"
+
+#: templates/general/email-digest.php:31
+msgid "Comment"
+msgstr "Commentaar"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: Email Digest"
+msgstr "PeepSo Extras: E-mail Samenvatting"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Breng gebruikers terug met geautomatiseerde nieuwsbrief"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

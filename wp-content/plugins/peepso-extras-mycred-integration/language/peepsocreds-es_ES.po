@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:21+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsocreds.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: peepsocreds.pot\n"
+"Language: es_ES\n"
+
+#: classes/configsectionmycred.php:15
+msgid "When enabled it will show user's points in their profile under their cover image."
+msgstr "Cuando está activado, muestra los puntos del usuario en su perfil bajo su imagen de portada."
+
+#: classes/configsectionmycred.php:17
+msgid "Show myCRED Points"
+msgstr "Mostrar puntos de myCRED"
+
+#: classes/configsectionmycred.php:21
+msgid "When enabled it will show user's points history in their profile."
+msgstr ""
+
+#: classes/configsectionmycred.php:23
+msgid "Show myCRED Points History Page"
+msgstr ""
+
+#: classes/configsectionmycred.php:39
+msgid "General"
+msgstr "General"
+
+#: classes/mycredhook.php:409
+msgid "%plural% for New PeepSo Post"
+msgstr "%plural% por nueva publicación en PeepSo"
+
+#: classes/mycredhook.php:417 classes/mycredhook.php:460
+#: classes/mycredhook.php:509 classes/mycredhook.php:561
+#: classes/mycredhook.php:606 classes/mycredhook.php:650
+#: classes/mycredhook.php:694 classes/mycredhook.php:738
+msgid "Limit"
+msgstr "Límite"
+
+#: classes/mycredhook.php:423 classes/mycredhook.php:442
+#: classes/mycredhook.php:466 classes/mycredhook.php:492
+#: classes/mycredhook.php:515 classes/mycredhook.php:541
+#: classes/mycredhook.php:567 classes/mycredhook.php:586
+#: classes/mycredhook.php:612 classes/mycredhook.php:631
+#: classes/mycredhook.php:656 classes/mycredhook.php:675
+#: classes/mycredhook.php:700 classes/mycredhook.php:719
+#: classes/mycredhook.php:744 classes/mycredhook.php:763
+msgid "Log template"
+msgstr "Plantilla de registro"
+
+#: classes/mycredhook.php:433
+msgid "%plural% for PeepSo Post Deletion"
+msgstr "%plural% por eliminación de publicación en PeepSo"
+
+#: classes/mycredhook.php:452
+msgid "%plural% for New PeepSo Message"
+msgstr "%plural% por nuevo mensaje en PeepSo"
+
+#: classes/mycredhook.php:477
+msgid "PeepSo Message authors can receive %_plural% for creating new message."
+msgstr "Los autores de mensajes en PeepSo pueden recibir %_plural% por crear un nuevo mensaje."
+
+#: classes/mycredhook.php:483
+msgid "%plural% for PeepSo Message Deletion"
+msgstr "%plural% por eliminación de mensaje en PeepSo"
+
+#: classes/mycredhook.php:501
+msgid "%plural% for New PeepSo Comment"
+msgstr "%plural% por nuevo comentario en PeepSo"
+
+#: classes/mycredhook.php:526
+msgid "PeepSo Message authors can receive %_plural% for replying to their own Message"
+msgstr "Los autores de mensajes en PeepSo pueden recibir %_plural% por responder a su propio mensaje"
+
+#: classes/mycredhook.php:532
+msgid "%plural% for Comment Deletion"
+msgstr "%plural% por eliminación de comentario"
+
+#: classes/mycredhook.php:553
+msgid "%plural% for Add Like PeepSo Content / Profile"
+msgstr ""
+
+#: classes/mycredhook.php:577
+msgid "%plural% for Un-Like PeepSo Content / Profile"
+msgstr ""
+
+#: classes/mycredhook.php:598
+msgid "%plural% for Add New PeepSo Friend"
+msgstr "%plural% por añadir nuevo amigo en PeepSo"
+
+#: classes/mycredhook.php:622
+msgid "%plural% for PeepSo Friend Deletion"
+msgstr "%plural% por eliminar un amigo en PeepSo"
+
+#: classes/mycredhook.php:642
+msgid "%plural% for Add New PeepSo Stream Photo"
+msgstr "%plural% por añadir una nueva foto en una secuencia de PeepSo"
+
+#: classes/mycredhook.php:666
+msgid "%plural% for deleting PeepSo Stream Photo"
+msgstr "%plural% por eliminar una foto en una secuencia de PeepSo"
+
+#: classes/mycredhook.php:686
+msgid "%plural% for Add New PeepSo Profile Cover"
+msgstr "%plural% por añadir una nueva portada de perfil en PeepSo"
+
+#: classes/mycredhook.php:710
+msgid "%plural% for deleting PeepSo Profile Cover"
+msgstr "%plural% por eliminar una portada de perfil en PeepSo"
+
+#: classes/mycredhook.php:730
+msgid "%plural% for Add New PeepSo Profile Avatar"
+msgstr "%plural% por añadir un nuevo Avatar de perfil en PeepSo"
+
+#: classes/mycredhook.php:754
+msgid "%plural% for deleting PeepSo Profile Avatar"
+msgstr "%plural% por eliminar un Avatar de perfil en PeepSo"
+
+#: peepsocreds.php:126
+msgid "Points"
+msgstr "Puntos"
+
+#: peepsocreds.php:127
+msgid "User Points"
+msgstr "Puntos de usuario"
+
+#: peepsocreds.php:141
+msgctxt "Profile link"
+msgid "Points"
+msgstr ""
+
+#: peepsocreds.php:204 peepsocreds.php:205 peepsocreds.php:208
+msgid "myCRED"
+msgstr "myCRED"
+
+#: peepsocreds.php:246
+#, php-format
+msgid "PeepSo %s requires the MyCred plugin."
+msgstr "PeepSo %s requiere el complemento MyCred."
+
+#: peepsocreds.php:289
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "El plugin %s requiere que el plugin PeepSo esté instalado y activado."
+
+#: peepsocreds.php:291
+msgid "Get it now!"
+msgstr "¡Consíguelo ahora!"
+
+#: templates/profile/profile-mycred.php:9
+msgid "Points History"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: myCRED"
+msgstr "Integración de PeepSo: myCRED"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the MyCred plugin</strong>. Award myCRED points for performing actions in PeepSo"
+msgstr "<strong>Requiere el complemento MyCred</strong>. Adjudique puntos myCRED por realizar acciones en PeepSo"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

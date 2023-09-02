@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:24+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsovip.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: peepso-vip.pot\n"
+"Language: tr_TR\n"
+
+#: classes/admin/configsectionvip.php:19
+msgid "<b>Managing the icons</b>: please go to  <a href=\"admin.php?page=peepso-manage&tab=vip-icons\"><i>VIP Icons</i></a>. You can  also find it inside <i>PeepSo</i> option in the side menu."
+msgstr "<b>Simgeleri yönetmek için</b>: lütfen buraya  <a href=\"admin.php?page=peepso-manage&tab=vip-icons\"><i>VIP Icons</i></a> gidin. Ayrıca, yan menüdeki <i>PeepSo</i> seçeneğinde de bulabilirsiniz."
+
+#: classes/admin/configsectionvip.php:25
+msgid "<b>Assigning icons</b>: edit a particular user and configure their <i>VIP</i> section. Go to <a href=\"users.php\">users</a> or try it on <a href=\"profile.php\">yourself</a>"
+msgstr "<b> Simge atama</b>: belirli bir kullanıcıyı düzenleyin ve <i>VIP</i> bölümünü yapılandırın.<a href=\"users.php\">kullanıcılar</a>a gidin veya <a href=\"profile.php\">kendiniz</a>de deneyin"
+
+#: classes/admin/configsectionvip.php:31
+msgid "<b>Get more icons</b>:  <a href=\"http://www.flaticon.com/\" target=\"_blank\">http://www.flaticon.com/</a>"
+msgstr "<b>Daha fazla simge edinin</b>:  <a href=\"http://www.flaticon.com/\" target=\"_blank\">http://www.flaticon.com/</a>"
+
+#: classes/admin/configsectionvip.php:37
+msgid "<b>Default icons</b>: made by <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\" target=\"_blank\">Roundicons</a> from <a href=\"http://www.flaticon.com\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>"
+msgstr "<b>Varsayılan semboller</b>: <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\" target=\"_blank\">Roundicons</a> tarafından yapıldı ve <a href=\"http://www.flaticon.com\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a> tarafından lisanslandı"
+
+#: classes/admin/configsectionvip.php:45
+msgid "Quick Tips"
+msgstr "Kısa ipuçları"
+
+#: classes/admin/configsectionvip.php:53
+msgid "Left"
+msgstr "Sol"
+
+#: classes/admin/configsectionvip.php:54
+msgid "Right"
+msgstr "Sağ"
+
+#: classes/admin/configsectionvip.php:60
+msgid "Icon position relative to user name"
+msgstr "Kullanıcı adına göre simge konumu"
+
+#: classes/admin/configsectionvip.php:92
+msgid "Defines how many icons show next to user name in stream, widgets etc."
+msgstr "Akışta, widget'larda vb. Kullanıcı adının yanında kaç simge gösterileceğini tanımlar."
+
+#: classes/admin/configsectionvip.php:95
+msgid "How many icons to show"
+msgstr "Kaç simge gösterilecek"
+
+#: classes/admin/configsectionvip.php:100
+msgid "if user has more icons assigned than the limit, a small indicator with the amount of remaining icons will show. If there is only one remaining icon, it will be simply displayed."
+msgstr "kullanıcı limitten daha fazla simge atadıysa, kalan simge miktarına sahip küçük bir gösterge görünecektir. Kalan tek bir simge varsa, basitçe görüntülenecektir."
+
+#: classes/admin/configsectionvip.php:103
+msgid "Show \"more icons\" indicator"
+msgstr "\"Daha fazla simge\" göstergesini göster"
+
+#: classes/admin/configsectionvip.php:110
+msgid "General"
+msgstr "Genel"
+
+#: classes/api/adminconfigvipicons.php:9 classes/api/adminconfigvipicons.php:55
+#: classes/api/adminconfigvipicons.php:97
+#: classes/api/adminconfigvipicons.php:118
+msgid "Insufficient permissions."
+msgstr "Yetkiniz yok."
+
+#: classes/api/adminconfigvipicons.php:15
+msgid "New VIP Icon"
+msgstr "Yeni VIP Sembolü"
+
+#: classes/api/adminconfigvipicons.php:17
+msgid "VIP Icon description"
+msgstr "VIP Sembolü açıklaması"
+
+#: classes/api/adminconfigvipicons.php:105
+msgid "Cannot delete core vip icon"
+msgstr "Çekirdek vip simgesi silinemiyor"
+
+#: install/activate.php:19 install/activate.php:20
+msgid "Verified icon 1"
+msgstr "Doğrulanmış simge 1"
+
+#: install/activate.php:26 install/activate.php:27
+msgid "Verified icon 2"
+msgstr "Doğrulanmış simge 2"
+
+#: install/activate.php:34 install/activate.php:35
+msgid "Verified icon 3"
+msgstr "Doğrulanmış simge 3"
+
+#: install/activate.php:42 install/activate.php:43
+msgid "Verified icon 4"
+msgstr "Doğrulanmış simge 4"
+
+#: install/activate.php:49 install/activate.php:50
+msgid "Verified icon 5"
+msgstr "Doğrulanmış simge 5"
+
+#: install/activate.php:56 install/activate.php:57
+msgid "Verified icon 6"
+msgstr "Doğrulanmış simge 6"
+
+#: install/activate.php:63 install/activate.php:64
+msgid "Verified icon 7"
+msgstr "Doğrulanmış simge 7"
+
+#: install/activate.php:70 install/activate.php:71
+msgid "Verified icon 8"
+msgstr "Doğrulanmış simge 8"
+
+#: peepsovip.php:102 peepsovip.php:275
+#: templates/peepsovip/admin_vipicons.php:51
+msgid "VIP Icons"
+msgstr "VIP Sembolleri"
+
+#: peepsovip.php:256
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s eklentisi, PeepSo eklentisinin kurulmasını ve etkinleştirilmesini gerektirir."
+
+#: peepsovip.php:258
+msgid "Get it now!"
+msgstr "Şimdi yükleyin!"
+
+#: peepsovip.php:344 peepsovip.php:358
+msgid "VIP"
+msgstr "VIP"
+
+#: peepsovip.php:347
+msgid "PeepSo - VIP"
+msgstr "PeepSo - VIP"
+
+#: peepsovip.php:361
+msgid "Icon to display next to name/username in PeepSo"
+msgstr "PeepSo'da adın/kullanıcı adının yanında görüntülenecek simge"
+
+#: peepsovip.php:364
+msgid "Icon to display"
+msgstr "Görüntülenecek simge"
+
+#: peepsovip.php:375
+msgid "unpublished"
+msgstr "yayınlanmamış"
+
+#: peepsovip.php:500
+msgid "PeepSo VIP icons"
+msgstr ""
+
+#: templates/peepsovip/admin_vipicon.php:15
+msgid "PeepSo-VIP Default"
+msgstr "PeepSo-VIP Varsayılan"
+
+#: templates/peepsovip/admin_vipicon.php:18
+msgid "PeepSo-VIP Custom"
+msgstr "PeepSo-VIP Özel"
+
+#: templates/peepsovip/admin_vipicon.php:57
+#: templates/peepsovip/admin_vipicon.php:98
+#: templates/peepsovip/admin_vipicons.php:77
+msgid "Cancel"
+msgstr "İptal"
+
+#: templates/peepsovip/admin_vipicon.php:58
+#: templates/peepsovip/admin_vipicon.php:99
+msgid "Save"
+msgstr "Kaydet"
+
+#: templates/peepsovip/admin_vipicon.php:74
+msgid "Published"
+msgstr "Yayınlandı"
+
+#: templates/peepsovip/admin_vipicon.php:89
+msgid "Icon Description"
+msgstr "Sembol Açıklaması"
+
+#: templates/peepsovip/admin_vipicons.php:28
+msgid "Welcome to  PeepSo VIP"
+msgstr "PeepSo VIP'ye Hoşgeldiniz"
+
+#: templates/peepsovip/admin_vipicons.php:29
+msgid "Here's what you should know:"
+msgstr "İşte bilmeniz gerekenler:"
+
+#: templates/peepsovip/admin_vipicons.php:30
+msgid "click here to dismiss permanently"
+msgstr "kalıcı olarak çıkarmak için buraya tıklayın"
+
+#: templates/peepsovip/admin_vipicons.php:52
+msgid "FTP Uploads"
+msgstr "FTP Yüklemeleri"
+
+#: templates/peepsovip/admin_vipicons.php:81
+msgid "Add icon"
+msgstr "Sembol ekle"
+
+#: templates/peepsovip/admin_vipicons.php:84
+msgid "Want to use SVG files with Media Library? We recommend"
+msgstr "SVG dosyalarını medya kütüphanesi ile kullanmak ister misiniz? Öneriyoruz"
+
+#: templates/peepsovip/admin_vipicons.php:98
+msgid "Use FTP to upload your custom SVG images to"
+msgstr "Özel SVG resimlerinizi yüklemek için FTP'yi kullanın"
+
+#: templates/peepsovip/admin_vipicons.php:103
+msgid "No icons"
+msgstr "Sembol yok"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:4
+msgid "Expand All"
+msgstr "Tümünü Genişlet"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:7
+msgid "Collapse All"
+msgstr "Tümünü Daralt"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:13
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:18
+msgid "reacted to"
+msgstr "buna tepki verdi"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: VIP"
+msgstr "PeepSo Ekstralar: VIP"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Assign custom badges to users"
+msgstr "Kullanıcılara özel rozetler atama"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

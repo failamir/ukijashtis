@@ -1,0 +1,12 @@
+.ps-hashtag {}
+
+.ps-hashtag--box {
+  color: var(--PS-COLOR--TEXT);
+  background-color: var(--PS-COLOR--APP--GRAY);
+
+  &:hover,
+  &:focus {
+    color: var(--PS-COLOR--TEXT);
+    background-color: var(--PS-COLOR--APP--DARKGRAY);
+  }
+}

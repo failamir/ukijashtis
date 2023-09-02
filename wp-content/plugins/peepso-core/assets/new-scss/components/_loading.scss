@@ -1,0 +1,13 @@
+.ps-loading {
+  display: none;
+  border-radius: 0 !important;
+
+  > img {
+    border-radius: 0 !important;
+    vertical-align: middle;
+  }
+}
+
+.ps-loading__image {
+  border-radius: 0 !important;
+}

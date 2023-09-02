@@ -1,0 +1,35 @@
+//
+//  GIFS
+//
+
+
+
+//  Variables
+
+@import "../../../peepso/assets/scss/variables";
+
+
+//  Mixins
+
+@import "../../../peepso/assets/scss/mixins/media-queries";
+@import "../../../peepso/assets/scss/mixins/button";
+
+
+//  Helpers
+
+@import '../../../peepso/assets/scss/helpers/reset';
+@import '../../../peepso/assets/scss/helpers/clearfix';
+@import '../../../peepso/assets/scss/helpers/flex';
+@import '../../../peepso/assets/scss/helpers/radius';
+@import '../../../peepso/assets/scss/helpers/list';
+@import '../../../peepso/assets/scss/helpers/form';
+@import '../../../peepso/assets/scss/helpers/photo';
+@import '../../../peepso/assets/scss/helpers/utility';
+
+
+//  Base
+
+@import 'base';
+@import 'component-slider';
+@import 'component-nav';
+@import 'component-popover';

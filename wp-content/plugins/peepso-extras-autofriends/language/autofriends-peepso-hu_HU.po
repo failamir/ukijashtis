@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:16+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoautofriends.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: autofriends-peepso.pot\n"
+"Language: hu_HU\n"
+
+#: classes/admin/configsectionautofriends.php:16
+msgid "search"
+msgstr "keresés"
+
+#: classes/admin/configsectionautofriends.php:22
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr "A felhasználó hozzáadása az alábbi listához automatikusan megteremti a barátságot a felhasználó és az újonnan regisztrált tagok között. Nem hoz létre barátságokat a felhasználó és a korábbi tagok között. <br> Hiányzó baráti kapcsolatok létrehozásához kérjük használd a jobb oldali gombot. Egyszeri kattintás után hozzáadja a felhasználót, mint barátot mindenkihez a PeepSo közösségedben. <br> A felhasználó eltávolítása az alábbi listáról <strong> NEM </ strong> eltávolítja a meglévő baráti kapcsolatokat. "
+
+#: classes/admin/configsectionautofriends.php:50
+msgid "List Users"
+msgstr "Felhasználók listája"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr "Név"
+
+#: classes/admin/userautofriendslisttable.php:89
+msgid "Friends"
+msgstr "Barátok"
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr "Akciók"
+
+#: classes/admin/userautofriendslisttable.php:163
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Befriend All Users"
+msgstr "Barátkozás minden felhasználóval"
+
+#: classes/admin/userautofriendslisttable.php:164
+msgid "Befriend All users."
+msgstr "Barátkozás minden felhasználóval."
+
+#: classes/admin/userautofriendslisttable.php:167
+#: classes/admin/userautofriendslisttable.php:193
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: classes/admin/userautofriendslisttable.php:168
+msgid "Remove from list autofriends creation."
+msgstr "Távolítsa el az automatikus barátok létrehozásának listájáról."
+
+#: classes/admin/userautofriendslisttable.php:213
+msgid "befriend"
+msgstr "barátkozni"
+
+#: classes/admin/userautofriendslisttable.php:219
+msgid "removed"
+msgstr "eltávolított"
+
+#: classes/admin/userautofriendslisttable.php:223
+#, php-format
+msgid "%1$d %2$s %3$s"
+msgstr "%1$d %2$s %3$s"
+
+#: classes/admin/userautofriendslisttable.php:225
+msgid "user"
+msgid_plural "users"
+msgstr[0] "felhasználó"
+msgstr[1] "felhasználók"
+
+#: classes/api/userautofriends.php:15 classes/api/userautofriends.php:80
+#: classes/api/userautofriends.php:109 classes/api/userautofriends.php:138
+#: classes/api/userautofriends.php:160
+msgid "Insufficient permissions."
+msgstr "Elégtelen engedély."
+
+#: classes/api/userautofriends.php:53
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1elem"
+msgstr[1] "%s elem"
+
+#: classes/api/userautofriends.php:86 classes/api/userautofriends.php:115
+#: classes/api/userautofriends.php:166
+msgid "Could not verify nonce."
+msgstr "Nem sikerült ellenőrizni."
+
+#: classes/api/userautofriends.php:92
+msgid "The user is now friends with all other users."
+msgstr "A felhasználó most már minden más felhasználó barátja."
+
+#: classes/api/userautofriends.php:121
+msgid "The user has been successfully removed."
+msgstr "A felhasználó sikeresen eltávolításra került."
+
+#: classes/api/userautofriends.php:172
+msgid "The user has been successfully added."
+msgstr "A felhasználó sikeresen hozzá lett adva."
+
+#: peepsoautofriends.php:204
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "A(z) %s bővítményhez szükséges a PeepSo telepítése és aktiválása."
+
+#: peepsoautofriends.php:206 peepsoautofriends.php:225
+msgid "Get it now!"
+msgstr "Szerezd be most!"
+
+#: peepsoautofriends.php:223
+msgid "Please make sure FriendSo is installed and activated."
+msgstr "Kérjük, győződj meg róla, hogy a FriendSo telepítve és aktiválva van."
+
+#: peepsoautofriends.php:287
+msgid "AutoFriends"
+msgstr "Közös Barátok"
+
+#: peepsoautofriends.php:290
+msgid "PeepSo - AutoFriends"
+msgstr "PeepSo Közös Barátok"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: AutoFriends"
+msgstr "PeepSo Extrák: Közös Barátok"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Plugin that makes everyone in the community friends with a specific user."
+msgstr "Plugin, amely lehetővé teszi, hogy a közösség minden tagja batátkozzon egy másik felhasználóval."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:16+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-badgeos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: badgeos-peepso.pot\n"
+"Language: de_DE\n"
+
+#: classes/BadgeOS_PeepSoTriggers.php:246
+#, php-format
+msgid "%1$s triggered %2$s (%3$dx)"
+msgstr "%1$s ausgelöst, %2$s (%3$dx)"
+
+#: classes/admin/configsectionbadgeos.php:18
+msgid "Configure the use of PeepSo - BadgeOS Integration"
+msgstr "Konfigurieren der Verwendung von PeepSo - BadgeOS Integration"
+
+#: classes/admin/configsectionbadgeos.php:24
+msgid "Turn on the use of BadgeOS Integration"
+msgstr "Die Verwendung der BadgeOS-Integration aktivieren"
+
+#: classes/admin/configsectionbadgeos.php:27
+msgid "Enable BadgeOS Integration"
+msgstr "BadgeOS Integration zu ermöglichen"
+
+#: classes/admin/configsectionbadgeos.php:33
+msgid "Turn on to show 'Badges' link in the PeepSo Profile menu"
+msgstr "Schalten Sie ein, um zu zeigen, \"Abzeichen\" Link im Menü PeepSo Profil"
+
+#: classes/admin/configsectionbadgeos.php:36
+msgid "Show 'Badges' link in the PeepSo Profile menu"
+msgstr "\"Abzeichen\" Link im Menü PeepSo Profil anzeigen"
+
+#: classes/admin/configsectionbadgeos.php:45
+msgid "Create posts when user earns a new badge"
+msgstr "Beiträge erstellen, wenn Benutzer ein neues Abzeichen verdient"
+
+#: classes/admin/configsectionbadgeos.php:54
+msgid "Display recent badges on profile cover"
+msgstr "Aktuelle Abzeichen auf Profil Cover anzeigen"
+
+#: classes/admin/configsectionbadgeos.php:72
+msgid "How many recent badges to display on the cover"
+msgstr "Wie viele aktuelle Abzeichen auf dem Cover anzeigen"
+
+#: classes/admin/configsectionbadgeos.php:83
+msgid "Display recent badges on profile widget"
+msgstr "Aktuelle Abzeichen auf Profil-Widgets anzeigen"
+
+#: classes/admin/configsectionbadgeos.php:101
+msgid "How many recent badges to display on the profile widget"
+msgstr "Wie viele aktuelle Abzeichen auf der Profil-Widgets anzeigen"
+
+#: classes/admin/configsectionbadgeos.php:128
+msgid "General"
+msgstr "Allgemein"
+
+#: peepso-badgeos.php:118
+msgid "PeepSo Activity"
+msgstr "PeepSo Tätigkeit"
+
+#: peepso-badgeos.php:119
+msgid "Change Profile Avatar."
+msgstr "Profil-Avatar ändern."
+
+#: peepso-badgeos.php:120
+msgid "Change Profile Cover."
+msgstr "Profil-Titelbild ändern."
+
+#: peepso-badgeos.php:121
+msgid "Admin Approves User Account."
+msgstr "Admin genehmigt Benutzerkonto."
+
+#: peepso-badgeos.php:122
+msgid "Write a post / status update."
+msgstr "Schreibe einen Beitrag / Status zu aktualisieren."
+
+#: peepso-badgeos.php:123
+msgid "Comment on a post / status update."
+msgstr "Kommentar zu einem Post / Status zu aktualisieren."
+
+#: peepso-badgeos.php:194
+msgid "PeepSo Friends"
+msgstr "PeepSo Freunde"
+
+#: peepso-badgeos.php:195
+msgid "Send a Friend Request."
+msgstr "Senden Sie eine Freundschaftsanfrage."
+
+#: peepso-badgeos.php:196
+msgid "Add a new friend."
+msgstr "Fügen Sie einen neuen Freund hinzu."
+
+#: peepso-badgeos.php:202
+msgid "PeepSo Groups"
+msgstr "PeepSo Gruppen"
+
+#: peepso-badgeos.php:203
+msgid "Create a Group."
+msgstr "Erstellen Sie eine Gruppe."
+
+#: peepso-badgeos.php:204
+msgid "Join a Group."
+msgstr "Sich einer Gruppe anschließen."
+
+#: peepso-badgeos.php:205
+msgid "Change Group Avatar."
+msgstr "Gruppe Avatar ändern."
+
+#: peepso-badgeos.php:206
+msgid "Change Group Cover."
+msgstr "Cover der Gruppe ändern."
+
+#: peepso-badgeos.php:212
+msgid "PeepSo Messages"
+msgstr "PeepSo Nachrichten"
+
+#: peepso-badgeos.php:213
+msgid "Send a Message."
+msgstr "Eine Nachricht senden"
+
+#: peepso-badgeos.php:218
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo PMP Integration"
+
+#: peepso-badgeos.php:219
+msgid "Checkout membership level upon registration."
+msgstr "Überprüfen Sie das Mitgliedschaftslevel bei der Registrierung."
+
+#: peepso-badgeos.php:256
+#, php-format
+msgid "PeepSo %s requires the BadgeOS plugin (%s or newer)."
+msgstr "PeepSo %s benötigt das Plugin BadgeOS (%s oder neuer)."
+
+#: peepso-badgeos.php:290
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Damit das %s Plugin genutzt werden kann, muss PeepSo installiert und aktiviert sein."
+
+#: peepso-badgeos.php:292
+msgid "Get it now!"
+msgstr "Hol es Dir jetzt!"
+
+#: peepso-badgeos.php:362
+msgid "BadgeOS"
+msgstr "BadgeOS"
+
+#: peepso-badgeos.php:365
+msgid "PeepSo - BadgeOS Integration"
+msgstr "PeepSo - BadgeOS Integration"
+
+#: peepso-badgeos.php:482
+msgid " congratulations! You earned a new badge"
+msgstr " Herzlichen Glückwunsch! Sie verdienten ein neues Abzeichen"
+
+#: peepso-badgeos.php:500
+msgid " earned a new badge!"
+msgstr "  ein neues Abzeichen verdient!"
+
+#: peepso-badgeos.php:562
+msgid "Badges"
+msgstr "Abzeichen"
+
+#: peepso-badgeos.php:873
+msgid "Recently earned badge"
+msgid_plural "Recently earned badges"
+msgstr[0] "Vor kurzem erworbenes Abzeichen"
+msgstr[1] "Vor kurzem erworbenes Abzeichen"
+
+#: peepso-badgeos.php:1012
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: peepso-badgeos.php:1058
+msgid "PeepSo Community Engagement"
+msgstr "PeepSo Community Engagement"
+
+#: peepso-badgeos.php:1074
+msgid "Select a PeepSo Trigger"
+msgstr "Wählen Sie einen PeepSo-Trigger"
+
+#: peepso-badgeos.php:1105
+msgid "Select a Group"
+msgstr "Gruppe wählen"
+
+#: peepso-badgeos.php:1132
+msgid "Select a Membership Level"
+msgstr "Wählen Sie ein Mitgliedschaftslevel"
+
+#: peepso-badgeos.php:1177
+#, php-format
+msgid "Join group \"%s\""
+msgstr "Gruppe \"%s\" beitreten"
+
+#: peepso-badgeos.php:1189
+#, php-format
+msgid "Checkout membership level \"%s\""
+msgstr "Überprüfe-Mitgliedsstatus \"%s\""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: BadgeOS"
+msgstr "PeepSo Integration: BadgeOS"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the BadgeOS plugin.</strong> Bridge BadgeOS and PeepSo points and badge systems"
+msgstr "<strong>Benötigt das Plug-in BadgeOS.</strong> Integration von BadgeOS und PeepSo-Punkten und Abzeichensystemen"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:13+0700\n"
+"PO-Revision-Date: 2018-04-18 05:30-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoemaildigest.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: peepso-email-digest.pot\n"
+"Language: bg_BG\n"
+
+#: classes/configsectionemaildigest.php:25
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Тези настройки контролират плъгина Имейл бюлетин. Плъгинът е проектиран да поддържа интереса и да върне неактивните потребители обратно към вашата мрежа, като им показва най-интересните и ангажиращи постове от определен период от време."
+
+#: classes/configsectionemaildigest.php:30
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "Имейл бюлетинът съдържа само постове, които имат настройки за поверителност \"Публично\" или \"Потребители на сайта\". Всички други постове, които са с настройки за поверителност \"Само аз\" и \"Приятели\", ще бъдат игнорирани и няма да се изпращат като част от имейл бюлетина."
+
+#: classes/configsectionemaildigest.php:38
+msgid "Send Email Digest emails"
+msgstr "Изпрати Имейл бюлетини"
+
+#: classes/configsectionemaildigest.php:44 peepsoemaildigest.php:298
+#: peepsoemaildigest.php:485 peepsoemaildigest.php:703
+msgid "Email Digest"
+msgstr "Имейл бюлетин"
+
+#: classes/configsectionemaildigest.php:48
+msgid "Email Digest Title"
+msgstr "Заглавие на имейл бюлетина"
+
+#: classes/configsectionemaildigest.php:57
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Потребителите, които не са посещавали сайта указаните или повече дни, ще получат Имейл бюлетин."
+
+#: classes/configsectionemaildigest.php:64
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Изпрати Имейл бюлетини на потребители неактивни за повече от"
+
+#: classes/configsectionemaildigest.php:68
+msgid "Use Images"
+msgstr "Използване на изображения"
+
+#: classes/configsectionemaildigest.php:76
+msgid "Use images in emails"
+msgstr "Показване на изображения в имейлите"
+
+#: classes/configsectionemaildigest.php:93
+msgid "How often should the Email Digest emails be sent"
+msgstr "Колко често да се изпращат Имейл бюлетини"
+
+#: classes/configsectionemaildigest.php:102
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "Ако избраната дата е по-голяма от броя на дните в месеца, бюлетинът ще бъде изпратен в последния ден от месеца."
+
+#: classes/configsectionemaildigest.php:109
+#: classes/configsectionemaildigest.php:129
+msgid "Every"
+msgstr "Всеки"
+
+#: classes/configsectionemaildigest.php:113
+msgid "Sun"
+msgstr "Нд"
+
+#: classes/configsectionemaildigest.php:114
+msgid "Mon"
+msgstr "Пн"
+
+#: classes/configsectionemaildigest.php:115
+msgid "Tue"
+msgstr "Вт"
+
+#: classes/configsectionemaildigest.php:116
+msgid "Wed"
+msgstr "Ср"
+
+#: classes/configsectionemaildigest.php:117
+msgid "Thu"
+msgstr "Чт"
+
+#: classes/configsectionemaildigest.php:118
+msgid "Fri"
+msgstr "Пт"
+
+#: classes/configsectionemaildigest.php:119
+msgid "Sat"
+msgstr "Сб"
+
+#: classes/configsectionemaildigest.php:150
+#: classes/configsectionemaildigest.php:187
+#: classes/configsectionemaildigest.php:219
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "Времето, когато Имейл бюлетините ще започнат да се изпращат. Имейлите ще се изпращат на части от опашката на PeepSo. Те няма да се изпращат наведнъж, така че вашите потребители може да ги получат по различно време."
+
+#: classes/configsectionemaildigest.php:157
+#: classes/configsectionemaildigest.php:171
+#: classes/configsectionemaildigest.php:194
+#: classes/configsectionemaildigest.php:226
+msgid "At"
+msgstr "в"
+
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:263
+msgid "How many posts should be included per one email"
+msgstr "Колко публикации да бъдат включени в един имейл"
+
+#: classes/configsectionemaildigest.php:267
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "В един Имейл бюлетин трябва да има най-малко 1 нов пост, за да бъде изпратен. Ако няма нито един нов, той няма да бъде изпратен."
+
+#: classes/configsectionemaildigest.php:275
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Изпрати Имейл бюлетини, дори и да има по-малко постове"
+
+#: classes/configsectionemaildigest.php:279
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Ако тази настройка е включена, Имейл бюлетинът ще съдържа най-харесвания пост за определен период от време и го покаже като такъв."
+
+#: classes/configsectionemaildigest.php:286
+msgid "Include most liked post"
+msgstr "Включи най-харесваните постове"
+
+#: classes/configsectionemaildigest.php:290
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Ако тази настройка е включена, Имейл бюлетинът ще съдържа най-коментирания пост за определен период от време и го покаже като такъв."
+
+#: classes/configsectionemaildigest.php:297
+msgid "Include most commented post"
+msgstr "Включи най-коментирания пост"
+
+#: classes/configsectionemaildigest.php:301
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Ако тази настройка е включена, Имейл бюлетинът ще съдържа най-харесваните и най-коментирани постове и ще ги покаже като такива. Въпреки това, може и е много вероятно те да се съдържат и в основното съдържание на Имейл бюлетина."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Allow duplicate posts"
+msgstr "Позволи дублиране на постове"
+
+#: classes/configsectionemaildigest.php:319
+msgid "Limit the post length in Email Digest email to"
+msgstr "Ограничи дължината на поста в Имейл бюлетина, до"
+
+#: classes/configsectionemaildigest.php:323
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Покажи \"Прочетете повече\", ако поста е много дълъг и не може да бъде показан целия заради ограничението за брой символи."
+
+#: classes/configsectionemaildigest.php:335
+#, php-format
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Препоръчително е да включите тази настройка и да настройте cron job на вашия уеб-сървър. Можете да използвате командата: wget %s, настроена да се изпълнява на всеки час."
+
+#: classes/configsectionemaildigest.php:342
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Генериране на Имейл бюлетина чрез cron job"
+
+#: classes/configsectionemaildigest.php:346
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "В зависимост от броя на неактивните потребители във вашата мрежа, е възможно да превишите параметрите на хостинга, при генериране на партида бюлетини. Тази настройка контролира, колко имейли ще бъдат генерирани в една партида. Тази настройка не изпраща имейлите. PeepSo опашката се грижи за изпращането."
+
+#: classes/configsectionemaildigest.php:353
+msgid "How many emails should be created in a batch"
+msgstr "Колко имейли да бъдат генерирани на един път"
+
+#: classes/configsectionemaildigest.php:366
+msgid "Which User Roles should receive the emails"
+msgstr "Кои потребителски роли да получават имейлите"
+
+#: classes/configsectionemaildigest.php:407
+msgid "General"
+msgstr "Основни настройки"
+
+#: classes/configsectionemaildigest.php:413
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "Записани са последните 100 изпратени Имейл бюлетини. Можете да видите на кои потребители са изпратени имейли и какво е било тяхното последно влизане, когато имейл е генериран и изпратен до тях. Можете също да прегледате имейла, който е изпратен."
+
+#: classes/configsectionemaildigest.php:418
+msgid "Sent Email Digest Logs"
+msgstr "Изпрати Имейл бюлетини"
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "Имейл бюлетин"
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Това ще бъде изпратено до потребител според графика."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Няма изпратени."
+
+#: peepsoemaildigest.php:267
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: peepsoemaildigest.php:269
+msgid "Get it now!"
+msgstr "Вземи го сега!"
+
+#: peepsoemaildigest.php:301
+msgid "PeepSo Email Digest"
+msgstr "PeepSo Имейл бюлетин"
+
+#: peepsoemaildigest.php:316
+msgid "Preview email was sent success"
+msgstr "Преглед на успешно изпратени имейли"
+
+#: peepsoemaildigest.php:317
+msgid "Preview email was sent failed"
+msgstr "Преглед на неуспешно изпратени имейли"
+
+#: peepsoemaildigest.php:318
+msgid "Clear Logs"
+msgstr "Изчистване на записите"
+
+#: peepsoemaildigest.php:319
+#, php-format
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "Има %d записи във вашата база данни. Можете да изчистите записите като щракнете върху бутона по-долу."
+
+#: peepsoemaildigest.php:416
+msgid "Other popular posts"
+msgstr "Други популярни постове"
+
+#: peepsoemaildigest.php:572
+msgid "Most liked post"
+msgstr "Най-харесвани постове"
+
+#: peepsoemaildigest.php:610
+msgid "Most commented post"
+msgstr "Най-коментирани постове"
+
+#: peepsoemaildigest.php:696
+msgid "Receive Digest Email notifications"
+msgstr "Получаване на известия за нов Имейл бюлетин"
+
+#: peepsoemaildigest.php:815
+msgid "Preview email was sent"
+msgstr "Преглед на изпратени имейли"
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Последно онлайн: "
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Последен имейл: "
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "споделен пост"
+
+#: templates/general/email-digest.php:29
+msgid "Read more"
+msgstr "Прочетете повече"
+
+#: templates/general/email-digest.php:31
+msgid "Like"
+msgstr "Харесва ми"
+
+#: templates/general/email-digest.php:31
+msgid "Comment"
+msgstr "Коментар"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: Email Digest"
+msgstr "PeepSo Extras: Имейл бюлетин"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Върнете отново потребителите чрез на автоматизирани бюлетини"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

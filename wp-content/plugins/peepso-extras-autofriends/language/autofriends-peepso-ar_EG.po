@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:16+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Arabic, Egypt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoautofriends.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: ar-EG\n"
+"X-Crowdin-File: autofriends-peepso.pot\n"
+"Language: ar_EG\n"
+
+#: classes/admin/configsectionautofriends.php:16
+msgid "search"
+msgstr "بحث"
+
+#: classes/admin/configsectionautofriends.php:22
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr "إضافة أحد المستخدمين إلى القائمة أدناه سيقوم تلقائياً بعمل علاقات صداقة بين المستخدم وأي مستخدم مسجل حديثاً. لن يتم تكوين علاقات صداقة بين هذا المستخدم وتلك الموجودة بالفعل. <br> لإنشاء اتصالات بين علاقات الصداقة المفقودة، يرجى استخدام الزر على اليمين. فور النقر على ذلك الزر ستتم إضافة هذا المستخدم ضمن مجموعة الأصدقاء للجميع في مجتمع بيبسو PeepSo الخاص بك. <br> إزالة أحد المستخدمين من القائمة أدناه سوف <strong>NOT</strong> سينتج عنه إزالة الإتصالات الموجودة لعلاقة الصداقة مع هذا المستخدم. "
+
+#: classes/admin/configsectionautofriends.php:50
+msgid "List Users"
+msgstr "قائمة المستخدمين"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr "الاسم"
+
+#: classes/admin/userautofriendslisttable.php:89
+msgid "Friends"
+msgstr "الأصدقاء"
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr "إجراءات"
+
+#: classes/admin/userautofriendslisttable.php:163
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Befriend All Users"
+msgstr "إقامة علاقات صداقة مع كافة المستخدمين"
+
+#: classes/admin/userautofriendslisttable.php:164
+msgid "Befriend All users."
+msgstr "إقامة علاقات صداقة مع كافة المستخدمين."
+
+#: classes/admin/userautofriendslisttable.php:167
+#: classes/admin/userautofriendslisttable.php:193
+msgid "Remove"
+msgstr "إزالة"
+
+#: classes/admin/userautofriendslisttable.php:168
+msgid "Remove from list autofriends creation."
+msgstr "إزالة من قائمة أوتوفرييندس autofriends التي تم تكوينها."
+
+#: classes/admin/userautofriendslisttable.php:213
+msgid "befriend"
+msgstr "إقامة علاقات صداقة"
+
+#: classes/admin/userautofriendslisttable.php:219
+msgid "removed"
+msgstr "تمت الإزالة"
+
+#: classes/admin/userautofriendslisttable.php:223
+#, php-format
+msgid "%1$d %2$s %3$s"
+msgstr "%1$d %2$s %3$s"
+
+#: classes/admin/userautofriendslisttable.php:225
+msgid "user"
+msgid_plural "users"
+msgstr[0] "لا يوجد مستخدم"
+msgstr[1] "مستخدم"
+msgstr[2] "مستخدمان"
+msgstr[3] "مستخدمين"
+msgstr[4] "مستخدمين"
+msgstr[5] "مستخدمين"
+
+#: classes/api/userautofriends.php:15 classes/api/userautofriends.php:80
+#: classes/api/userautofriends.php:109 classes/api/userautofriends.php:138
+#: classes/api/userautofriends.php:160
+msgid "Insufficient permissions."
+msgstr "تصريحات غير كافية."
+
+#: classes/api/userautofriends.php:53
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "لا يوجد عناصر"
+msgstr[1] "عنصر"
+msgstr[2] "%s عناصر"
+msgstr[3] "%s عناصر"
+msgstr[4] "%s عناصر"
+msgstr[5] "%s عناصر"
+
+#: classes/api/userautofriends.php:86 classes/api/userautofriends.php:115
+#: classes/api/userautofriends.php:166
+msgid "Could not verify nonce."
+msgstr "تعذر التحقق من المناسبة الحالية."
+
+#: classes/api/userautofriends.php:92
+msgid "The user is now friends with all other users."
+msgstr "المستخدم الآن أصدقاء مع جميع المستخدمين الآخرين."
+
+#: classes/api/userautofriends.php:121
+msgid "The user has been successfully removed."
+msgstr "لقد تم إزالة المستخدم بنجاح."
+
+#: classes/api/userautofriends.php:172
+msgid "The user has been successfully added."
+msgstr "لقد تم إضافة المستخدم بنجاح."
+
+#: peepsoautofriends.php:204
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "البرنامج المساعد %s يتطلب أن يتم تثبيت البرنامج المساعد لبيبسو PeepSo وتفعيله."
+
+#: peepsoautofriends.php:206 peepsoautofriends.php:225
+msgid "Get it now!"
+msgstr "احصل عليه الآن!"
+
+#: peepsoautofriends.php:223
+msgid "Please make sure FriendSo is installed and activated."
+msgstr "الرجاء التأكد من تثبيت تطبيق فريندسو FriendSo وتفعيله."
+
+#: peepsoautofriends.php:287
+msgid "AutoFriends"
+msgstr "أوتوفرييندس AutoFriends"
+
+#: peepsoautofriends.php:290
+msgid "PeepSo - AutoFriends"
+msgstr "بيبسو PeepSo - أوتوفرييندس AutoFriends"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: AutoFriends"
+msgstr "إضافات بيبسو: أوتوفرييندس AutoFriends"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Plugin that makes everyone in the community friends with a specific user."
+msgstr "البرنامج المساعد الذي يجعل كل فرد في ضمن أصدقاء المجتمع يكون مع مستخدم محدد."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "بيبسو PeepSo"
+

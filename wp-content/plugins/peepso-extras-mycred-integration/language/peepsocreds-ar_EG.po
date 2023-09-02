@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:21+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Arabic, Egypt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsocreds.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: ar-EG\n"
+"X-Crowdin-File: peepsocreds.pot\n"
+"Language: ar_EG\n"
+
+#: classes/configsectionmycred.php:15
+msgid "When enabled it will show user's points in their profile under their cover image."
+msgstr "عند التمكين ، ستُظهر نقاط المستخدم في ملفه الشخصي أسفل صورة غلافه."
+
+#: classes/configsectionmycred.php:17
+msgid "Show myCRED Points"
+msgstr "إظهار نقاط myCRED"
+
+#: classes/configsectionmycred.php:21
+msgid "When enabled it will show user's points history in their profile."
+msgstr ""
+
+#: classes/configsectionmycred.php:23
+msgid "Show myCRED Points History Page"
+msgstr ""
+
+#: classes/configsectionmycred.php:39
+msgid "General"
+msgstr "عام"
+
+#: classes/mycredhook.php:409
+msgid "%plural% for New PeepSo Post"
+msgstr "%plural% لمنشورات بيبسو الجديدة"
+
+#: classes/mycredhook.php:417 classes/mycredhook.php:460
+#: classes/mycredhook.php:509 classes/mycredhook.php:561
+#: classes/mycredhook.php:606 classes/mycredhook.php:650
+#: classes/mycredhook.php:694 classes/mycredhook.php:738
+msgid "Limit"
+msgstr "الحد"
+
+#: classes/mycredhook.php:423 classes/mycredhook.php:442
+#: classes/mycredhook.php:466 classes/mycredhook.php:492
+#: classes/mycredhook.php:515 classes/mycredhook.php:541
+#: classes/mycredhook.php:567 classes/mycredhook.php:586
+#: classes/mycredhook.php:612 classes/mycredhook.php:631
+#: classes/mycredhook.php:656 classes/mycredhook.php:675
+#: classes/mycredhook.php:700 classes/mycredhook.php:719
+#: classes/mycredhook.php:744 classes/mycredhook.php:763
+msgid "Log template"
+msgstr "قالب السجل"
+
+#: classes/mycredhook.php:433
+msgid "%plural% for PeepSo Post Deletion"
+msgstr "%plural% لخاصية حدف المنشورات"
+
+#: classes/mycredhook.php:452
+msgid "%plural% for New PeepSo Message"
+msgstr "%plural% لخاصية الرسائل الجديدة"
+
+#: classes/mycredhook.php:477
+msgid "PeepSo Message authors can receive %_plural% for creating new message."
+msgstr "يمكن لمؤلفي رسالة PeepSo تلقي %_plural% لإنشاء رسالة جديدة."
+
+#: classes/mycredhook.php:483
+msgid "%plural% for PeepSo Message Deletion"
+msgstr "%plural% من أجل حذف الرسائل"
+
+#: classes/mycredhook.php:501
+msgid "%plural% for New PeepSo Comment"
+msgstr "%plural% من أجل حدف التعليقات"
+
+#: classes/mycredhook.php:526
+msgid "PeepSo Message authors can receive %_plural% for replying to their own Message"
+msgstr "يمكن لمؤلفي رسالة PeepSo تلقي %_plural% للرد على رسالتهم"
+
+#: classes/mycredhook.php:532
+msgid "%plural% for Comment Deletion"
+msgstr "%plural% من أجل حذف التعليقات"
+
+#: classes/mycredhook.php:553
+msgid "%plural% for Add Like PeepSo Content / Profile"
+msgstr ""
+
+#: classes/mycredhook.php:577
+msgid "%plural% for Un-Like PeepSo Content / Profile"
+msgstr ""
+
+#: classes/mycredhook.php:598
+msgid "%plural% for Add New PeepSo Friend"
+msgstr "%plural% من أجل إضافة أصدقاء جدد"
+
+#: classes/mycredhook.php:622
+msgid "%plural% for PeepSo Friend Deletion"
+msgstr "%plural% من أجل حذف طلبات الصداقة"
+
+#: classes/mycredhook.php:642
+msgid "%plural% for Add New PeepSo Stream Photo"
+msgstr "%plural% من أجل إضافة الصور"
+
+#: classes/mycredhook.php:666
+msgid "%plural% for deleting PeepSo Stream Photo"
+msgstr "%plural% من أجل حذف الصور"
+
+#: classes/mycredhook.php:686
+msgid "%plural% for Add New PeepSo Profile Cover"
+msgstr "%plural% من أجل إضافة صور الغطاء"
+
+#: classes/mycredhook.php:710
+msgid "%plural% for deleting PeepSo Profile Cover"
+msgstr "%plural% من أجل حذف صور الغطاء"
+
+#: classes/mycredhook.php:730
+msgid "%plural% for Add New PeepSo Profile Avatar"
+msgstr "%plural% من أجل صور الصور الشخصية للحساب"
+
+#: classes/mycredhook.php:754
+msgid "%plural% for deleting PeepSo Profile Avatar"
+msgstr "%plural% من أجل حذف الصور الشخصية للحساب"
+
+#: peepsocreds.php:126
+msgid "Points"
+msgstr "النقاط"
+
+#: peepsocreds.php:127
+msgid "User Points"
+msgstr "نقاط المستخدم"
+
+#: peepsocreds.php:141
+msgctxt "Profile link"
+msgid "Points"
+msgstr ""
+
+#: peepsocreds.php:204 peepsocreds.php:205 peepsocreds.php:208
+msgid "myCRED"
+msgstr "myCRED"
+
+#: peepsocreds.php:246
+#, php-format
+msgid "PeepSo %s requires the MyCred plugin."
+msgstr "PeepSo %s تتطلب إضافة the MyCred plugin."
+
+#: peepsocreds.php:289
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "البرنامج المساعد %s يتطلب أن يتم تثبيت إضافة PeepSo وتفعيلها."
+
+#: peepsocreds.php:291
+msgid "Get it now!"
+msgstr "احصل عليه الآن!"
+
+#: templates/profile/profile-mycred.php:9
+msgid "Points History"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: myCRED"
+msgstr "إضافة: myCRED"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the MyCred plugin</strong>. Award myCRED points for performing actions in PeepSo"
+msgstr "<strong> يتطلب المكون الإضافي MyCred </strong>. منح نقاط myCRED لأدائها في PeepSo"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "بيبسو PeepSo"
+

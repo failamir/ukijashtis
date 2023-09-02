@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:16+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-badgeos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: badgeos-peepso.pot\n"
+"Language: tr_TR\n"
+
+#: classes/BadgeOS_PeepSoTriggers.php:246
+#, php-format
+msgid "%1$s triggered %2$s (%3$dx)"
+msgstr "%1$s başlatmak %2$s (%3$dx)"
+
+#: classes/admin/configsectionbadgeos.php:18
+msgid "Configure the use of PeepSo - BadgeOS Integration"
+msgstr "PeepSo - BadgeOS Integration kullanımını yapılandırın."
+
+#: classes/admin/configsectionbadgeos.php:24
+msgid "Turn on the use of BadgeOS Integration"
+msgstr "BadgeOS Integration'un kullanımını açın"
+
+#: classes/admin/configsectionbadgeos.php:27
+msgid "Enable BadgeOS Integration"
+msgstr "BadgeOS Integration'u etkinleştir."
+
+#: classes/admin/configsectionbadgeos.php:33
+msgid "Turn on to show 'Badges' link in the PeepSo Profile menu"
+msgstr "PeepSo Profil menüsünde 'Rozetler' bağlantısını göstermek için açın."
+
+#: classes/admin/configsectionbadgeos.php:36
+msgid "Show 'Badges' link in the PeepSo Profile menu"
+msgstr "PeepSo Profil menüsünde 'Rozetler' bağlantısını göster"
+
+#: classes/admin/configsectionbadgeos.php:45
+msgid "Create posts when user earns a new badge"
+msgstr "Kullanıcı yeni bir rozet kazandığında gönderi paylaşılsın"
+
+#: classes/admin/configsectionbadgeos.php:54
+msgid "Display recent badges on profile cover"
+msgstr "Profil kapağında en son kazanılan rozetleri göster"
+
+#: classes/admin/configsectionbadgeos.php:72
+msgid "How many recent badges to display on the cover"
+msgstr "Kapakta kaç tane rozet görüntülenecek"
+
+#: classes/admin/configsectionbadgeos.php:83
+msgid "Display recent badges on profile widget"
+msgstr "Profil widget'ında en son kazanılan rozetleri göster"
+
+#: classes/admin/configsectionbadgeos.php:101
+msgid "How many recent badges to display on the profile widget"
+msgstr "Profil widget'ında kaç tane rozet görüntülenecek"
+
+#: classes/admin/configsectionbadgeos.php:128
+msgid "General"
+msgstr "Genel"
+
+#: peepso-badgeos.php:118
+msgid "PeepSo Activity"
+msgstr "PeepSo Activity"
+
+#: peepso-badgeos.php:119
+msgid "Change Profile Avatar."
+msgstr "Profil Resmini Değiştir."
+
+#: peepso-badgeos.php:120
+msgid "Change Profile Cover."
+msgstr "Kapak Fotoğrafını Değiştir."
+
+#: peepso-badgeos.php:121
+msgid "Admin Approves User Account."
+msgstr "Yönetici, Kullanıcı Hesabını Onaylıyor."
+
+#: peepso-badgeos.php:122
+msgid "Write a post / status update."
+msgstr "Bir gönderi / durum güncellemesi yazın."
+
+#: peepso-badgeos.php:123
+msgid "Comment on a post / status update."
+msgstr "Bir gönderi / durum güncellemesi hakkında yorum yapın."
+
+#: peepso-badgeos.php:194
+msgid "PeepSo Friends"
+msgstr "PeepSo Friends"
+
+#: peepso-badgeos.php:195
+msgid "Send a Friend Request."
+msgstr "Arkadaşı Ekle"
+
+#: peepso-badgeos.php:196
+msgid "Add a new friend."
+msgstr "Yeni bir arkadaş ekle."
+
+#: peepso-badgeos.php:202
+msgid "PeepSo Groups"
+msgstr "PeepSo Groups"
+
+#: peepso-badgeos.php:203
+msgid "Create a Group."
+msgstr "Bir grup oluştur"
+
+#: peepso-badgeos.php:204
+msgid "Join a Group."
+msgstr "Gruba Katıl"
+
+#: peepso-badgeos.php:205
+msgid "Change Group Avatar."
+msgstr "Grup Resmini Değiştir."
+
+#: peepso-badgeos.php:206
+msgid "Change Group Cover."
+msgstr "Grup Kapağını Değiştir"
+
+#: peepso-badgeos.php:212
+msgid "PeepSo Messages"
+msgstr "PeepSo Messages"
+
+#: peepso-badgeos.php:213
+msgid "Send a Message."
+msgstr "Mesaj Gönder"
+
+#: peepso-badgeos.php:218
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo PMP Entegrasyonu"
+
+#: peepso-badgeos.php:219
+msgid "Checkout membership level upon registration."
+msgstr "Kayıt sırasında üyelik seviyesini kontrol edin."
+
+#: peepso-badgeos.php:256
+#, php-format
+msgid "PeepSo %s requires the BadgeOS plugin (%s or newer)."
+msgstr "PeepSo %s BadgeOS eklentisini gerektirir (%s veya daha yeni)."
+
+#: peepso-badgeos.php:290
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr " %s eklentisi, PeepSo eklentisinin kurulmasını ve etkinleştirilmesini gerektirir."
+
+#: peepso-badgeos.php:292
+msgid "Get it now!"
+msgstr "Şimdi sahip ol!"
+
+#: peepso-badgeos.php:362
+msgid "BadgeOS"
+msgstr "BadgeOS"
+
+#: peepso-badgeos.php:365
+msgid "PeepSo - BadgeOS Integration"
+msgstr "PeepSo - BadgeOS Integration"
+
+#: peepso-badgeos.php:482
+msgid " congratulations! You earned a new badge"
+msgstr " tebrikler! Yeni bir rozet kazandınız"
+
+#: peepso-badgeos.php:500
+msgid " earned a new badge!"
+msgstr " yeni bir rozet kazandın!"
+
+#: peepso-badgeos.php:562
+msgid "Badges"
+msgstr "Rozetler"
+
+#: peepso-badgeos.php:873
+msgid "Recently earned badge"
+msgid_plural "Recently earned badges"
+msgstr[0] "Son kazanılan rozet"
+msgstr[1] "Son kazanılan rozetler"
+
+#: peepso-badgeos.php:1012
+msgid "Show Details"
+msgstr "Detayları Göster"
+
+#: peepso-badgeos.php:1058
+msgid "PeepSo Community Engagement"
+msgstr "PeepSo Community Engagement"
+
+#: peepso-badgeos.php:1074
+msgid "Select a PeepSo Trigger"
+msgstr "PeepSo Trigger'ı seçin"
+
+#: peepso-badgeos.php:1105
+msgid "Select a Group"
+msgstr "Bir grup seçin"
+
+#: peepso-badgeos.php:1132
+msgid "Select a Membership Level"
+msgstr "Üyelik Seviyesi Seçin"
+
+#: peepso-badgeos.php:1177
+#, php-format
+msgid "Join group \"%s\""
+msgstr " \"%s\" grubuna katıl"
+
+#: peepso-badgeos.php:1189
+#, php-format
+msgid "Checkout membership level \"%s\""
+msgstr "Üyelik seviyesini kontrol et \"%s\""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: BadgeOS"
+msgstr "PeepSo Entegrasyonu: BadgeOS"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the BadgeOS plugin.</strong> Bridge BadgeOS and PeepSo points and badge systems"
+msgstr "<strong> BadgeOS eklentisini gerektirir.</strong>BadgeOS köprüsü,  Peepso puanları ve rozet sistemleri"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

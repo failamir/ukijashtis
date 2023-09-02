@@ -1,0 +1,64 @@
+/* General */
+.clearfix::before,
+.clearfix::after {
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.left-col,
+.right-col {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.left-col {
+	float: left;
+	padding-right: 8px;
+	width: 50%;
+}
+
+.right-col {
+	float: right;
+	padding-left: 8px;
+	width: 50%;
+}
+
+/* Checkbox label */
+.udb-settings-form .label input:checked ~ .indicator {
+	background-color: #007cba;
+}
+
+.udb-settings-form .label:hover input:not([disabled]):checked ~ .indicator, 
+.udb-settings-form .label input:checked:focus ~ .indicator {
+	background-color: #00669b;
+}
+
+/* Code Mirror */
+.CodeMirror-wrap {
+	border: 1px solid #ddd;
+}
+
+/* PRO styling */
+.udb-pro-box {
+	color: #888;
+}
+
+.udb-pro-description {
+	font-style: italic;
+	padding-top: 10px;
+	margin-top: 20px !important;
+	color: #444444;
+	display: inline-block;
+	border-top: 1px solid #eee;
+}
+
+.udb-pro-button {
+	margin-top: 10px !important;
+}
+
+.udb-pro-fields {
+	color: #888;
+}

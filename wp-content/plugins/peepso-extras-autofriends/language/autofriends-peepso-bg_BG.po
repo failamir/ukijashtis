@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:12+0700\n"
+"PO-Revision-Date: 2018-04-18 05:30-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoautofriends.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: autofriends-peepso.pot\n"
+"Language: bg_BG\n"
+
+#: classes/admin/configsectionautofriends.php:16
+msgid "search"
+msgstr "търсене"
+
+#: classes/admin/configsectionautofriends.php:22
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr "Добавянето на потребител към списъка по-долу автоматично ще създаде приятелство между него и всеки новорегистриран потребител. Няма да създаде приятелства между него и вече регистрираните потребители. <br>За създаване на липсващите приятелски връзки, моля използвайте бутона в дясно. С едно щракване, той ще добави този потребител като приятел на всички останали във вашата Мрежа. <br>Премахване на потребител от списъка по-долу <strong>НЕ</strong> премахва съществуващите приятелства."
+
+#: classes/admin/configsectionautofriends.php:50
+msgid "List Users"
+msgstr "Потребители"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr "Име"
+
+#: classes/admin/userautofriendslisttable.php:89
+msgid "Friends"
+msgstr "Приятели"
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr "Действия"
+
+#: classes/admin/userautofriendslisttable.php:163
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Befriend All Users"
+msgstr "Сприятели с всички"
+
+#: classes/admin/userautofriendslisttable.php:164
+msgid "Befriend All users."
+msgstr "Сприятели с всички потребители."
+
+#: classes/admin/userautofriendslisttable.php:167
+#: classes/admin/userautofriendslisttable.php:193
+msgid "Remove"
+msgstr "Премахни"
+
+#: classes/admin/userautofriendslisttable.php:168
+msgid "Remove from list autofriends creation."
+msgstr "Премахване от списъка за създаване на автоматични приятелства."
+
+#: classes/admin/userautofriendslisttable.php:213
+msgid "befriend"
+msgstr "сприятелен"
+
+#: classes/admin/userautofriendslisttable.php:219
+msgid "removed"
+msgstr "премахнат"
+
+#: classes/admin/userautofriendslisttable.php:223
+#, php-format
+msgid "%1$d %2$s %3$s"
+msgstr "%1$d %2$s %3$s"
+
+#: classes/admin/userautofriendslisttable.php:225
+msgid "user"
+msgid_plural "users"
+msgstr[0] "потребител"
+msgstr[1] "потребители"
+
+#: classes/api/userautofriends.php:15 classes/api/userautofriends.php:80
+#: classes/api/userautofriends.php:108 classes/api/userautofriends.php:136
+#: classes/api/userautofriends.php:158
+msgid "Insufficient permissions."
+msgstr "Нямате необходимите права."
+
+#: classes/api/userautofriends.php:53
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 потребител"
+msgstr[1] "%s потребители"
+
+#: classes/api/userautofriends.php:85 classes/api/userautofriends.php:113
+#: classes/api/userautofriends.php:163
+msgid "Could not verify nonce."
+msgstr "Не може да се провери този случай."
+
+#: classes/api/userautofriends.php:91
+msgid "The user is now friends with all other users."
+msgstr "Потребителят сега е приятел с всички останали потребители."
+
+#: classes/api/userautofriends.php:119
+msgid "The user has been successfully removed."
+msgstr "Потребителят е премахнат успешно."
+
+#: classes/api/userautofriends.php:169
+msgid "The user has been successfully added."
+msgstr "Потребителят е добавен успешно."
+
+#: peepsoautofriends.php:206
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: peepsoautofriends.php:208 peepsoautofriends.php:227
+msgid "Get it now!"
+msgstr "Вземи го сега!"
+
+#: peepsoautofriends.php:225
+msgid "Please make sure FriendSo is installed and activated."
+msgstr "Проверете дали PeepSo е инсталиран и активиран."
+
+#: peepsoautofriends.php:289
+msgid "AutoFriends"
+msgstr "AutoFriends"
+
+#: peepsoautofriends.php:292
+msgid "PeepSo - AutoFriends"
+msgstr "PeepSo - AutoFriends"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: AutoFriends"
+msgstr "PeepSo Extras: AutoFriends"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Plugin that makes everyone in the community friends with a specific user."
+msgstr "Плъгинът прави всички потребители приятели с конкретен потребител."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

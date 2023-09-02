@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:16+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-badgeos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: badgeos-peepso.pot\n"
+"Language: sr_SP\n"
+
+#: classes/BadgeOS_PeepSoTriggers.php:246
+#, php-format
+msgid "%1$s triggered %2$s (%3$dx)"
+msgstr "%1$s покренуто %2$s (%3$dx)"
+
+#: classes/admin/configsectionbadgeos.php:18
+msgid "Configure the use of PeepSo - BadgeOS Integration"
+msgstr "Конфигуриши употребу PeepSo - BadgeOS интеграције"
+
+#: classes/admin/configsectionbadgeos.php:24
+msgid "Turn on the use of BadgeOS Integration"
+msgstr "Укључи употребу BadgeOS интеграције"
+
+#: classes/admin/configsectionbadgeos.php:27
+msgid "Enable BadgeOS Integration"
+msgstr "Омогући BadgeOS интеграцију"
+
+#: classes/admin/configsectionbadgeos.php:33
+msgid "Turn on to show 'Badges' link in the PeepSo Profile menu"
+msgstr "Укључи ради приказа 'Значке' линка у PeepSo профилном менију"
+
+#: classes/admin/configsectionbadgeos.php:36
+msgid "Show 'Badges' link in the PeepSo Profile menu"
+msgstr "Прикажи 'Значке' линк у PeepSo профилном менију"
+
+#: classes/admin/configsectionbadgeos.php:45
+msgid "Create posts when user earns a new badge"
+msgstr "Креирај постове када корисник заради нову значку"
+
+#: classes/admin/configsectionbadgeos.php:54
+msgid "Display recent badges on profile cover"
+msgstr "Прикажи недавне значке на насловној фотографији профила"
+
+#: classes/admin/configsectionbadgeos.php:72
+msgid "How many recent badges to display on the cover"
+msgstr "Колико недавних значки треба приказати на насловној фотографији"
+
+#: classes/admin/configsectionbadgeos.php:83
+msgid "Display recent badges on profile widget"
+msgstr "Прикажи недавне значке на профилном виџету"
+
+#: classes/admin/configsectionbadgeos.php:101
+msgid "How many recent badges to display on the profile widget"
+msgstr "Колико недавних значки треба приказати на профилном виџету"
+
+#: classes/admin/configsectionbadgeos.php:128
+msgid "General"
+msgstr "Опште"
+
+#: peepso-badgeos.php:118
+msgid "PeepSo Activity"
+msgstr "PeepSo активности"
+
+#: peepso-badgeos.php:119
+msgid "Change Profile Avatar."
+msgstr "Промени профилни аватар."
+
+#: peepso-badgeos.php:120
+msgid "Change Profile Cover."
+msgstr "Промени насловну фотографију профила."
+
+#: peepso-badgeos.php:121
+msgid "Admin Approves User Account."
+msgstr "Админ одобрава кориснички налог."
+
+#: peepso-badgeos.php:122
+msgid "Write a post / status update."
+msgstr "Напиши пост / ажурирај статус."
+
+#: peepso-badgeos.php:123
+msgid "Comment on a post / status update."
+msgstr "Коментариши на пост / ажурирани статус."
+
+#: peepso-badgeos.php:194
+msgid "PeepSo Friends"
+msgstr "PeepSo Пријатељи"
+
+#: peepso-badgeos.php:195
+msgid "Send a Friend Request."
+msgstr "Пошаљи захтев за пријатељство."
+
+#: peepso-badgeos.php:196
+msgid "Add a new friend."
+msgstr "Додај новог пријатеља."
+
+#: peepso-badgeos.php:202
+msgid "PeepSo Groups"
+msgstr "PeepSo Групе"
+
+#: peepso-badgeos.php:203
+msgid "Create a Group."
+msgstr "Креирај групу."
+
+#: peepso-badgeos.php:204
+msgid "Join a Group."
+msgstr "Придружи се групи."
+
+#: peepso-badgeos.php:205
+msgid "Change Group Avatar."
+msgstr "Промени аватар групе."
+
+#: peepso-badgeos.php:206
+msgid "Change Group Cover."
+msgstr "Промени насловну фотографију групе."
+
+#: peepso-badgeos.php:212
+msgid "PeepSo Messages"
+msgstr "PeepSo Поруке."
+
+#: peepso-badgeos.php:213
+msgid "Send a Message."
+msgstr "Пошаљи поруку."
+
+#: peepso-badgeos.php:218
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo РМР интеграција"
+
+#: peepso-badgeos.php:219
+msgid "Checkout membership level upon registration."
+msgstr "Овера нивоа чланства приликом регистрације."
+
+#: peepso-badgeos.php:256
+#, php-format
+msgid "PeepSo %s requires the BadgeOS plugin (%s or newer)."
+msgstr "PeepSo %s захтева додатак BadgeOS (%s или новији)."
+
+#: peepso-badgeos.php:290
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s додатак захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepso-badgeos.php:292
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepso-badgeos.php:362
+msgid "BadgeOS"
+msgstr "BadgeOS"
+
+#: peepso-badgeos.php:365
+msgid "PeepSo - BadgeOS Integration"
+msgstr "PeepSo - BadgeOS интеграција"
+
+#: peepso-badgeos.php:482
+msgid " congratulations! You earned a new badge"
+msgstr " честитамо! Зарадили сте нову значку"
+
+#: peepso-badgeos.php:500
+msgid " earned a new badge!"
+msgstr " је зарадио/ла нову значку!"
+
+#: peepso-badgeos.php:562
+msgid "Badges"
+msgstr "Значке"
+
+#: peepso-badgeos.php:873
+msgid "Recently earned badge"
+msgid_plural "Recently earned badges"
+msgstr[0] "Недавно зарађена значка"
+msgstr[1] "Недавно зарађене значке"
+msgstr[2] "Недавно зарађених значки"
+
+#: peepso-badgeos.php:1012
+msgid "Show Details"
+msgstr "Прикажи детаље"
+
+#: peepso-badgeos.php:1058
+msgid "PeepSo Community Engagement"
+msgstr "Ангажман PeepSo Заједнице"
+
+#: peepso-badgeos.php:1074
+msgid "Select a PeepSo Trigger"
+msgstr "Одабери PeepSo покретач"
+
+#: peepso-badgeos.php:1105
+msgid "Select a Group"
+msgstr "Одабери групу"
+
+#: peepso-badgeos.php:1132
+msgid "Select a Membership Level"
+msgstr "Одабери ниво чланства"
+
+#: peepso-badgeos.php:1177
+#, php-format
+msgid "Join group \"%s\""
+msgstr "Придружи се групи \"%s\""
+
+#: peepso-badgeos.php:1189
+#, php-format
+msgid "Checkout membership level \"%s\""
+msgstr "Овера нивоа чланства \"%s\""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: BadgeOS"
+msgstr "PeepSo интеграције: BadgeOS"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the BadgeOS plugin.</strong> Bridge BadgeOS and PeepSo points and badge systems"
+msgstr "<strong>Захтева додатак BadgeOS.</strong> Премости BadgeOS и PeepSo тачке и системе значки"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

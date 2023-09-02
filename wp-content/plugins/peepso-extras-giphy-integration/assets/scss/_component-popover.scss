@@ -1,0 +1,11 @@
+.ps-giphy__popover {
+	position: absolute;
+	right: 1px;
+	bottom: 25px;
+	display: none;
+	width: 234px;
+	height: 251px;
+	padding: ($padding-sm / 2);
+	background-color: #fff;
+	text-align: center;
+}

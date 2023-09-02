@@ -1,0 +1,92 @@
+//
+//  Override default PeepSo comments textarea,
+//  to add more padding beacuse of Giphy icon
+//
+.ps-comment-reply .ps-textarea {
+	@if $scss-direction == rtl {
+		padding-left: 55px;
+	} @else {
+		padding-right: 55px;
+	}
+}
+
+
+.ps-giphy {
+	position: relative;
+}
+
+
+.ps-giphy--slider {
+	padding: $padding-base;
+	padding-bottom: 20px;
+}
+
+
+.ps-giphy__search {
+	margin-bottom: ($padding-sm / 2);
+
+	input[type="text"] {
+		width: 100%;
+	}
+}
+
+
+.ps-giphy__search--popover {
+	input[type="text"] {
+		display: none;
+	}
+}
+
+
+.ps-giphy__trigger {
+	cursor: pointer;
+}
+
+
+.ps-giphy__list {
+	display: none;
+	height: 192px;
+	overflow: auto;
+}
+
+
+.ps-giphy__list-item {
+	margin-bottom: 2px;
+	overflow: hidden;
+
+	> img {
+		width: 100%;
+		cursor: pointer;
+	}
+}
+
+
+.ps-giphy__powered {
+	width: 110px;
+	height: 13px;
+	background-image: url(../images/powered-by.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	> a {
+		display: block;
+		height: 100%;
+	}
+}
+
+
+.ps-giphy__powered--slider {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 3px;
+	margin: 0 auto;
+}
+
+
+.ps-giphy__powered--chat {
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}

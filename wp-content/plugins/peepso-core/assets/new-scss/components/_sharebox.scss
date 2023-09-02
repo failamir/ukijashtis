@@ -1,0 +1,31 @@
+.ps-sharebox {
+  --grid-items: 3;
+  --grid-items--mobile: 2;
+
+  display: grid;
+  grid-template-columns: repeat(var(--grid-items--mobile), 1fr);
+  grid-column-gap: var(--PADD);
+  grid-row-gap: var(--PADD);
+
+  @include mq($from: desktop) {
+    grid-template-columns: repeat(var(--grid-items), 1fr);
+  }
+}
+
+.ps-sharebox__item {
+  font-size: 80%;
+
+  @if $comp_mode {
+    text-decoration: none;
+  }
+}
+
+.ps-sharebox__icon {
+  display: flex;
+  align-items: center;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  &:hover {
+    color: var(--PS-COLOR--TEXT);
+  }
+}

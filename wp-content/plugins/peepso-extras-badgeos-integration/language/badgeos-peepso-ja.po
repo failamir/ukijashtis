@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:16+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-badgeos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: badgeos-peepso.pot\n"
+"Language: ja_JP\n"
+
+#: classes/BadgeOS_PeepSoTriggers.php:246
+#, php-format
+msgid "%1$s triggered %2$s (%3$dx)"
+msgstr "%1$s トリガー %2$s (%3$dx)"
+
+#: classes/admin/configsectionbadgeos.php:18
+msgid "Configure the use of PeepSo - BadgeOS Integration"
+msgstr "PeepSoの使用を設定する。－BadgeOS統合"
+
+#: classes/admin/configsectionbadgeos.php:24
+msgid "Turn on the use of BadgeOS Integration"
+msgstr "BadgeOS 統合の使用をオン"
+
+#: classes/admin/configsectionbadgeos.php:27
+msgid "Enable BadgeOS Integration"
+msgstr "BadgeOS 統合を有効にします。"
+
+#: classes/admin/configsectionbadgeos.php:33
+msgid "Turn on to show 'Badges' link in the PeepSo Profile menu"
+msgstr "PeepSo プロフィールメニューの 'バッジ' リンク表示をオンします。"
+
+#: classes/admin/configsectionbadgeos.php:36
+msgid "Show 'Badges' link in the PeepSo Profile menu"
+msgstr "PeepSo プロフィール メニューの 'バッジ' リンク表示をオンします。"
+
+#: classes/admin/configsectionbadgeos.php:45
+msgid "Create posts when user earns a new badge"
+msgstr "ユーザーは、新しいバッジを獲得したときに、新しい投稿をします。"
+
+#: classes/admin/configsectionbadgeos.php:54
+msgid "Display recent badges on profile cover"
+msgstr "プロフィールのカバーに、最新のバッジを表示します。"
+
+#: classes/admin/configsectionbadgeos.php:72
+msgid "How many recent badges to display on the cover"
+msgstr "最新のバッジ数をいくつカバーに表示するか"
+
+#: classes/admin/configsectionbadgeos.php:83
+msgid "Display recent badges on profile widget"
+msgstr "プロフィールのウィジェットに、最新のバッジを表示する。"
+
+#: classes/admin/configsectionbadgeos.php:101
+msgid "How many recent badges to display on the profile widget"
+msgstr "プロフィールのウィジェットに、最新のバッジをいくつ表示するか"
+
+#: classes/admin/configsectionbadgeos.php:128
+msgid "General"
+msgstr "一般"
+
+#: peepso-badgeos.php:118
+msgid "PeepSo Activity"
+msgstr "PeepSo アクティビティ"
+
+#: peepso-badgeos.php:119
+msgid "Change Profile Avatar."
+msgstr "プロフィール写真を変更"
+
+#: peepso-badgeos.php:120
+msgid "Change Profile Cover."
+msgstr "プロフィールのカバーを変更"
+
+#: peepso-badgeos.php:121
+msgid "Admin Approves User Account."
+msgstr "管理者は、ユーザー アカウントを承認します。"
+
+#: peepso-badgeos.php:122
+msgid "Write a post / status update."
+msgstr "投稿/ステータスの更新"
+
+#: peepso-badgeos.php:123
+msgid "Comment on a post / status update."
+msgstr "投稿にコメント/ステータスの更新"
+
+#: peepso-badgeos.php:194
+msgid "PeepSo Friends"
+msgstr "友だち"
+
+#: peepso-badgeos.php:195
+msgid "Send a Friend Request."
+msgstr "友だちリクエストの送信"
+
+#: peepso-badgeos.php:196
+msgid "Add a new friend."
+msgstr "新しい友人を追加。"
+
+#: peepso-badgeos.php:202
+msgid "PeepSo Groups"
+msgstr "グループ"
+
+#: peepso-badgeos.php:203
+msgid "Create a Group."
+msgstr "グループの作成"
+
+#: peepso-badgeos.php:204
+msgid "Join a Group."
+msgstr "グループに参加"
+
+#: peepso-badgeos.php:205
+msgid "Change Group Avatar."
+msgstr "グループの写真を変更"
+
+#: peepso-badgeos.php:206
+msgid "Change Group Cover."
+msgstr "グループのカバーを変える"
+
+#: peepso-badgeos.php:212
+msgid "PeepSo Messages"
+msgstr "メッセージ"
+
+#: peepso-badgeos.php:213
+msgid "Send a Message."
+msgstr "メッセージを送信"
+
+#: peepso-badgeos.php:218
+msgid "PeepSo PMP Integration"
+msgstr " PMP 統合"
+
+#: peepso-badgeos.php:219
+msgid "Checkout membership level upon registration."
+msgstr "登録されているメンバーシップレベルを確認"
+
+#: peepso-badgeos.php:256
+#, php-format
+msgid "PeepSo %s requires the BadgeOS plugin (%s or newer)."
+msgstr ""
+
+#: peepso-badgeos.php:290
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s プラグインには、PeepSo プラグインをインストールしてアクティブ化が必要です。"
+
+#: peepso-badgeos.php:292
+msgid "Get it now!"
+msgstr "今すぐトライ"
+
+#: peepso-badgeos.php:362
+msgid "BadgeOS"
+msgstr "BadgeOS"
+
+#: peepso-badgeos.php:365
+msgid "PeepSo - BadgeOS Integration"
+msgstr "PeepSo - BadgeOS 統合"
+
+#: peepso-badgeos.php:482
+msgid " congratulations! You earned a new badge"
+msgstr " おめでとうございます!新しいバッジを獲得しました。"
+
+#: peepso-badgeos.php:500
+msgid " earned a new badge!"
+msgstr " 新しいバッジを獲得!"
+
+#: peepso-badgeos.php:562
+msgid "Badges"
+msgstr "バッジ"
+
+#: peepso-badgeos.php:873
+msgid "Recently earned badge"
+msgid_plural "Recently earned badges"
+msgstr[0] "最近獲得したバッジ"
+
+#: peepso-badgeos.php:1012
+msgid "Show Details"
+msgstr "詳細を見る"
+
+#: peepso-badgeos.php:1058
+msgid "PeepSo Community Engagement"
+msgstr "PeepSo コミュニティ関与"
+
+#: peepso-badgeos.php:1074
+msgid "Select a PeepSo Trigger"
+msgstr "PeepSo トリガーを選択します。"
+
+#: peepso-badgeos.php:1105
+msgid "Select a Group"
+msgstr "グループを選択"
+
+#: peepso-badgeos.php:1132
+msgid "Select a Membership Level"
+msgstr "メンバーシップ レベルを選択します。"
+
+#: peepso-badgeos.php:1177
+#, php-format
+msgid "Join group \"%s\""
+msgstr "グループ「%s」に参加します。"
+
+#: peepso-badgeos.php:1189
+#, php-format
+msgid "Checkout membership level \"%s\""
+msgstr "メンバーシップレベル、%sの確認"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: BadgeOS"
+msgstr "PeepSo 統合：バッジOS"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the BadgeOS plugin.</strong> Bridge BadgeOS and PeepSo points and badge systems"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

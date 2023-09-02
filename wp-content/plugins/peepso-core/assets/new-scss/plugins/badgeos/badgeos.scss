@@ -1,0 +1,34 @@
+.ps-badgeos__list-wrapper {
+  padding: var(--PADD--MD);
+  padding-top: 0;
+  
+  @if $rtl {
+    padding-right: var(--cover-span);
+  } @else {
+    padding-left: var(--cover-span);
+  }
+
+  background-color: var(--PS-COLOR--APP);
+}
+
+.ps-badgeos__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ps-badgeos__list-title {
+  margin-bottom: var(--PADD);
+  font-size: 90%;
+}
+
+.ps-badgeos__item {
+  --width: 60px;
+
+  width: var(--width);
+
+  > a {
+    display: block;
+  }
+}
+
+.ps-badgeos__item--focus {}

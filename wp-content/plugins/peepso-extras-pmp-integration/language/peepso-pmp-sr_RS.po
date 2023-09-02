@@ -1,0 +1,340 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:22+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsopmp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: peepso-pmp.pot\n"
+"Language: sr_SP\n"
+
+#: classes/configsectionpmpintegration.php:25
+msgid "Configure the use of PeepSo PMP Integration."
+msgstr "Конфигуриши употребу PeepSo PMP интеграције."
+
+#: classes/configsectionpmpintegration.php:30
+msgid "Turn on the use of PMP Integration"
+msgstr "Укључи употребу РМР интеграције"
+
+#: classes/configsectionpmpintegration.php:39
+msgid "Enable PMP Integration"
+msgstr "Омогући РМР интеграцију"
+
+#: classes/configsectionpmpintegration.php:45
+msgid "Enable email notifications for users that have no membership plans"
+msgstr "Омогући email обавештења за кориснике који немају планове за чланство"
+
+#: classes/configsectionpmpintegration.php:51
+msgid "Hide \"Membership\" tab in user profiles"
+msgstr "Сакриј \"Чланство\" језичак на профилима корисника"
+
+#: classes/configsectionpmpintegration.php:58
+msgid "General"
+msgstr "Опште"
+
+#: peepsopmp.php:165
+msgid "Membership"
+msgstr "Чланство"
+
+#: peepsopmp.php:325
+#, php-format
+msgid "PeepSo %s requires the Paid Memberships Pro."
+msgstr "PeepSo %s захтева Paid Memberships Pro (плаћено чланство)."
+
+#: peepsopmp.php:358
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsopmp.php:360
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsopmp.php:404
+msgid "PMP Integration"
+msgstr "РМР интеграција"
+
+#: peepsopmp.php:407
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo РМР интеграција"
+
+#: peepsopmp.php:615
+msgid "PeepSo Groups"
+msgstr "PeepSo групе"
+
+#: peepsopmp.php:616
+msgid "Automatically add users who pick this membership level to the following groups."
+msgstr "Аутоматски додај кориснике који одаберу овај ниво чланства за пратеће групе."
+
+#: peepsopmp.php:633
+msgid "open"
+msgstr "отворено"
+
+#: peepsopmp.php:634
+msgid "closed"
+msgstr "затворено"
+
+#: peepsopmp.php:635
+msgid "secret"
+msgstr "тајно"
+
+#: peepsopmp.php:685
+msgid "PeepSo VIP"
+msgstr "PeepSo VIP"
+
+#: peepsopmp.php:686
+msgid "Automatically assign users a selected VIP icon who pick this membership level ."
+msgstr "Аутоматски додели одабрану VIP иконицу корисницима који одаберу овај ниво чланства."
+
+#: peepsopmp.php:699
+msgid "No Icon"
+msgstr "Без иконице"
+
+#: peepsopmp.php:706
+msgid "unpublished"
+msgstr "уклоњено из објаве"
+
+#: templates/pmp/pmp_checkout.php:38
+msgid "Almost done. Review the membership information and pricing below then <strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr "Још мало па готово. Преконтролишите информације о чланству и ценовнику и затим <strong>кликните на \"Обави плаћање\" дугме</strong> да бисте завршили своју наруџбину."
+
+#: templates/pmp/pmp_checkout.php:45
+msgid "Membership Level"
+msgstr "Ниво чланства"
+
+#: templates/pmp/pmp_checkout.php:46
+msgid "change"
+msgstr "измени"
+
+#: templates/pmp/pmp_checkout.php:54
+#, php-format
+msgid "You have selected the <strong>%s</strong> membership level."
+msgstr "Одабрали сте <strong>%s</strong> ниво чланства."
+
+#: templates/pmp/pmp_checkout.php:64
+#, php-format
+msgid "<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been applied to your order.</p>"
+msgstr "<p class=\"pmpro_level_discount_applied\">Ова <strong>%s</strong> шифра је примењена на Вашу наруџбину.</p>"
+
+#: templates/pmp/pmp_checkout.php:75
+msgid "Click here to change your discount code"
+msgstr "Кликните овде да бисте променили Вашу шифру за попуст"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Do you have a discount code?"
+msgstr "Да ли имате шифру за попуст?"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Click here to enter your discount code"
+msgstr "Кликните овде да бисте унели Вашу шифру за попуст"
+
+#: templates/pmp/pmp_checkout.php:79 templates/pmp/pmp_checkout.php:89
+#: templates/pmp/pmp_checkout.php:621
+msgid "Discount Code"
+msgstr "Шифра за попуст"
+
+#: templates/pmp/pmp_checkout.php:91 templates/pmp/pmp_checkout.php:623
+msgid "Apply"
+msgstr "Примени"
+
+#: templates/pmp/pmp_checkout.php:179
+msgid "Account Information"
+msgstr "Информације о налогу"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Already have an account?"
+msgstr "Већ имате налог?"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Log in here"
+msgstr "Улогујте се овде"
+
+#: templates/pmp/pmp_checkout.php:188
+msgid "Username"
+msgstr "Корисничко име"
+
+#: templates/pmp/pmp_checkout.php:197
+msgid "Password"
+msgstr "Лозинка"
+
+#: templates/pmp/pmp_checkout.php:206
+msgid "Confirm Password"
+msgstr "Потврди лозинку"
+
+#: templates/pmp/pmp_checkout.php:224 templates/pmp/pmp_checkout.php:461
+msgid "E-mail Address"
+msgstr "E-mail адреса"
+
+#: templates/pmp/pmp_checkout.php:233
+msgid "Confirm E-mail Address"
+msgstr "Потврди E-mail адресу"
+
+#: templates/pmp/pmp_checkout.php:252
+msgid "Full Name"
+msgstr "Име и презиме"
+
+#: templates/pmp/pmp_checkout.php:253
+msgid "LEAVE THIS BLANK"
+msgstr "ОВДЕ ОСТАВИТЕ ПРАЗНО"
+
+#: templates/pmp/pmp_checkout.php:277
+#, php-format
+msgid "You are logged in as <strong>%s</strong>."
+msgstr "Улоговани сте као <strong>%s</strong>."
+
+#: templates/pmp/pmp_checkout.php:293
+msgid "Choose your Payment Method"
+msgstr "Одаберите свој начин плаћања"
+
+#: templates/pmp/pmp_checkout.php:302
+msgid "Check Out with a Credit Card Here"
+msgstr "Употребите излаз за кредитну картицу овде"
+
+#: templates/pmp/pmp_checkout.php:306
+msgid "Check Out with PayPal"
+msgstr "Употребите излаз за PayPal"
+
+#: templates/pmp/pmp_checkout.php:323
+msgid "Billing Address"
+msgstr "Адреса за наплату"
+
+#: templates/pmp/pmp_checkout.php:330
+msgid "First Name"
+msgstr "Име"
+
+#: templates/pmp/pmp_checkout.php:334
+msgid "Last Name"
+msgstr "Презиме"
+
+#: templates/pmp/pmp_checkout.php:338
+msgid "Address 1"
+msgstr "Адреса 1"
+
+#: templates/pmp/pmp_checkout.php:342
+msgid "Address 2"
+msgstr "Адреса 2"
+
+#: templates/pmp/pmp_checkout.php:352
+msgid "City"
+msgstr "Град"
+
+#: templates/pmp/pmp_checkout.php:356
+msgid "State"
+msgstr "Држава"
+
+#: templates/pmp/pmp_checkout.php:360
+msgid "Postal Code"
+msgstr "Поштански број"
+
+#: templates/pmp/pmp_checkout.php:369
+msgid "City, State Zip"
+msgstr "Град, шифра земље"
+
+#: templates/pmp/pmp_checkout.php:422
+msgid "Country"
+msgstr "Покрајина"
+
+#: templates/pmp/pmp_checkout.php:447
+msgid "Phone"
+msgstr "Телефон"
+
+#: templates/pmp/pmp_checkout.php:470
+msgid "Confirm E-mail"
+msgstr "Потврди E-mail"
+
+#: templates/pmp/pmp_checkout.php:507
+msgid "Payment Information"
+msgstr "Информације о плаћању"
+
+#: templates/pmp/pmp_checkout.php:508
+#, php-format
+msgid "We Accept %s"
+msgstr "Прихватамо %s"
+
+#: templates/pmp/pmp_checkout.php:531
+msgid "Card Type"
+msgstr "Тип картице"
+
+#: templates/pmp/pmp_checkout.php:574
+msgid "Card Number"
+msgstr "Број картице"
+
+#: templates/pmp/pmp_checkout.php:579
+msgid "Expiration Date"
+msgstr "Датум важења"
+
+#: templates/pmp/pmp_checkout.php:612
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/pmp/pmp_checkout.php:613
+msgid "what's this?"
+msgstr "шта је ово?"
+
+#: templates/pmp/pmp_checkout.php:701
+#, php-format
+msgid "I agree to the %s"
+msgstr "Дајем сагласност за %s"
+
+#: templates/pmp/pmp_checkout.php:721
+msgid "Complete Payment"
+msgstr "Завршите плаћање"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Check Out"
+msgstr "Поднеси и изађи"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Confirm"
+msgstr "Поднеси и потврди"
+
+#: templates/pmp/pmp_checkout.php:743
+msgid "Processing..."
+msgstr "Обрада у току..."
+
+#: templates/pmp/pmp_levels.php:4
+msgid "Level"
+msgstr "Ниво"
+
+#: templates/pmp/pmp_levels.php:5
+msgid "Price"
+msgstr "Цена"
+
+#: templates/pmp/pmp_levels.php:21
+msgid "Free"
+msgstr "Бесплатно"
+
+#: templates/pmp/pmp_levels.php:34
+msgid "Select"
+msgstr "Одабери"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Paid Memberships Pro"
+msgstr "PeepSo монетизација: Paid Memberships Pro"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the Paid Memberships Pro plugin.</strong> Paid Memberships Pro bridge."
+msgstr "<strong>Захтева Paid Memberships Pro додатак.</strong> Мост за Paid Memberships Pro."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

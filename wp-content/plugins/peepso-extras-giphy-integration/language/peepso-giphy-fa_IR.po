@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:13+0700\n"
+"PO-Revision-Date: 2018-04-18 05:31-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsogiphy.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: peepso-giphy.pot\n"
+"Language: fa_IR\n"
+
+#: classes/admin/configsectiongiphy.php:19
+msgid "Giphy API Key"
+msgstr "کلید API برای گیفی"
+
+#: classes/admin/configsectiongiphy.php:32
+msgid "Limit"
+msgstr "محدودیت"
+
+#: classes/admin/configsectiongiphy.php:38
+msgid "Illustrated content only"
+msgstr "تنها محتوای تصویری"
+
+#: classes/admin/configsectiongiphy.php:39
+msgid "Suitable for everyone"
+msgstr "مناسب برای همه"
+
+#: classes/admin/configsectiongiphy.php:40
+msgid "May be inappropriate for children"
+msgstr "ممکن است برای کودکان نامناسب باشد"
+
+#: classes/admin/configsectiongiphy.php:41
+msgid "May be inappropriate under the age of 13"
+msgstr "ممکن است برای سنین زیر 13 سال نامناسب باشد"
+
+#: classes/admin/configsectiongiphy.php:42
+msgid "Inappropriate under the age of 17"
+msgstr "ممکن است برای سنین زیر 17 سال نامناسب باشد"
+
+#: classes/admin/configsectiongiphy.php:43
+msgid "No limit"
+msgstr "بدون محدودیت"
+
+#: classes/admin/configsectiongiphy.php:50
+msgid "Max content rating"
+msgstr "حداکثر امتیاز محتوا"
+
+#: classes/admin/configsectiongiphy.php:57
+msgid "Width set to 200px. Good for mobile use."
+msgstr "پهنا روی 200 پیکسل تنظیم شد. مناسب برای استفاده در موبایل."
+
+#: classes/admin/configsectiongiphy.php:58
+msgid "Static preview image for fixed_width"
+msgstr "تصویر پیشنمایش استاتیک برای پهنای ثابت"
+
+#: classes/admin/configsectiongiphy.php:59
+msgid "Width set to 200px. Reduced to 6 frames. Works well for unlimited scroll on mobile and as animated previews."
+msgstr "پهنا روی 200 پیکسل تنظیم شد. کاهش به 6 فریم. برای اسکرول نامحدود در موبایل و پیشنمایش های انیمیشنی خوب است."
+
+#: classes/admin/configsectiongiphy.php:60
+msgid "Height set to 200px. Good for mobile use."
+msgstr "ارتفاع روی 200 پیکسل تنظیم شد. مناسب برای استفاده در موبایل."
+
+#: classes/admin/configsectiongiphy.php:61
+msgid "Static preview image for fixed_height"
+msgstr "تصویر پیشنمایش استاتیک برای ارتفاع ثابت"
+
+#: classes/admin/configsectiongiphy.php:62
+msgid "Height set to 200px. Reduced to 6 frames to minimize file size to the lowest. Works well for unlimited scroll on mobile and as animated previews. See GIPHY.com on mobile web as an example."
+msgstr "ارتفاع بر روی 200 پیکسل تنظیم شد. کاهش به 6 فریم برای کاستن از اندازه فایل به کمترین میزان. برای اسکرول نامحدود در موبایل و پیشنمایش های انیمیشن خوب است."
+
+#: classes/admin/configsectiongiphy.php:63
+msgid "Width set to 100px. Good for mobile keyboards"
+msgstr "پهنا روی 100 پیکسل تنظیم شد. مناسب برای استفاده در صفحه کلید موبایل."
+
+#: classes/admin/configsectiongiphy.php:64
+msgid "Static preview image for fixed_width_small"
+msgstr "تصویر پیشنمایش استاتیک برای پهنای ثابت کوچک"
+
+#: classes/admin/configsectiongiphy.php:65
+msgid "Height set to 100px. Good for mobile keyboards."
+msgstr "ارتفاع روی 100 پیکسل تنظیم شد. مناسب برای استفاده در صفحه کلید موبایل."
+
+#: classes/admin/configsectiongiphy.php:66
+msgid "Static preview image for fixed_height_small"
+msgstr "تصویر پیشنمایش استاتیک برای ارتفاع ثابت کوچک"
+
+#: classes/admin/configsectiongiphy.php:67
+msgid "File size under 50kb. Duration may be truncated to meet file size requirements. Good for thumbnails and previews."
+msgstr "اندازه فایل کمتر از 50 کیلوبایت. مدت ممکن است کوتاه شده باشد تا ملزومات اندازه فایل رعایت شود. مناسب برای پیشنمایش ها و تصاویر بندانگشتی."
+
+#: classes/admin/configsectiongiphy.php:68
+msgid "Original file size and file dimensions. Good for desktop use."
+msgstr "اندازه و ابعاد فایل اصلی. مناسب برای استفاده در دسکتاپ."
+
+#: classes/admin/configsectiongiphy.php:69
+msgid "Preview image for original"
+msgstr "تصویر پیشنمایش برای اصلی"
+
+#: classes/admin/configsectiongiphy.php:76
+msgid "Giphy Rendition on Comments"
+msgstr "تفسیر گیفی در نظرات"
+
+#: classes/admin/configsectiongiphy.php:84
+msgid "Giphy Rendition on Messages"
+msgstr "تفسیر گیفی در پیغام ها"
+
+#: classes/admin/configsectiongiphy.php:113
+msgid "General"
+msgstr "عمومی"
+
+#: classes/admin/configsectiongiphy.php:122
+msgid "This plugin integrates world-famous <a href=\"https://giphy.com/\" target=\"_blank\">Giphy</a>. It is thanks to their service your community now has the possibility to share all of their amazing gifs in both comments and chat."
+msgstr "این افزونه با پلاگین مشهور  <a href=\"https://giphy.com/\" target=\"_blank\">Giphy</a> ادغام می شود."
+
+#: classes/admin/configsectiongiphy.php:134
+msgid "Information"
+msgstr "اطلاعات"
+
+#: peepsogiphy.php:226
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "افزونه %s برای نصب و فعالسازی به افزونه PeepSo نیاز دارد."
+
+#: peepsogiphy.php:228 peepsogiphy.php:247
+msgid "Get it now!"
+msgstr "اکنون دریافت کنید!"
+
+#: peepsogiphy.php:245
+msgid "Please provide Giphy API Key."
+msgstr "لطفا کلید API  گیفی Giphy  را وارد کنید."
+
+#: peepsogiphy.php:319 peepsogiphy.php:322
+msgid "GIPHY"
+msgstr "GIPHY"
+
+#: peepsogiphy.php:348
+msgid "Send gif"
+msgstr "ارسال گیف"
+
+#: templates/giphy/dialog-giphy.php:4 templates/giphy/message-input.php:5
+msgid "Search..."
+msgstr "جستجو..."
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: GIPHY"
+msgstr "یکپارچه سازی پیپ سو: گیفی"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Send GIPHY gifs and stickers in comments and chat"
+msgstr "ارسال گیف های گیفی و استیکر در نظرات و چت ها"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "پیپ‌ سو"
+

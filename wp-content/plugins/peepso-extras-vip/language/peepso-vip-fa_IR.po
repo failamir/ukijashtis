@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:16+0700\n"
+"PO-Revision-Date: 2018-04-18 05:31-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsovip.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: peepso-vip.pot\n"
+"Language: fa_IR\n"
+
+#: classes/admin/configsectionvip.php:19
+msgid "<b>Managing the icons</b>: please go to  <a href=\"admin.php?page=peepso-vip\"><i>VIP Icons</i></a>. You can  also find it inside <i>PeepSo</i> option in the side menu."
+msgstr "<b>مدیریت آیکون ها</b>: لطفاً برو به  <a href=\"admin.php?page=peepso-vip\"><i>VIP Icons</i></a>. شما همچنین میتوانید آن را داخل تنظیمات <i>PeepSo</i> در منو کناری پیدا کنید.  "
+
+#: classes/admin/configsectionvip.php:25
+msgid "<b>Assigning icons</b>: edit a particular user and configure their <i>VIP</i> section. Go to <a href=\"users.php\">users</a> or try it on <a href=\"profile.php\">yourself</a>"
+msgstr "<b>تخصیص آیکون ها</b>: ویرایش یک کاربر خاص و تنظیم بخش <i>VIP</i>. برو به <a href=\"users.php\">کاربران</a> یا در <a href=\"profile.php\">پروفایل </a> امتحان کنید."
+
+#: classes/admin/configsectionvip.php:31
+msgid "<b>Get more icons</b>:  <a href=\"http://www.flaticon.com/\" target=\"_blank\">http://www.flaticon.com/</a>"
+msgstr "<b>دریافت آیکون های بیشتر</b>:  <a href=\"http://www.flaticon.com/\" target=\"_blank\">http://www.flaticon.com/</a>"
+
+#: classes/admin/configsectionvip.php:37
+msgid "<b>Default icons</b>: made by <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\" target=\"_blank\">Roundicons</a> from <a href=\"http://www.flaticon.com\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>"
+msgstr "<b>آیکون های بیشتر</b>: made by <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\" target=\"_blank\">Roundicons</a> from <a href=\"http://www.flaticon.com\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>"
+
+#: classes/admin/configsectionvip.php:45
+msgid "Quick Tips"
+msgstr "راهنمای سریع"
+
+#: classes/admin/configsectionvip.php:53
+msgid "Left"
+msgstr "چپ"
+
+#: classes/admin/configsectionvip.php:54
+msgid "Right"
+msgstr "راست"
+
+#: classes/admin/configsectionvip.php:60
+msgid "Icon position relative to user name"
+msgstr "موقعیت آیکون به نام کاربر وابسته است"
+
+#: classes/admin/configsectionvip.php:87
+msgid "General"
+msgstr "عمومی"
+
+#: classes/api/adminconfigvipicons.php:9 classes/api/adminconfigvipicons.php:55
+#: classes/api/adminconfigvipicons.php:93
+#: classes/api/adminconfigvipicons.php:114
+msgid "Insufficient permissions."
+msgstr "مجوز های ناکافی."
+
+#: classes/api/adminconfigvipicons.php:15
+msgid "New VIP Icon"
+msgstr "آیکون VIP جدید"
+
+#: classes/api/adminconfigvipicons.php:17
+msgid "VIP Icon description"
+msgstr "توضیحات آیکون VIP"
+
+#: classes/api/adminconfigvipicons.php:101
+msgid "Cannot delete core vip icon"
+msgstr "نمی تواند آیکون VIP هسته را حذف کند"
+
+#: install/activate.php:19 install/activate.php:20
+msgid "Verified icon 1"
+msgstr "آیکون تایید شده 1"
+
+#: install/activate.php:26 install/activate.php:27
+msgid "Verified icon 2"
+msgstr "آیکون تایید شده 2"
+
+#: install/activate.php:34 install/activate.php:35
+msgid "Verified icon 3"
+msgstr "آیکون تایید شده 3"
+
+#: install/activate.php:42 install/activate.php:43
+msgid "Verified icon 4"
+msgstr "آیکون تایید شده 4"
+
+#: install/activate.php:49 install/activate.php:50
+msgid "Verified icon 5"
+msgstr "آیکون تایید شده 5"
+
+#: install/activate.php:56 install/activate.php:57
+msgid "Verified icon 6"
+msgstr "آیکون تایید شده 6"
+
+#: install/activate.php:63 install/activate.php:64
+msgid "Verified icon 7"
+msgstr "آیکون تایید شده 7"
+
+#: install/activate.php:70 install/activate.php:71
+msgid "Verified icon 8"
+msgstr "آیکون تایید شده 8"
+
+#: peepsovip.php:202
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "افزونه %s برای نصب و فعال سازی نیازمند افزونه PeepSo است."
+
+#: peepsovip.php:204
+msgid "Get it now!"
+msgstr "حالا دریافت کنید!"
+
+#: peepsovip.php:221 templates/peepsovip/admin_vipicons.php:24
+#: templates/peepsovip/admin_vipicons.php:52
+msgid "VIP Icons"
+msgstr "آیکون های VIP"
+
+#: peepsovip.php:281 peepsovip.php:295
+msgid "VIP"
+msgstr "VIP"
+
+#: peepsovip.php:284
+msgid "PeepSo - VIP"
+msgstr "PeepSo - VIP"
+
+#: peepsovip.php:298
+msgid "Icon to display next to name/username in PeepSo"
+msgstr "آیکون برای نمایش در کنار نام/نام کاربری در PeepSo"
+
+#: peepsovip.php:301
+msgid "Icon to display"
+msgstr "آیکون برای نمایش"
+
+#: peepsovip.php:312
+msgid "unpublished"
+msgstr "منتشر نشده"
+
+#: templates/peepsovip/admin_vipicon.php:15
+msgid "PeepSo-VIP Default"
+msgstr "PeepSo-VIP پیشفرض"
+
+#: templates/peepsovip/admin_vipicon.php:18
+msgid "PeepSo-VIP Custom"
+msgstr "PeepSo-VIP سفارشی"
+
+#: templates/peepsovip/admin_vipicon.php:57
+#: templates/peepsovip/admin_vipicon.php:98
+#: templates/peepsovip/admin_vipicons.php:78
+msgid "Cancel"
+msgstr "لغو"
+
+#: templates/peepsovip/admin_vipicon.php:58
+#: templates/peepsovip/admin_vipicon.php:99
+msgid "Save"
+msgstr "ذخیره"
+
+#: templates/peepsovip/admin_vipicon.php:74
+msgid "Published"
+msgstr "منتشر شده"
+
+#: templates/peepsovip/admin_vipicon.php:89
+msgid "Icon Description"
+msgstr "توضیحات آیکون"
+
+#: templates/peepsovip/admin_vipicons.php:29
+msgid "Welcome to  PeepSo VIP"
+msgstr "به PeepSo VIP خوش آمدید"
+
+#: templates/peepsovip/admin_vipicons.php:30
+msgid "Here's what you should know:"
+msgstr "اینجا چیزهایی است که باشد بدانید:"
+
+#: templates/peepsovip/admin_vipicons.php:31
+msgid "click here to dismiss permanently"
+msgstr "برای نادیده گرفتن دائمی اینجا کلیک کنید"
+
+#: templates/peepsovip/admin_vipicons.php:53
+msgid "FTP Uploads"
+msgstr "بارگزاری های FTP"
+
+#: templates/peepsovip/admin_vipicons.php:82
+msgid "Add icon"
+msgstr "افزودن آیکون"
+
+#: templates/peepsovip/admin_vipicons.php:85
+msgid "Want to use SVG files with Media Library? We recommend"
+msgstr "آیا میخواهید از فایل های SVG با کتابخانه رسانه استفاده کنید ؟ ما توصیه میکنیم"
+
+#: templates/peepsovip/admin_vipicons.php:99
+msgid "Use FTP to upload your custom SVG images to"
+msgstr "استفاده از FTP برای بارگزاری تصاویر SVG سفارشی"
+
+#: templates/peepsovip/admin_vipicons.php:104
+msgid "No icons"
+msgstr "بدون آیکون"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:4
+msgid "Expand All"
+msgstr "گسترش همه"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:7
+msgid "Collapse All"
+msgstr "بستن همه"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:13
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:18
+msgid "reacted to"
+msgstr "واکنش به"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: VIP"
+msgstr "PeepSo Extras: VIP"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Assign custom badges to users"
+msgstr "تخصیص نشان های سفارشی به کاربران"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

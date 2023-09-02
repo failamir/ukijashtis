@@ -1,0 +1,17 @@
+.ps-page--profile-edd {}
+
+.ps-profile--edd {
+  form {
+    padding: var(--PADD--MD);
+  }
+
+  #edd_checkout_form_wrap fieldset {
+    margin-bottom: var(--PADD--MD);
+    padding: 0;
+    border: none;
+  }
+}
+
+.ps-edd__tabs {}
+
+.ps-edd__tab {}

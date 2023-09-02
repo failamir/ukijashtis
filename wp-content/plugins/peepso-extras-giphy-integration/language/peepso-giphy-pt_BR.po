@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:20+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsogiphy.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: peepso-giphy.pot\n"
+"Language: pt_BR\n"
+
+#: classes/admin/configsectiongiphy.php:19
+msgid "Giphy API Key"
+msgstr "Chave da API de Giphy"
+
+#: classes/admin/configsectiongiphy.php:32
+msgid "Limit"
+msgstr "Limite"
+
+#: classes/admin/configsectiongiphy.php:38
+msgid "Illustrated content only"
+msgstr "Somente conteúdo ilustrado"
+
+#: classes/admin/configsectiongiphy.php:39
+msgid "Suitable for everyone"
+msgstr "Apropriado para todos"
+
+#: classes/admin/configsectiongiphy.php:40
+msgid "May be inappropriate for children"
+msgstr "Pode ser inapropriado para crianças"
+
+#: classes/admin/configsectiongiphy.php:41
+msgid "May be inappropriate under the age of 13"
+msgstr "Pode ser inapropriado com menos de 13 anos"
+
+#: classes/admin/configsectiongiphy.php:42
+msgid "Inappropriate under the age of 17"
+msgstr "Inapropriado com menos de 17 anos"
+
+#: classes/admin/configsectiongiphy.php:43
+msgid "No limit"
+msgstr "Sem limite"
+
+#: classes/admin/configsectiongiphy.php:50
+msgid "Max content rating"
+msgstr "Classificação máxima de conteúdo"
+
+#: classes/admin/configsectiongiphy.php:57
+msgid "Width set to 200px. Good for mobile use."
+msgstr "Largura definida para 200px. Bom para uso móvel."
+
+#: classes/admin/configsectiongiphy.php:58
+msgid "Static preview image for fixed_width"
+msgstr "Imagem de pré-visualização estática para largura_fixa"
+
+#: classes/admin/configsectiongiphy.php:59
+msgid "Width set to 200px. Reduced to 6 frames. Works well for unlimited scroll on mobile and as animated previews."
+msgstr "Largura definida para 200px. Reduzida a 6 quadros. Funciona bem para rolagem infinita no celular e como pré-visualizações animadas."
+
+#: classes/admin/configsectiongiphy.php:60
+msgid "Height set to 200px. Good for mobile use."
+msgstr "Altura definida para 200px. Bom para uso móvel."
+
+#: classes/admin/configsectiongiphy.php:61
+msgid "Static preview image for fixed_height"
+msgstr "Imagem de pré-visualização estática para altura_fixa"
+
+#: classes/admin/configsectiongiphy.php:62
+msgid "Height set to 200px. Reduced to 6 frames to minimize file size to the lowest. Works well for unlimited scroll on mobile and as animated previews. See GIPHY.com on mobile web as an example."
+msgstr "Altura definida para 200px. Reduzida a 6 quadros para minimizar o tamanho do arquivo para o menor. Funciona bem para rolagem infinita no celular e como pré-visualizações animadas. Veja GIPHY.com na web móvel como exemplo."
+
+#: classes/admin/configsectiongiphy.php:63
+msgid "Width set to 100px. Good for mobile keyboards"
+msgstr "Largura definida para 100px. Bom para teclados móveis"
+
+#: classes/admin/configsectiongiphy.php:64
+msgid "Static preview image for fixed_width_small"
+msgstr "Imagem de pré-visualização estática para a largura_fixa_pequena"
+
+#: classes/admin/configsectiongiphy.php:65
+msgid "Height set to 100px. Good for mobile keyboards."
+msgstr "Altura definida para 100px. Bom para teclados móveis."
+
+#: classes/admin/configsectiongiphy.php:66
+msgid "Static preview image for fixed_height_small"
+msgstr "Imagem de pré-visualização estática para a altura_fixa_pequena"
+
+#: classes/admin/configsectiongiphy.php:67
+msgid "File size under 50kb. Duration may be truncated to meet file size requirements. Good for thumbnails and previews."
+msgstr "Tamanho do arquivo com menos de 50kb. A duração pode ser truncada para satisfazer os requisitos de tamanho do arquivo. Bom para miniaturas e pré-visualizações."
+
+#: classes/admin/configsectiongiphy.php:68
+msgid "Original file size and file dimensions. Good for desktop use."
+msgstr "Tamanho do arquivo original e dimensões do arquivo. Bom para uso de desktop."
+
+#: classes/admin/configsectiongiphy.php:69
+msgid "Preview image for original"
+msgstr "Visualizar imagem original"
+
+#: classes/admin/configsectiongiphy.php:76
+msgid "Giphy Rendition on Comments"
+msgstr "Giphy Rendition nos Comentários"
+
+#: classes/admin/configsectiongiphy.php:84
+msgid "Giphy Rendition on Messages"
+msgstr "Giphy Rendition nas Mensagens"
+
+#: classes/admin/configsectiongiphy.php:113
+msgid "General"
+msgstr "Geral"
+
+#: classes/admin/configsectiongiphy.php:122
+msgid "This plugin integrates world-famous <a href=\"https://giphy.com/\" target=\"_blank\">Giphy</a>. It is thanks to their service your community now has the possibility to share all of their amazing gifs in both comments and chat."
+msgstr "Este plugin integra os mundialmente famosos <a href=\"https://giphy.com/\" target=\"_blank\">Giphy</a>. É graças ao seu serviço que sua comunidade agora tem a possibilidade de compartilhar todos os seus notáveis gifs em comentários e bate-papo."
+
+#: classes/admin/configsectiongiphy.php:134
+msgid "Information"
+msgstr "Informação"
+
+#: peepsogiphy.php:230
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "O plugin %s requer que o plugin PeepSo seja instalado e ativado."
+
+#: peepsogiphy.php:232 peepsogiphy.php:251
+msgid "Get it now!"
+msgstr "Obtenha agora!"
+
+#: peepsogiphy.php:249
+msgid "Please provide Giphy API Key."
+msgstr "Por favor, forneça a chave de API Giphy."
+
+#: peepsogiphy.php:323 peepsogiphy.php:326
+msgid "GIPHY"
+msgstr "GIPHY"
+
+#: peepsogiphy.php:349
+msgid "Giphy"
+msgstr "Giphy"
+
+#: peepsogiphy.php:379
+msgid "Send gif"
+msgstr "Enviar gif"
+
+#: templates/giphy/comments-content.php:9
+#, php-format
+msgid "%s shared a GIF"
+msgstr "%s compartilhou um GIF"
+
+#: templates/giphy/comments-content.php:10
+msgid "Shared a GIF"
+msgstr "Compartilhou um GIF"
+
+#: templates/giphy/dialog-giphy.php:4 templates/giphy/message-input.php:5
+#: templates/giphy/postbox-giphy.php:10
+msgid "Search..."
+msgstr "Pesquisar..."
+
+#: templates/giphy/postbox-giphy.php:4
+msgid "Change image"
+msgstr "Alterar imagem"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: GIPHY"
+msgstr "Integrações PeepSo: GIPHY"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Send GIPHY gifs and stickers in comments and chat"
+msgstr "Enviar gifs e stickers GIPHY nos comentários e bate-papo"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

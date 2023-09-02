@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:25+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-wpadverts.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: peepso-wpadverts.pot\n"
+"Language: hu_HU\n"
+
+#: classes/admin/configsectionwpadverts.php:21
+msgid "Classifieds menu will be available on User Profiles."
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:24
+msgid "Enable User Classifieds"
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:30
+msgid "Use default WPAdverts template."
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:33
+msgid "Disable Template Overrides"
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:39
+msgid "Classifieds need to be accepted by Admin before being published"
+msgstr "A hirdetéseket az Adminnak jóvá kell hagynia a publikáláshoz"
+
+#: classes/admin/configsectionwpadverts.php:42
+msgid "Enable WPAdverts Moderation"
+msgstr "WPAdverts Moderation engedélyezése"
+
+#: classes/admin/configsectionwpadverts.php:47
+msgid "List"
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:48
+msgid "Grid"
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:54
+msgid "Display Ads as"
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:62
+msgid "Allow guest access to Classifieds"
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:69
+msgid "General"
+msgstr "Általános"
+
+#: classes/admin/configsectionwpadverts.php:77
+msgid "Turn on to post classifieds to stream when user create new classifieds"
+msgstr "Kapcsolja be az apróhirdetéseket a stream-en, amikor a felhasználó új hirdetéseket hoz létre"
+
+#: classes/admin/configsectionwpadverts.php:80
+msgid "Post to Stream"
+msgstr "Poszt a Stream-re"
+
+#: classes/admin/configsectionwpadverts.php:98
+msgid "Default post privacy"
+msgstr "Alapértelmezett poszt adatvédelem"
+
+#: classes/admin/configsectionwpadverts.php:105
+msgid "Activity Stream Integration"
+msgstr "Activity Stream Integráció"
+
+#: classes/admin/configsectionwpadverts.php:115
+#, php-format
+msgid "This feature requires the %s plugin."
+msgstr "Ehhez a funkcióhoz szükséges a(z) %s bővítmény."
+
+#: classes/admin/configsectionwpadverts.php:121
+msgid "Display Chat button"
+msgstr "Kijelző Chat gomb"
+
+#: classes/admin/configsectionwpadverts.php:128
+msgid "Chat Integration"
+msgstr "Chat integráció"
+
+#: classes/admin/configsectionwpadverts.php:136
+#, php-format
+msgid "This section is for <b>advanced users only</b>.<br/>When modifying the profile slug, please do NOT use any keyword already in use (eg %s)."
+msgstr "Ez a rész csak <b> haladó felhasználóknak</ b>.<br/> A profil módosításakor NE használd a már használatban lévő kulcsszavakat (pl. %s)."
+
+#: classes/admin/configsectionwpadverts.php:140
+#: classes/admin/configsectionwpadverts.php:148
+#: classes/admin/configsectionwpadverts.php:156
+msgid "Leave empty for default value"
+msgstr "Hagyd üresen az alapértelmezett értékhez"
+
+#: classes/admin/configsectionwpadverts.php:143
+msgid "Menu item label (main)"
+msgstr "Menü címke (fő)"
+
+#: classes/admin/configsectionwpadverts.php:151
+msgid "Menu item label (profiles)"
+msgstr "Menü címke (profilok)"
+
+#: classes/admin/configsectionwpadverts.php:159
+msgid "Profile slug"
+msgstr "Profil slug"
+
+#: classes/admin/configsectionwpadverts.php:168
+msgid "Advanced"
+msgstr "Haladó"
+
+#: classes/api/classifiedsajax.php:49
+msgid "You have no classifieds yet"
+msgstr "Még nincsenek apróhirdetések"
+
+#: classes/api/classifiedsajax.php:49
+#, php-format
+msgid "%s has no classifieds yet"
+msgstr "%s még nincs apróhirdetés"
+
+#: classes/api/classifiedsajax.php:52
+msgid "No classifieds found"
+msgstr "Nem találhatók apróhirdetések"
+
+#: classes/shortcodes/wpadvertsshortcode.php:25
+msgid "Displays the WpAdverts listing."
+msgstr ""
+
+#: classes/shortcodes/wpadvertsshortcode.php:29
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr ""
+
+#: classes/shortcodes/wpadvertsshortcode.php:29
+msgid "WP Adverts"
+msgstr ""
+
+#: classes/shortcodes/wpadvertsshortcode.php:65 install/activate.php:27
+#: peepso-wpadverts.php:663 peepso-wpadverts.php:685
+#: templates/wpadverts/wpadverts-category.php:20
+#: templates/wpadverts/wpadverts.php:17 templates/wpadverts/wpadverts.php:21
+msgid "Classifieds"
+msgstr "Apróhirdetések"
+
+#: peepso-wpadverts.php:165 peepso-wpadverts.php:574
+#: templates/wpadverts/wpadverts-item.php:41
+msgid "Send Message"
+msgstr "Üzenet küldése"
+
+#: peepso-wpadverts.php:258
+#, php-format
+msgid "PeepSo %s requires the WpAdverts plugin."
+msgstr ""
+
+#: peepso-wpadverts.php:291
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "A %s bővítményhez szükséges a PeepSo telepítése és aktiválása."
+
+#: peepso-wpadverts.php:293
+msgid "Get it now!"
+msgstr "Szerezd be most!"
+
+#: peepso-wpadverts.php:342 peepso-wpadverts.php:577
+#: templates/overrides/manage.php:62 templates/overrides140/manage.php:62
+#: templates/wpadverts/wpadverts-item.php:48
+msgid "More"
+msgstr "Több"
+
+#: peepso-wpadverts.php:343
+msgid "Less"
+msgstr "Kevesebb"
+
+#: peepso-wpadverts.php:344
+msgid "member"
+msgstr "tag"
+
+#: peepso-wpadverts.php:345
+msgid "members"
+msgstr "tagok"
+
+#: peepso-wpadverts.php:507
+msgid "WPAdverts"
+msgstr "WPAdverts"
+
+#: peepso-wpadverts.php:510
+msgid "PeepSo - WPAdverts Integration"
+msgstr "PeepSo - WPAdverts integráció"
+
+#: peepso-wpadverts.php:569 templates/wpadverts/wpadverts-item.php:30
+msgid "expires"
+msgstr "lejár"
+
+#: peepso-wpadverts.php:601
+msgid " posted a new ad"
+msgstr " új hirdetés posztolva"
+
+#: templates/overrides/add-preview.php:9
+#: templates/overrides140/add-preview.php:10
+msgid "Edit Listing"
+msgstr "Lista szerkesztése"
+
+#: templates/overrides/add-preview.php:16
+#: templates/overrides140/add-preview.php:18
+msgid "Publish Listing"
+msgstr "Közzétett listák"
+
+#: templates/overrides/add-save.php:5 templates/overrides140/add-save.php:5
+msgid "Your ad has been put into moderation, please wait for admin to approve it."
+msgstr "A hirdetésed moderálás alatt van, kérjük várj amíg az Admin jóvá hagyja."
+
+#: templates/overrides/add-save.php:7 templates/overrides140/add-save.php:7
+#, php-format
+msgid "Your ad has been published. You can view it here \"<a href=\"%1$s\">%2$s</a>\"."
+msgstr "A hirdetésed megjelent. Itt nézheted meg \"<a href=\"%1$s\">%2$s</a>\"."
+
+#: templates/overrides/add.php:68 templates/overrides/manage.php:59
+#: templates/overrides140/add.php:68 templates/overrides140/manage.php:59
+#: templates/wpadverts/wpadverts-item.php:86
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: templates/overrides/add.php:71 templates/overrides/manage-edit.php:49
+#: templates/overrides140/add.php:71 templates/overrides140/manage-edit.php:49
+msgid "Preview"
+msgstr "Előnézet"
+
+#: templates/overrides/categories-top.php:24
+#: templates/overrides140/categories-top.php:24
+msgid "No categories found."
+msgstr ""
+
+#: templates/overrides/manage-edit.php:46
+#: templates/overrides140/manage-edit.php:46
+msgid "Go back"
+msgstr "Vissza"
+
+#: templates/overrides/manage-edit.php:50
+#: templates/overrides140/manage-edit.php:50
+msgid "Update"
+msgstr "Frissítés"
+
+#: templates/overrides/manage.php:30 templates/overrides140/manage.php:30
+msgid "Inactive — This Ad is in moderation."
+msgstr "Inaktív - Ez a hirdetés moderálás alatt van."
+
+#: templates/overrides/manage.php:34 templates/overrides140/manage.php:34
+msgid "Inactive — This Ad expired."
+msgstr "Inaktív – Ez a hirdetés lejárt."
+
+#: templates/overrides/manage.php:44 templates/overrides140/manage.php:44
+#, php-format
+msgid "Expires: %s"
+msgstr "Lejár: %s"
+
+#: templates/overrides/manage.php:48 templates/overrides140/manage.php:48
+msgid "View"
+msgstr "Nézet"
+
+#: templates/overrides/manage.php:49 templates/overrides140/manage.php:49
+#: templates/wpadverts/wpadverts-item.php:75
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: templates/overrides/manage.php:50 templates/overrides/manage.php:51
+#: templates/overrides140/manage.php:50 templates/overrides140/manage.php:51
+#: templates/wpadverts/wpadverts-item.php:55
+#: templates/wpadverts/wpadverts-item.php:60
+#: templates/wpadverts/wpadverts-item.php:65
+#: templates/wpadverts/wpadverts-item.php:70
+msgid "Delete"
+msgstr "Törlés"
+
+#: templates/overrides/manage.php:56 templates/overrides140/manage.php:56
+#: templates/wpadverts/wpadverts-item.php:84
+msgid "Are you sure?"
+msgstr "Biztos vagy benne?"
+
+#: templates/overrides/manage.php:58 templates/overrides140/manage.php:58
+#: templates/wpadverts/wpadverts-item.php:85
+msgid "Yes"
+msgstr "Igen"
+
+#: templates/overrides/manage.php:76 templates/overrides140/manage.php:76
+msgid "You do not have any Ads posted yet."
+msgstr "Még nincs posztolt hirdetésed."
+
+#: templates/overrides/single.php:19 templates/overrides140/single.php:21
+#, php-format
+msgid "by <strong>%s</strong>"
+msgstr "by <strong>%s</strong>"
+
+#: templates/overrides/single.php:20 templates/overrides140/single.php:22
+#, php-format
+msgid "Published: %1$s (%2$s ago)"
+msgstr "Közzétett: %1$s (%2$s ezelőtt)"
+
+#: templates/overrides/single.php:37 templates/overrides140/single.php:43
+#: templates/wpadverts/wpadverts.php:52
+msgid "Category"
+msgstr "Kategória"
+
+#: templates/overrides/single.php:52 templates/overrides140/single.php:58
+#: templates/wpadverts/wpadverts.php:45
+msgid "Location"
+msgstr "Hely"
+
+#: templates/wpadverts/profile-wpadverts.php:12
+#: templates/wpadverts/wpadverts-category.php:12
+#: templates/wpadverts/wpadverts.php:12
+msgid "Create"
+msgstr "Létrehozás"
+
+#: templates/wpadverts/wpadverts-category.php:16
+#: templates/wpadverts/wpadverts-category.php:21
+#: templates/wpadverts/wpadverts.php:22
+msgid "Classifieds Categories"
+msgstr "Apróhirdetések kategóriák"
+
+#: templates/wpadverts/wpadverts-item.php:30
+msgid "expired"
+msgstr "lejárt"
+
+#: templates/wpadverts/wpadverts.php:28 templates/wpadverts/wpadverts.php:46
+msgid "Start typing to search..."
+msgstr "Kezdj el írni a kereséshez..."
+
+#: templates/wpadverts/wpadverts.php:54
+msgid "All categories"
+msgstr "Összes kategória"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: WPAdverts"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the WpAdverts plugin</strong>. Integrate WPAdverts  with PeepSo"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

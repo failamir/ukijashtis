@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:22+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsopmp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: peepso-pmp.pot\n"
+"Language: ja_JP\n"
+
+#: classes/configsectionpmpintegration.php:25
+msgid "Configure the use of PeepSo PMP Integration."
+msgstr "PeepSo PMP 統合の使用を構成します。"
+
+#: classes/configsectionpmpintegration.php:30
+msgid "Turn on the use of PMP Integration"
+msgstr "PMP の統合の使用をオン"
+
+#: classes/configsectionpmpintegration.php:39
+msgid "Enable PMP Integration"
+msgstr "PMP の統合を有効にします。"
+
+#: classes/configsectionpmpintegration.php:45
+msgid "Enable email notifications for users that have no membership plans"
+msgstr "メンバーでないユーザーのメール通知を有効にします。"
+
+#: classes/configsectionpmpintegration.php:51
+msgid "Hide \"Membership\" tab in user profiles"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:58
+msgid "General"
+msgstr "一般"
+
+#: peepsopmp.php:165
+msgid "Membership"
+msgstr "メンバー"
+
+#: peepsopmp.php:325
+#, php-format
+msgid "PeepSo %s requires the Paid Memberships Pro."
+msgstr ""
+
+#: peepsopmp.php:358
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s プラグインには、PeepSo プラグインをインストールしてアクティブ化が必要です。"
+
+#: peepsopmp.php:360
+msgid "Get it now!"
+msgstr "今すぐトライ"
+
+#: peepsopmp.php:404
+msgid "PMP Integration"
+msgstr "PMP の統合"
+
+#: peepsopmp.php:407
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo PMP 統合"
+
+#: peepsopmp.php:615
+msgid "PeepSo Groups"
+msgstr "PeepSo グループ"
+
+#: peepsopmp.php:616
+msgid "Automatically add users who pick this membership level to the following groups."
+msgstr "次のグループにこのメンバーシップ レベルを選ぶユーザーを自動的に追加します。"
+
+#: peepsopmp.php:633
+msgid "open"
+msgstr "開く"
+
+#: peepsopmp.php:634
+msgid "closed"
+msgstr "閉鎖"
+
+#: peepsopmp.php:635
+msgid "secret"
+msgstr "シークレット"
+
+#: peepsopmp.php:685
+msgid "PeepSo VIP"
+msgstr "PeepSo VIP"
+
+#: peepsopmp.php:686
+msgid "Automatically assign users a selected VIP icon who pick this membership level ."
+msgstr "自動的にユーザーに対して、このメンバーシップ レベルを選ぶ VIP アイコンを割り当てます。"
+
+#: peepsopmp.php:699
+msgid "No Icon"
+msgstr "アイコンなし"
+
+#: peepsopmp.php:706
+msgid "unpublished"
+msgstr "未公開"
+
+#: templates/pmp/pmp_checkout.php:38
+msgid "Almost done. Review the membership information and pricing below then <strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr "ほぼ完了です。会員情報と以下の価格を確認し、注文を完了するには、 <strong>「支払い完了」ボタン</strong> をクリックします。"
+
+#: templates/pmp/pmp_checkout.php:45
+msgid "Membership Level"
+msgstr "メンバーシップ レベル"
+
+#: templates/pmp/pmp_checkout.php:46
+msgid "change"
+msgstr "変更"
+
+#: templates/pmp/pmp_checkout.php:54
+#, php-format
+msgid "You have selected the <strong>%s</strong> membership level."
+msgstr "<strong>%s</strong> メンバーシップ レベルを選択します。"
+
+#: templates/pmp/pmp_checkout.php:64
+#, php-format
+msgid "<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been applied to your order.</p>"
+msgstr "<p class=\"pmpro_level_discount_applied\"> <strong>%s</strong> のコードは、あなたのために適用されています。</p>"
+
+#: templates/pmp/pmp_checkout.php:75
+msgid "Click here to change your discount code"
+msgstr "割引コードを変更するにはここをクリック"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Do you have a discount code?"
+msgstr "割引コードはありますか。"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Click here to enter your discount code"
+msgstr "あなたの割引コードを入力するにはここをクリック"
+
+#: templates/pmp/pmp_checkout.php:79 templates/pmp/pmp_checkout.php:89
+#: templates/pmp/pmp_checkout.php:621
+msgid "Discount Code"
+msgstr "割引コード"
+
+#: templates/pmp/pmp_checkout.php:91 templates/pmp/pmp_checkout.php:623
+msgid "Apply"
+msgstr "申請"
+
+#: templates/pmp/pmp_checkout.php:179
+msgid "Account Information"
+msgstr "アカウント情報"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Already have an account?"
+msgstr "アカウントをお持ちですか？"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Log in here"
+msgstr "ここからをログインします。"
+
+#: templates/pmp/pmp_checkout.php:188
+msgid "Username"
+msgstr "ユーザー名"
+
+#: templates/pmp/pmp_checkout.php:197
+msgid "Password"
+msgstr "パスワード\n"
+""
+
+#: templates/pmp/pmp_checkout.php:206
+msgid "Confirm Password"
+msgstr "パスワードの確認"
+
+#: templates/pmp/pmp_checkout.php:224 templates/pmp/pmp_checkout.php:461
+msgid "E-mail Address"
+msgstr "Eメールアドレス"
+
+#: templates/pmp/pmp_checkout.php:233
+msgid "Confirm E-mail Address"
+msgstr "電子メール アドレスを確認します。"
+
+#: templates/pmp/pmp_checkout.php:252
+msgid "Full Name"
+msgstr "フルネーム"
+
+#: templates/pmp/pmp_checkout.php:253
+msgid "LEAVE THIS BLANK"
+msgstr "空白のまま"
+
+#: templates/pmp/pmp_checkout.php:277
+#, php-format
+msgid "You are logged in as <strong>%s</strong>."
+msgstr "<strong>%s</strong> としてログインします。"
+
+#: templates/pmp/pmp_checkout.php:293
+msgid "Choose your Payment Method"
+msgstr "お支払い方法を選択します。"
+
+#: templates/pmp/pmp_checkout.php:302
+msgid "Check Out with a Credit Card Here"
+msgstr "クレジット カードで支払う"
+
+#: templates/pmp/pmp_checkout.php:306
+msgid "Check Out with PayPal"
+msgstr "PayPal で支払う"
+
+#: templates/pmp/pmp_checkout.php:323
+msgid "Billing Address"
+msgstr "請求先住所"
+
+#: templates/pmp/pmp_checkout.php:330
+msgid "First Name"
+msgstr "名"
+
+#: templates/pmp/pmp_checkout.php:334
+msgid "Last Name"
+msgstr "姓"
+
+#: templates/pmp/pmp_checkout.php:338
+msgid "Address 1"
+msgstr "住所1"
+
+#: templates/pmp/pmp_checkout.php:342
+msgid "Address 2"
+msgstr "住所2"
+
+#: templates/pmp/pmp_checkout.php:352
+msgid "City"
+msgstr "市区町村"
+
+#: templates/pmp/pmp_checkout.php:356
+msgid "State"
+msgstr "都道府県"
+
+#: templates/pmp/pmp_checkout.php:360
+msgid "Postal Code"
+msgstr "郵便番号"
+
+#: templates/pmp/pmp_checkout.php:369
+msgid "City, State Zip"
+msgstr "国、郵便番号"
+
+#: templates/pmp/pmp_checkout.php:422
+msgid "Country"
+msgstr "国"
+
+#: templates/pmp/pmp_checkout.php:447
+msgid "Phone"
+msgstr "電話番号"
+
+#: templates/pmp/pmp_checkout.php:470
+msgid "Confirm E-mail"
+msgstr "確認のEメールアドレス"
+
+#: templates/pmp/pmp_checkout.php:507
+msgid "Payment Information"
+msgstr "お支払情報"
+
+#: templates/pmp/pmp_checkout.php:508
+#, php-format
+msgid "We Accept %s"
+msgstr "我々は %s を受け入れます"
+
+#: templates/pmp/pmp_checkout.php:531
+msgid "Card Type"
+msgstr "カードの種類"
+
+#: templates/pmp/pmp_checkout.php:574
+msgid "Card Number"
+msgstr "カード番号"
+
+#: templates/pmp/pmp_checkout.php:579
+msgid "Expiration Date"
+msgstr "有効期限"
+
+#: templates/pmp/pmp_checkout.php:612
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/pmp/pmp_checkout.php:613
+msgid "what's this?"
+msgstr "これは、何ですか。"
+
+#: templates/pmp/pmp_checkout.php:701
+#, php-format
+msgid "I agree to the %s"
+msgstr "%s に同意します。"
+
+#: templates/pmp/pmp_checkout.php:721
+msgid "Complete Payment"
+msgstr "支払いを完了します。"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Check Out"
+msgstr "送信して、チェックアウト"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Confirm"
+msgstr "提出し、確認"
+
+#: templates/pmp/pmp_checkout.php:743
+msgid "Processing..."
+msgstr "処理中…"
+
+#: templates/pmp/pmp_levels.php:4
+msgid "Level"
+msgstr "レベル"
+
+#: templates/pmp/pmp_levels.php:5
+msgid "Price"
+msgstr "価格"
+
+#: templates/pmp/pmp_levels.php:21
+msgid "Free"
+msgstr "無料"
+
+#: templates/pmp/pmp_levels.php:34
+msgid "Select"
+msgstr "選択"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Paid Memberships Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the Paid Memberships Pro plugin.</strong> Paid Memberships Pro bridge."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

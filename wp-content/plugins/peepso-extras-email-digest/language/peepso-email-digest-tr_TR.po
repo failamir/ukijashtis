@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:19+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoemaildigest.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: peepso-email-digest.pot\n"
+"Language: tr_TR\n"
+
+#: classes/configsectionemaildigest.php:25
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Bu ayarlar E-Posta Özeti eklentisini kontrol eder. Eklenti, belirli bir dönemden en ilgi çekici paylaşımları göstererek etkin olmayan kullanıcıları topluluğunuza geri getirmek için tasarlanmıştır."
+
+#: classes/configsectionemaildigest.php:30
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "E-posta Özet e-postalarında yalnızca 'Genel' veya 'Site Üyeleri' gizlilik ayarları olan yayınlar bulunur. 'Sadece ben' ve 'Yalnızca Arkadaşlarım' gizlilik ayarlarıyla anlamlandırılan diğer tüm yayınlar göz ardı edilecek ve E-Posta Özetine gönderilmeyecektir."
+
+#: classes/configsectionemaildigest.php:38
+msgid "Send Email Digest emails"
+msgstr "Özet E-Posta emailleri gönder"
+
+#: classes/configsectionemaildigest.php:44 peepsoemaildigest.php:295
+#: peepsoemaildigest.php:501 peepsoemaildigest.php:730
+msgid "Email Digest"
+msgstr "E-posta Özeti"
+
+#: classes/configsectionemaildigest.php:48
+msgid "Email Digest Title"
+msgstr "E-posta Özet Başlığı"
+
+#: classes/configsectionemaildigest.php:57
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Seçilen veya daha fazla gün içinde siteyi ziyaret etmeyen kullanıcılar Email Digest e-postalarını alacaktır."
+
+#: classes/configsectionemaildigest.php:64
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Etkin olmayan kullanıcılara Özet E-postadan fazla gönder"
+
+#: classes/configsectionemaildigest.php:68
+msgid "Use Images"
+msgstr "Resim Kullan"
+
+#: classes/configsectionemaildigest.php:76
+msgid "Use images in emails"
+msgstr "E-postalarda resim kullanma"
+
+#: classes/configsectionemaildigest.php:93
+msgid "How often should the Email Digest emails be sent"
+msgstr "E-posta Özet e-postalarının ne sıklıkla gönderilmesi gerekir?"
+
+#: classes/configsectionemaildigest.php:102
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "Seçilen tarih ay içindeki gün sayısından büyükse, ay sonunda e-posta özeti gönderilir."
+
+#: classes/configsectionemaildigest.php:109
+#: classes/configsectionemaildigest.php:129
+msgid "Every"
+msgstr "Hergün"
+
+#: classes/configsectionemaildigest.php:113
+msgid "Sun"
+msgstr "Paz"
+
+#: classes/configsectionemaildigest.php:114
+msgid "Mon"
+msgstr "Pzt"
+
+#: classes/configsectionemaildigest.php:115
+msgid "Tue"
+msgstr "Sal"
+
+#: classes/configsectionemaildigest.php:116
+msgid "Wed"
+msgstr "Çar"
+
+#: classes/configsectionemaildigest.php:117
+msgid "Thu"
+msgstr "Prş"
+
+#: classes/configsectionemaildigest.php:118
+msgid "Fri"
+msgstr "Cum"
+
+#: classes/configsectionemaildigest.php:119
+msgid "Sat"
+msgstr "Cmt"
+
+#: classes/configsectionemaildigest.php:150
+#: classes/configsectionemaildigest.php:187
+#: classes/configsectionemaildigest.php:219
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "Email Digest e-postalarının ne zaman gönderileceği zamanı. E-postalar mailqueue tarafından gruplar halinde gönderilir, hepsi aynı anda gönderilmez, böylece kullanıcılarınız onları farklı zamanlarda alabilir."
+
+#: classes/configsectionemaildigest.php:157
+#: classes/configsectionemaildigest.php:171
+#: classes/configsectionemaildigest.php:194
+#: classes/configsectionemaildigest.php:226
+msgid "At"
+msgstr "de"
+
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:263
+msgid "How many posts should be included per one email"
+msgstr "Bir e-postaya kaç tane yayın eklenmeli?"
+
+#: classes/configsectionemaildigest.php:267
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "Bir E-posta Digest e-postasında gönderilmek üzere en az 1 yeni yayın olmalıdır. Eğer yenisi yoksa gönderilmez."
+
+#: classes/configsectionemaildigest.php:275
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Daha Az Mesaj Var Olsa E-posta Gönderme"
+
+#: classes/configsectionemaildigest.php:279
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Bu ayar açıkken, E-posta Digest e-postası belirli bir dönemden en çok beğenilen postayı da içerecek ve bunu öne çıkan olarak gösterecektir."
+
+#: classes/configsectionemaildigest.php:286
+msgid "Include most liked post"
+msgstr "En beğenilen paylaşımları ekle"
+
+#: classes/configsectionemaildigest.php:290
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Bu ayar açıkken, E-posta Özetli e-postasında belirli bir dönemden en çok yorum yapılan yayın yer alır ve bu şekilde gösterilir."
+
+#: classes/configsectionemaildigest.php:297
+msgid "Include most commented post"
+msgstr "En çok yorum yazılan paylaşımları ekle"
+
+#: classes/configsectionemaildigest.php:301
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Bu ayar açıkken çoğu yorum yapılmış ve en çok beğenilen yayınlar bu şekilde sergilenecek. Bununla birlikte, Email Digest e-postasının ana içeriğinde de gösterilmiş olabilirler."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Allow duplicate posts"
+msgstr "Yinelenen yayınlara izin ver"
+
+#: classes/configsectionemaildigest.php:319
+msgid "Limit the post length in Email Digest email to"
+msgstr "E-posta Özetli e-postasındaki posta uzunluğunu sınırla"
+
+#: classes/configsectionemaildigest.php:323
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Yayınlar tam olarak gösterilemiyorsa ve karakter sınırına ulaştıysa 'okuma modu'nu göster."
+
+#: classes/configsectionemaildigest.php:335
+#, php-format
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Bu ayarı açıp bir sunucu tarafı cron işi ayarlamanız önerilir. Bu komutu kullanabilirsiniz: wget %s Kolayca her saat çalıştırabilirsiniz."
+
+#: classes/configsectionemaildigest.php:342
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Cron Job ile Özet e-postaları çalıştır"
+
+#: classes/configsectionemaildigest.php:346
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "Topluluğunuzdaki etkin olmayan kullanıcıların sayısına bağlı olarak, siteyi aşırı yüklememek için bir toplu iş oluşturma sistemi var. Bu ayar, bir toplu iş için kaç e-posta oluşturulacağını denetler. Bu ayar e-postaları göndermez. PeepSo mailqueue teslimatı halleder."
+
+#: classes/configsectionemaildigest.php:353
+msgid "How many emails should be created in a batch"
+msgstr "Toplu işlerde kaç tane e-posta oluşturulmalıdır?"
+
+#: classes/configsectionemaildigest.php:366
+msgid "Which User Roles should receive the emails"
+msgstr "Hangi Kullanıcı Rolleri e-postaları almalı?"
+
+#: classes/configsectionemaildigest.php:407
+msgid "General"
+msgstr "Genel"
+
+#: classes/configsectionemaildigest.php:413
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "Günlükler en son 100 gönderilen E-posta Özet e-postalarını tutar. Hangi kullanıcıların e-postaları aldığını ve e-posta üretilip gönderildiğinde son girişlerinin ne olduğunu görebilirsiniz. Ayrıca, gönderilen e-postayı önizleyebilirsiniz."
+
+#: classes/configsectionemaildigest.php:418
+msgid "Sent Email Digest Logs"
+msgstr "Gönderilen E-posta Özet Günlükleri"
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "Özet E-Posta"
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Bu, zamanlamaya göre kullanıcıya gönderilecektir."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Log Kaydı Bulunamadı"
+
+#: peepsoemaildigest.php:264
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s eklenti PeepSo eklenti yüklendiğinde ve etkinleştirildiğinde gereklidir."
+
+#: peepsoemaildigest.php:266
+msgid "Get it now!"
+msgstr "Şimdi sahip ol!"
+
+#: peepsoemaildigest.php:298
+msgid "PeepSo Email Digest"
+msgstr "PeepSo E-Posta Özeti"
+
+#: peepsoemaildigest.php:314
+msgid "Preview email was sent success"
+msgstr "Önizleme e-postası gönderme işlemi başarılı"
+
+#: peepsoemaildigest.php:315
+msgid "Preview email was sent failed"
+msgstr "Önizleme e-postası gönderme işlemi başarısız"
+
+#: peepsoemaildigest.php:316
+msgid "Clear Logs"
+msgstr "Logları Temizle"
+
+#: peepsoemaildigest.php:317
+#, php-format
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "Veritabanında %d logu var. Günlükleri aşağıdaki butona tıklayarak silebilirsiniz."
+
+#: peepsoemaildigest.php:353
+#, php-format
+msgid "Current time is %s, cron scheduled at %s"
+msgstr "Şu anki saat %s, cron %s olarak ayarlanmış"
+
+#: peepsoemaildigest.php:421
+#, php-format
+msgid "There are only %d posts, required at least %d"
+msgstr "Sadece %d gönderileri var, en az %d gerekli"
+
+#: peepsoemaildigest.php:428
+msgid "Other popular posts"
+msgstr "Diğer popüler mesajlar"
+
+#: peepsoemaildigest.php:531
+#, php-format
+msgid "Email digest sent to %d users"
+msgstr "%d kullanıcılarına gönderilen e-posta özeti"
+
+#: peepsoemaildigest.php:536
+msgid "Email digest is not activated"
+msgstr "E-posta özeti etkin değil"
+
+#: peepsoemaildigest.php:598
+msgid "Most liked post"
+msgstr "En beğenilen paylaşımlar"
+
+#: peepsoemaildigest.php:636
+msgid "Most commented post"
+msgstr "En çok yorum yazılan posta"
+
+#: peepsoemaildigest.php:723
+msgid "Receive Digest Email notifications"
+msgstr "Özet E-Posta bildirimlerini al"
+
+#: peepsoemaildigest.php:842
+msgid "Preview email was sent"
+msgstr "Önizleme e-postası gönderildi"
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Kullanıcı son giriş: "
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Son gönderilen e-posta: "
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "bir mesaj paylaştı"
+
+#: templates/general/email-digest.php:29
+msgid "Read more"
+msgstr "Devamı Gör"
+
+#: templates/general/email-digest.php:31
+msgid "Like"
+msgstr "Beğen"
+
+#: templates/general/email-digest.php:31
+msgid "Comment"
+msgstr "Yorum"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: Email Digest"
+msgstr "PeepSo Ekstralar: E-posta Özet"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Otomatik bülten ile kullanıcıları geri getirin"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

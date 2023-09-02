@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:20+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsogiphy.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: peepso-giphy.pot\n"
+"Language: sr_SP\n"
+
+#: classes/admin/configsectiongiphy.php:19
+msgid "Giphy API Key"
+msgstr "Giphy API кључ"
+
+#: classes/admin/configsectiongiphy.php:32
+msgid "Limit"
+msgstr "Ограничење"
+
+#: classes/admin/configsectiongiphy.php:38
+msgid "Illustrated content only"
+msgstr "Само илустровани садржај"
+
+#: classes/admin/configsectiongiphy.php:39
+msgid "Suitable for everyone"
+msgstr "Погодно за све кориснике"
+
+#: classes/admin/configsectiongiphy.php:40
+msgid "May be inappropriate for children"
+msgstr "Може бити неподесно за децу"
+
+#: classes/admin/configsectiongiphy.php:41
+msgid "May be inappropriate under the age of 13"
+msgstr "Може бити неподесно за доба испод 13 година старости"
+
+#: classes/admin/configsectiongiphy.php:42
+msgid "Inappropriate under the age of 17"
+msgstr "Неподесно за доба испод 17 година старости"
+
+#: classes/admin/configsectiongiphy.php:43
+msgid "No limit"
+msgstr "Нема ограничења"
+
+#: classes/admin/configsectiongiphy.php:50
+msgid "Max content rating"
+msgstr "Максимални рејтинг садржаја"
+
+#: classes/admin/configsectiongiphy.php:57
+msgid "Width set to 200px. Good for mobile use."
+msgstr "Ширина је подешена на 200рх. Погодно за употребу на мобилним уређајима."
+
+#: classes/admin/configsectiongiphy.php:58
+msgid "Static preview image for fixed_width"
+msgstr "Статични преглед слике за fixed_width"
+
+#: classes/admin/configsectiongiphy.php:59
+msgid "Width set to 200px. Reduced to 6 frames. Works well for unlimited scroll on mobile and as animated previews."
+msgstr "Ширина је подешена на 200рх. Смањено на 6 фрејмова. Добро функционише за неограничено скроловање на мобилним уређајима и као анимирани преглед."
+
+#: classes/admin/configsectiongiphy.php:60
+msgid "Height set to 200px. Good for mobile use."
+msgstr "Висина је подешена на 200рх. Погодно за употребу на мобилним уређајима."
+
+#: classes/admin/configsectiongiphy.php:61
+msgid "Static preview image for fixed_height"
+msgstr "Статични преглед слике за fixed_height"
+
+#: classes/admin/configsectiongiphy.php:62
+msgid "Height set to 200px. Reduced to 6 frames to minimize file size to the lowest. Works well for unlimited scroll on mobile and as animated previews. See GIPHY.com on mobile web as an example."
+msgstr "Висина је подешена на 200рх. Смањено на 6 фрејмова ради умањења величине фајла на минимум. Добро функционише за неограничено скроловање на мобилним уређајима и као анимирани преглед. Погледајте GIPHY.com на мобилном мрежном претраживачу ради примера."
+
+#: classes/admin/configsectiongiphy.php:63
+msgid "Width set to 100px. Good for mobile keyboards"
+msgstr "Ширина је подешена на 100рх. Погодно за тастатуре на мобилним уређајима."
+
+#: classes/admin/configsectiongiphy.php:64
+msgid "Static preview image for fixed_width_small"
+msgstr "Статични преглед слике за fixed_width_small"
+
+#: classes/admin/configsectiongiphy.php:65
+msgid "Height set to 100px. Good for mobile keyboards."
+msgstr "Висина је подешена на 100рх. Погодно за тастатуре на мобилним уређајима."
+
+#: classes/admin/configsectiongiphy.php:66
+msgid "Static preview image for fixed_height_small"
+msgstr "Статични преглед слике за fixed_height_small"
+
+#: classes/admin/configsectiongiphy.php:67
+msgid "File size under 50kb. Duration may be truncated to meet file size requirements. Good for thumbnails and previews."
+msgstr "Величина фајла је испод 50kb. Трајање ће вероватно бити скраћено услед усаглашавања са величином фајла. Погодно за умањене слике и прегледе."
+
+#: classes/admin/configsectiongiphy.php:68
+msgid "Original file size and file dimensions. Good for desktop use."
+msgstr "Оригинална величина фајла са пратећим димензијама. Погодно за десктоп употребу."
+
+#: classes/admin/configsectiongiphy.php:69
+msgid "Preview image for original"
+msgstr "Слика прегледа за оригинал"
+
+#: classes/admin/configsectiongiphy.php:76
+msgid "Giphy Rendition on Comments"
+msgstr "Giphy спровођење на коментарима"
+
+#: classes/admin/configsectiongiphy.php:84
+msgid "Giphy Rendition on Messages"
+msgstr "Giphy спровођење на порукама"
+
+#: classes/admin/configsectiongiphy.php:113
+msgid "General"
+msgstr "Опште"
+
+#: classes/admin/configsectiongiphy.php:122
+msgid "This plugin integrates world-famous <a href=\"https://giphy.com/\" target=\"_blank\">Giphy</a>. It is thanks to their service your community now has the possibility to share all of their amazing gifs in both comments and chat."
+msgstr "Овај додатак је интегрисан са светски познатим <a href=\"https://giphy.com/\" target=\"_blank\">Giphy</a>. Захваљујући њиховој услузи, Ваша заједница сада има могућност да дели све њихове сјајне gif-ове и у коментарима и у ћаскању."
+
+#: classes/admin/configsectiongiphy.php:134
+msgid "Information"
+msgstr "Информације"
+
+#: peepsogiphy.php:230
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsogiphy.php:232 peepsogiphy.php:251
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsogiphy.php:249
+msgid "Please provide Giphy API Key."
+msgstr "Молимо унесите Giphy API кључ."
+
+#: peepsogiphy.php:323 peepsogiphy.php:326
+msgid "GIPHY"
+msgstr "GIPHY"
+
+#: peepsogiphy.php:349
+msgid "Giphy"
+msgstr "Giphy"
+
+#: peepsogiphy.php:379
+msgid "Send gif"
+msgstr "Пошаљи gif"
+
+#: templates/giphy/comments-content.php:9
+#, php-format
+msgid "%s shared a GIF"
+msgstr "%s је поделио/ла GIF"
+
+#: templates/giphy/comments-content.php:10
+msgid "Shared a GIF"
+msgstr "Поделио/ла GIF"
+
+#: templates/giphy/dialog-giphy.php:4 templates/giphy/message-input.php:5
+#: templates/giphy/postbox-giphy.php:10
+msgid "Search..."
+msgstr "Претражи..."
+
+#: templates/giphy/postbox-giphy.php:4
+msgid "Change image"
+msgstr "Измени слику"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: GIPHY"
+msgstr "PeepSo интеграције: GIPHY"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Send GIPHY gifs and stickers in comments and chat"
+msgstr "Пошаљи GIPHY gif-ове и налепнице у коментарима и у ћаскању"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

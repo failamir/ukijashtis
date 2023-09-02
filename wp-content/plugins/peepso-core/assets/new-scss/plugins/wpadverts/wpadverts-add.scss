@@ -1,0 +1,34 @@
+.ps-page--wpadverts {}
+
+.ps-page--wpadverts-add {}
+
+.ps-form__row---adverts--account {
+  .ps-form__label {
+    padding-top: var(--PADD--MD);
+    border-top: 1px solid var(--DIVIDER);
+  }
+
+  .ps-form__field {
+    padding-bottom: var(--PADD--MD);
+    font-size: 80%;
+    border-bottom: 1px solid var(--DIVIDER);
+  }
+}
+
+.ps-wpadverts__add-form {
+  padding: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--HARD);
+  
+  input:not(.ps-btn) {
+    @include input;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    @include reset--input;
+
+    margin-top: 2px;
+  }
+}

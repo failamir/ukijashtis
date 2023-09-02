@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:21+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsolearndash.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: peepsolearndash.pot\n"
+"Language: hu_HU\n"
+
+#: classes/configsectionlearndash.php:24
+msgid "Show \"LearnDash\" tab in user profiles."
+msgstr "A felhasználói profilok \"LearnDash\" fülének megjelenítése."
+
+#: classes/configsectionlearndash.php:27 classes/configsectionlearndash.php:86
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: classes/configsectionlearndash.php:39
+msgid "Optional. Comma separated list of course IDs you want to hide from the profiles."
+msgstr "Választható. A profilokból elrejteni kívánt kurzusazonosítók vesszővel elválasztott listája."
+
+#: classes/configsectionlearndash.php:42
+msgid "Hide courses"
+msgstr "Kurzusok elrejtése"
+
+#: classes/configsectionlearndash.php:78
+msgid "Profiles"
+msgstr "Profilok"
+
+#: classes/configsectionlearndash.php:95
+msgid "Box height (px)"
+msgstr "Box magasság (px)"
+
+#: classes/configsectionlearndash.php:102
+msgid "Two column layout"
+msgstr "Két oszlopos elrendezés"
+
+#: classes/configsectionlearndash.php:115
+msgid "Course titles"
+msgstr "Tanfolyam címek"
+
+#: classes/configsectionlearndash.php:121
+msgid "0 for no content"
+msgstr "0, ha nincs tartalom"
+
+#: classes/configsectionlearndash.php:124
+msgid "Description length (words)"
+msgstr "Leírás hossza (szavak)"
+
+#: classes/configsectionlearndash.php:128
+msgid "Forced removal of some shortcodes immune to native WP methods (eg Divi Builder and similar). This is an experimental feature, we recommend using plain-text excerpts instead."
+msgstr "Egyes rövid kódok kényszerített eltávolítása immúnis a natív WP-módszerekkel szemben (pl. Divi Builder és hasonlók). Ez egy kísérleti funkció, javasoljuk egyszerű szöveg használatát."
+
+#: classes/configsectionlearndash.php:131
+msgid "Aggressive shortcode removal"
+msgstr "Agresszív rövid kód eltávolítás"
+
+#: classes/configsectionlearndash.php:137
+msgid "Text"
+msgstr "Szöveg"
+
+#: classes/configsectionlearndash.php:145
+msgid "Show featured images"
+msgstr "Kiemelt képek megjelenítése"
+
+#: classes/configsectionlearndash.php:149
+msgid "Display an empty box if an image is not found (to maintain the layout)"
+msgstr "Egy üres mezőt jelenít meg, ha egy kép nem található (az elrendezés fenntartásához)"
+
+#: classes/configsectionlearndash.php:152
+msgid "Placeholder"
+msgstr "Helykitöltő"
+
+#: classes/configsectionlearndash.php:157
+msgid "Top (rectangle)"
+msgstr "Fent (téglalap)"
+
+#: classes/configsectionlearndash.php:158
+msgid "Left (square)"
+msgstr "Bal (négyzet)"
+
+#: classes/configsectionlearndash.php:159
+msgid "Right (square)"
+msgstr "Jobb (négyzet)"
+
+#: classes/configsectionlearndash.php:166
+msgid "Position"
+msgstr "Pozíció"
+
+#: classes/configsectionlearndash.php:176
+msgid "Height (px)"
+msgstr "Magasság (px)"
+
+#: classes/configsectionlearndash.php:183
+msgid "Featured Images"
+msgstr "Kiemelt képek"
+
+#: classes/configsectionlearndash.php:191
+msgid "Creates an activity entry when user enrolls in a course."
+msgstr "Tevékenységbejegyzést hoz létre, amikor a felhasználó beiratkozik egy kurzusra."
+
+#: classes/configsectionlearndash.php:194
+#: classes/configsectionlearndash.php:239
+msgid "Post to activity"
+msgstr "Poszt az activity oldalra"
+
+#: classes/configsectionlearndash.php:200
+#: classes/configsectionlearndash.php:245
+msgid "Leave empty for default"
+msgstr "Hagyd üresen az alapértelmezett érték számára"
+
+#: classes/configsectionlearndash.php:203
+#: classes/configsectionlearndash.php:248
+msgid "Action text"
+msgstr "Műveleti szöveg"
+
+#: classes/configsectionlearndash.php:222
+#: classes/configsectionlearndash.php:267
+msgid "Default privacy"
+msgstr "Alapértelmezett adatvédelem"
+
+#: classes/configsectionlearndash.php:229
+msgid "Action - user enrolled in a course"
+msgstr "Művelet - a felhasználó belépett egy kurzusba"
+
+#: classes/configsectionlearndash.php:236
+msgid "Creates an activity entry when user completes a course."
+msgstr "Tevékenységbejegyzést hoz létre, amikor a felhasználó elvégzett egy tanfolyamot."
+
+#: classes/configsectionlearndash.php:274
+msgid "Action - user completed a course"
+msgstr "Művelet - a felhasználó befejezett egy tanfolyamot"
+
+#: classes/configsectionlearndash.php:281
+#: classes/configsectionlearndash.php:289
+msgid "Leave empty for default value"
+msgstr "Hagyd üresen az alapértelmezett értékhez"
+
+#: classes/configsectionlearndash.php:284
+msgid "Profile label"
+msgstr "Profil címke"
+
+#: classes/configsectionlearndash.php:292
+msgid "Profile slug"
+msgstr "Profil slug"
+
+#: classes/configsectionlearndash.php:297
+msgid "FontAwesome (or similar). Leave empty for default value"
+msgstr "FontAwesome (vagy hasonló). Hagyd üresen az alapértelmezett érték számára"
+
+#: classes/configsectionlearndash.php:300
+msgid "Custom icon CSS class"
+msgstr "Egyéni ikon CSS osztály"
+
+#: classes/configsectionlearndash.php:307
+msgid "Advanced"
+msgstr "Haladó"
+
+#: classes/configsectionlearndash.php:308
+#, php-format
+msgid "This section is for <b>advanced users only</b>.<br/>When modifying the profile slug, please do NOT use any keyword already in use (eg %s)."
+msgstr "Ez a rész csak <b> haladó felhasználóknak</b>.<br/> A profil módosításakor NE használd a már használatban lévő kulcsszavakat (pl. %s)."
+
+#: classes/widgets/widgetldgroups.php:9
+msgid "PeepSo LearnDash: Courses &amp; Groups integration"
+msgstr "PeepSo LearnDash: Tanfolyamok &amp; Csoportok integrációja"
+
+#: classes/widgets/widgetldgroups.php:10
+msgid "Displays information about PeepSo Groups assigned to a LearnDash Course (on a Course page) or LearnDash Courses assigned to a PeepSo Group (on a Group page)."
+msgstr "A LearnDash tanfolyamhoz rendelt PeepSo csoportok információit jeleníti meg (egy kurzus oldalon) vagy a PeepSo csoporthoz rendelt LearnDash tanfolyamokét (egy csoport oldalon)."
+
+#: classes/widgets/widgetldgroups.php:86
+msgid "Groups related to this Course"
+msgstr "Ehhez a kurzushoz kapcsolódó csoportok"
+
+#: classes/widgets/widgetldgroups.php:90
+msgid "Courses related to this Group"
+msgstr "Ehhez a csoporthoz kapcsolódó kurzusok"
+
+#: classes/widgets/widgetldgroups.php:103
+msgid "Title (Course Page)"
+msgstr "Cím (tanfolyam oldal)"
+
+#: classes/widgets/widgetldgroups.php:109
+#: classes/widgets/widgetldgroups.php:120
+msgid "Title when on PeepSo Group"
+msgstr "Cím a PeepSo csoportban"
+
+#: classes/widgets/widgetldgroups.php:114
+msgid "Title (Group Page)"
+msgstr "Cím (csoport oldal)"
+
+#: classes/widgets/widgetldinstructor.php:9
+msgid "PeepSo LearnDash: About Course Instructor"
+msgstr "PeepSo LearnDash: A tanfolyam oktatójáról"
+
+#: classes/widgets/widgetldinstructor.php:10
+msgid "Displays PeepSo details about the Course Instructor"
+msgstr "Megjeleníti a PeepSo részleteket a tanfolyam oktatójáról"
+
+#: classes/widgets/widgetldinstructor.php:50
+msgid "About The Course Instructor"
+msgstr "A tanfolyam oktatójáról"
+
+#: classes/widgets/widgetldinstructor.php:62
+msgid "Override instructor ID"
+msgstr "Az oktatói azonosító felülírása"
+
+#: classes/widgets/widgetldinstructor.php:70
+msgid "Invalid Instructor ID"
+msgstr "Érvénytelen oktatói azonosító"
+
+#: classes/widgets/widgetldinstructor.php:76
+msgid "Leave empty to treat the Course Author as Course Instructor"
+msgstr "Hagyd üresen ahhoz, hogy a tanfolyam szerzője a tanfolyam oktatójaként szerepeljen"
+
+#: classes/widgets/widgetldinstructor.php:90
+msgid "Enable \"Chat\" Button"
+msgstr "\"Chat\" gomb engedélyezése"
+
+#: classes/widgets/widgetldinstructor.php:99
+msgid "Warning: this widget will print Course Instructors \"about me\" profile field without checking the field privacy."
+msgstr "Figyelmeztetés: ez a widget nyomtatni fogja a Tanfolyam Oktatói \"rólam\" profilmezõt anélkül, hogy ellenõrizné a mezõk adatainak védelmét."
+
+#: peepsolearndash.php:150
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: peepsolearndash.php:187
+msgid "Courses"
+msgstr "Tanfolyamok"
+
+#: peepsolearndash.php:286
+msgid "enrolled in a course"
+msgstr "beiratkozott egy tanfolyamra"
+
+#: peepsolearndash.php:290
+msgid "completed a course"
+msgstr "elvégzett egy tanfolyamot"
+
+#: peepsolearndash.php:331
+msgid "PeepSo Groups - related groups"
+msgstr "PeepSo Groups - kapcsolatban lévő csoportok"
+
+#: peepsolearndash.php:332
+msgid "PeepSo Groups automation - course enrolled"
+msgstr "PeepSo csoportok - felvett kurzusok"
+
+#: peepsolearndash.php:356
+msgid "PeepSo VIP automation - course completed"
+msgstr "PeepSo VIP automatizálás - befejezett tanfolyam"
+
+#: peepsolearndash.php:513
+msgid "You have not enrolled in any courses yet"
+msgstr "Még nem iratkoztál fel semmilyen tanfolyamra"
+
+#: peepsolearndash.php:513
+#, php-format
+msgid "%s has not enrolled in any courses yet"
+msgstr "%s még nem iratkozott fel semmilyen tanfolyamra"
+
+#: peepsolearndash.php:526
+msgid "Automatically add users to PeepSo Groups when they enroll in this course"
+msgstr "Automatikusan adhatja hozzá a felhasználókat a PeepSo csoportokhoz, amikor beiratkoznak erre a kurzusra"
+
+#: peepsolearndash.php:548 peepsolearndash.php:590
+#: templates/widgets/learndash-course-groups.php:26
+msgid "Open"
+msgstr "Megnyitás"
+
+#: peepsolearndash.php:549 peepsolearndash.php:591
+#: templates/widgets/learndash-course-groups.php:27
+msgid "Closed"
+msgstr "Zárt"
+
+#: peepsolearndash.php:550 peepsolearndash.php:592
+#: templates/widgets/learndash-course-groups.php:28
+msgid "Secret"
+msgstr "Titkos"
+
+#: peepsolearndash.php:568
+msgid "Show these Groups as \"related\" to this Course"
+msgstr "Mutassa ezeket a csoportokat \"kapcsolatban\" ezzel a kurzussal"
+
+#: peepsolearndash.php:610
+msgid "Assign users these VIP Badges when they complete this course"
+msgstr "Felhasználók hozzárendelése a VIP-jelvényekhez, ha befejezték ezt a kurzust"
+
+#: peepsolearndash.php:629
+msgid "unpublished"
+msgstr "nem publikált"
+
+#: peepsolearndash.php:670
+#, php-format
+msgid "The %s requires the PeepSo plugin to be installed and activated."
+msgstr "Az %s megköveteli a PeepSo bővítmény telepítését és aktiválását."
+
+#: peepsolearndash.php:672
+msgid "Get it now!"
+msgstr "Szerezze be most!"
+
+#: peepsolearndash.php:690
+#, php-format
+msgid "PeepSo %s requires the LearnDash plugin (%s or newer)."
+msgstr ""
+
+#: templates/widgets/learndash-instructor.php:24
+#, php-format
+msgid "%s - avatar"
+msgstr "%s - avatar"
+
+#: templates/widgets/learndash-instructor.php:62
+#, php-format
+msgid "Start a chat with %s"
+msgstr "Chat indítása vele: %s"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: LearnDash"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the LearnDash plugin.</strong> Integrates LearnDash LMS into user profiles and streams."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

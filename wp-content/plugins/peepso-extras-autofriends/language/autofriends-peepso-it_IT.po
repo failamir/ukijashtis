@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:16+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoautofriends.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: autofriends-peepso.pot\n"
+"Language: it_IT\n"
+
+#: classes/admin/configsectionautofriends.php:16
+msgid "search"
+msgstr "cerca"
+
+#: classes/admin/configsectionautofriends.php:22
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr "Aggiungere un utente alla lista qui sotto crea automaticamente amicizia tra l'utente e qualsiasi utente appena registrato. Non creerà amicizie tra l'utente e quelli già esistenti. <br>Per creare connessioni di amicizia mancanti, si prega di utilizzare il pulsante sulla destra. Una volta cliccato sarà aggiunto tale utente come amici a tutti gli altri nella tua comunità di PeepSo. <br>La rimozione utente dalla lista qui sotto <strong>NON</strong> rimuoverà le connessioni di amicizia esistenti. "
+
+#: classes/admin/configsectionautofriends.php:50
+msgid "List Users"
+msgstr "Elenca Utenti"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr "Nome"
+
+#: classes/admin/userautofriendslisttable.php:89
+msgid "Friends"
+msgstr "Amici"
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr "Azioni"
+
+#: classes/admin/userautofriendslisttable.php:163
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Befriend All Users"
+msgstr "Fare amicizia con tutti gli utenti"
+
+#: classes/admin/userautofriendslisttable.php:164
+msgid "Befriend All users."
+msgstr "Fare amicizia con tutti gli utenti."
+
+#: classes/admin/userautofriendslisttable.php:167
+#: classes/admin/userautofriendslisttable.php:193
+msgid "Remove"
+msgstr "Elimina"
+
+#: classes/admin/userautofriendslisttable.php:168
+msgid "Remove from list autofriends creation."
+msgstr "Rimuovere dalla creazione della lista autofriends."
+
+#: classes/admin/userautofriendslisttable.php:213
+msgid "befriend"
+msgstr "amicizia con"
+
+#: classes/admin/userautofriendslisttable.php:219
+msgid "removed"
+msgstr "rimosso"
+
+#: classes/admin/userautofriendslisttable.php:223
+#, php-format
+msgid "%1$d %2$s %3$s"
+msgstr "%1$d %2$s %3$s"
+
+#: classes/admin/userautofriendslisttable.php:225
+msgid "user"
+msgid_plural "users"
+msgstr[0] "utente"
+msgstr[1] "utenti"
+
+#: classes/api/userautofriends.php:15 classes/api/userautofriends.php:80
+#: classes/api/userautofriends.php:109 classes/api/userautofriends.php:138
+#: classes/api/userautofriends.php:160
+msgid "Insufficient permissions."
+msgstr "Autorizzazioni insufficienti."
+
+#: classes/api/userautofriends.php:53
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "Un elemento"
+msgstr[1] "%s elementi"
+
+#: classes/api/userautofriends.php:86 classes/api/userautofriends.php:115
+#: classes/api/userautofriends.php:166
+msgid "Could not verify nonce."
+msgstr "Impossibile verificare il parametro nonce."
+
+#: classes/api/userautofriends.php:92
+msgid "The user is now friends with all other users."
+msgstr "L'utente adesso è amico di tutti gli altri."
+
+#: classes/api/userautofriends.php:121
+msgid "The user has been successfully removed."
+msgstr "L'utente è stato rimosso con successo."
+
+#: classes/api/userautofriends.php:172
+msgid "The user has been successfully added."
+msgstr "L'utente è stato aggiunto correttamente."
+
+#: peepsoautofriends.php:204
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Il plugin %s richiede che il plugin PeepSo sia installato e attivato."
+
+#: peepsoautofriends.php:206 peepsoautofriends.php:225
+msgid "Get it now!"
+msgstr "Scaricalo ora!"
+
+#: peepsoautofriends.php:223
+msgid "Please make sure FriendSo is installed and activated."
+msgstr "Si prega di assicurarsi che FriendSo sia installato e attivato."
+
+#: peepsoautofriends.php:287
+msgid "AutoFriends"
+msgstr "AutoFriends"
+
+#: peepsoautofriends.php:290
+msgid "PeepSo - AutoFriends"
+msgstr "PeepSo - AutoFriends"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: AutoFriends"
+msgstr "PeepSo extra: AutoFriends"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://www.peepso.com"
+
+#. Description of the plugin/theme
+msgid "Plugin that makes everyone in the community friends with a specific user."
+msgstr "Plugin che rende tutti gli appartenenti a una comunità amici di un utente specifico."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

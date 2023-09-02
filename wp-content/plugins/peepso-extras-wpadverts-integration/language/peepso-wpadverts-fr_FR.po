@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:25+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-wpadverts.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: peepso-wpadverts.pot\n"
+"Language: fr_FR\n"
+
+#: classes/admin/configsectionwpadverts.php:21
+msgid "Classifieds menu will be available on User Profiles."
+msgstr "Le menu Petites annonces sera disponibles dans les profils d'utilisateur."
+
+#: classes/admin/configsectionwpadverts.php:24
+msgid "Enable User Classifieds"
+msgstr "Activer les Petites annonces d'utilisateurs"
+
+#: classes/admin/configsectionwpadverts.php:30
+msgid "Use default WPAdverts template."
+msgstr "Utiliser le modèle WPAdverts par défaut."
+
+#: classes/admin/configsectionwpadverts.php:33
+msgid "Disable Template Overrides"
+msgstr "Désactiver les forçages de modèle"
+
+#: classes/admin/configsectionwpadverts.php:39
+msgid "Classifieds need to be accepted by Admin before being published"
+msgstr "Les classifiés doivent être acceptés par l'Administration avant d'être publiés"
+
+#: classes/admin/configsectionwpadverts.php:42
+msgid "Enable WPAdverts Moderation"
+msgstr "Activer la modération WPAdverts"
+
+#: classes/admin/configsectionwpadverts.php:47
+msgid "List"
+msgstr "Liste"
+
+#: classes/admin/configsectionwpadverts.php:48
+msgid "Grid"
+msgstr "Grille"
+
+#: classes/admin/configsectionwpadverts.php:54
+msgid "Display Ads as"
+msgstr "Afficher les pubs en"
+
+#: classes/admin/configsectionwpadverts.php:62
+msgid "Allow guest access to Classifieds"
+msgstr ""
+
+#: classes/admin/configsectionwpadverts.php:69
+msgid "General"
+msgstr "Général"
+
+#: classes/admin/configsectionwpadverts.php:77
+msgid "Turn on to post classifieds to stream when user create new classifieds"
+msgstr "Activer la publication de classifiés sur le flux quand un utilisateur crée de nouveaux classifiés"
+
+#: classes/admin/configsectionwpadverts.php:80
+msgid "Post to Stream"
+msgstr "Publier sur le flux"
+
+#: classes/admin/configsectionwpadverts.php:98
+msgid "Default post privacy"
+msgstr "Niveau de confidentialité par défaut des publications"
+
+#: classes/admin/configsectionwpadverts.php:105
+msgid "Activity Stream Integration"
+msgstr "Intégration du flux d'activités"
+
+#: classes/admin/configsectionwpadverts.php:115
+#, php-format
+msgid "This feature requires the %s plugin."
+msgstr "Cette fonctionnalité nécessite le plugin %s."
+
+#: classes/admin/configsectionwpadverts.php:121
+msgid "Display Chat button"
+msgstr "Afficher le bouton Chat"
+
+#: classes/admin/configsectionwpadverts.php:128
+msgid "Chat Integration"
+msgstr "Intégration du chat"
+
+#: classes/admin/configsectionwpadverts.php:136
+#, php-format
+msgid "This section is for <b>advanced users only</b>.<br/>When modifying the profile slug, please do NOT use any keyword already in use (eg %s)."
+msgstr "Cette section est <b>réservée aux utilisateurs avancés</b>.<br/>Quand vous modifiez le label de profil, veuillez ne PAS utiliser de mot-clé déjà utilisé (par ex. : %s)."
+
+#: classes/admin/configsectionwpadverts.php:140
+#: classes/admin/configsectionwpadverts.php:148
+#: classes/admin/configsectionwpadverts.php:156
+msgid "Leave empty for default value"
+msgstr "Laissez vide pour utiliser la valeur par défaut"
+
+#: classes/admin/configsectionwpadverts.php:143
+msgid "Menu item label (main)"
+msgstr "Étiquette d'élément de menu (principal)"
+
+#: classes/admin/configsectionwpadverts.php:151
+msgid "Menu item label (profiles)"
+msgstr "Étiquette d'élément de menu (profils)"
+
+#: classes/admin/configsectionwpadverts.php:159
+msgid "Profile slug"
+msgstr "Label de profil"
+
+#: classes/admin/configsectionwpadverts.php:168
+msgid "Advanced"
+msgstr "Avancé"
+
+#: classes/api/classifiedsajax.php:49
+msgid "You have no classifieds yet"
+msgstr "Vous n'avez pas encore de classifié"
+
+#: classes/api/classifiedsajax.php:49
+#, php-format
+msgid "%s has no classifieds yet"
+msgstr "%s n'a pas encore de classifié"
+
+#: classes/api/classifiedsajax.php:52
+msgid "No classifieds found"
+msgstr "Aucun classifié trouvé"
+
+#: classes/shortcodes/wpadvertsshortcode.php:25
+msgid "Displays the WpAdverts listing."
+msgstr "Affiche la liste WpAdverts."
+
+#: classes/shortcodes/wpadvertsshortcode.php:29
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#: classes/shortcodes/wpadvertsshortcode.php:29
+msgid "WP Adverts"
+msgstr "WP Adverts"
+
+#: classes/shortcodes/wpadvertsshortcode.php:65 install/activate.php:27
+#: peepso-wpadverts.php:663 peepso-wpadverts.php:685
+#: templates/wpadverts/wpadverts-category.php:20
+#: templates/wpadverts/wpadverts.php:17 templates/wpadverts/wpadverts.php:21
+msgid "Classifieds"
+msgstr "Classifiés"
+
+#: peepso-wpadverts.php:165 peepso-wpadverts.php:574
+#: templates/wpadverts/wpadverts-item.php:41
+msgid "Send Message"
+msgstr "Envoyer un message"
+
+#: peepso-wpadverts.php:258
+#, php-format
+msgid "PeepSo %s requires the WpAdverts plugin."
+msgstr "PeepSo %s nécessite le plugin WpAdverts."
+
+#: peepso-wpadverts.php:291
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Le plugin %s nécessite que le plugin PeepSo soit installé et activé."
+
+#: peepso-wpadverts.php:293
+msgid "Get it now!"
+msgstr "Obtenez-le maintenant !"
+
+#: peepso-wpadverts.php:342 peepso-wpadverts.php:577
+#: templates/overrides/manage.php:62 templates/overrides140/manage.php:62
+#: templates/wpadverts/wpadverts-item.php:48
+msgid "More"
+msgstr "Plus"
+
+#: peepso-wpadverts.php:343
+msgid "Less"
+msgstr "Moins"
+
+#: peepso-wpadverts.php:344
+msgid "member"
+msgstr "membre"
+
+#: peepso-wpadverts.php:345
+msgid "members"
+msgstr "membres"
+
+#: peepso-wpadverts.php:507
+msgid "WPAdverts"
+msgstr "WPAdverts"
+
+#: peepso-wpadverts.php:510
+msgid "PeepSo - WPAdverts Integration"
+msgstr "PeepSo - Integration WPAdverts"
+
+#: peepso-wpadverts.php:569 templates/wpadverts/wpadverts-item.php:30
+msgid "expires"
+msgstr "expire le"
+
+#: peepso-wpadverts.php:601
+msgid " posted a new ad"
+msgstr " a publié une nouvelle pub"
+
+#: templates/overrides/add-preview.php:9
+#: templates/overrides140/add-preview.php:10
+msgid "Edit Listing"
+msgstr "Éditer l'annonce"
+
+#: templates/overrides/add-preview.php:16
+#: templates/overrides140/add-preview.php:18
+msgid "Publish Listing"
+msgstr "Publier l'annonce"
+
+#: templates/overrides/add-save.php:5 templates/overrides140/add-save.php:5
+msgid "Your ad has been put into moderation, please wait for admin to approve it."
+msgstr "Votre pub est en cours de modération. Veuillez patienter le temps que l'administration l'approuve."
+
+#: templates/overrides/add-save.php:7 templates/overrides140/add-save.php:7
+#, php-format
+msgid "Your ad has been published. You can view it here \"<a href=\"%1$s\">%2$s</a>\"."
+msgstr "Votre pub a été publiée. Vous pouvez la voir ici \"<a href=\"%1$s\">%2$s</a>\"."
+
+#: templates/overrides/add.php:68 templates/overrides/manage.php:59
+#: templates/overrides140/add.php:68 templates/overrides140/manage.php:59
+#: templates/wpadverts/wpadverts-item.php:86
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/overrides/add.php:71 templates/overrides/manage-edit.php:49
+#: templates/overrides140/add.php:71 templates/overrides140/manage-edit.php:49
+msgid "Preview"
+msgstr "Aperçu"
+
+#: templates/overrides/categories-top.php:24
+#: templates/overrides140/categories-top.php:24
+msgid "No categories found."
+msgstr "Aucune catégorie trouvée."
+
+#: templates/overrides/manage-edit.php:46
+#: templates/overrides140/manage-edit.php:46
+msgid "Go back"
+msgstr "Revenir en arrière"
+
+#: templates/overrides/manage-edit.php:50
+#: templates/overrides140/manage-edit.php:50
+msgid "Update"
+msgstr "Mise à jour"
+
+#: templates/overrides/manage.php:30 templates/overrides140/manage.php:30
+msgid "Inactive — This Ad is in moderation."
+msgstr "Inactive — Cette pub est en cours de modération."
+
+#: templates/overrides/manage.php:34 templates/overrides140/manage.php:34
+msgid "Inactive — This Ad expired."
+msgstr "Inactive — Cette pub a expiré."
+
+#: templates/overrides/manage.php:44 templates/overrides140/manage.php:44
+#, php-format
+msgid "Expires: %s"
+msgstr "Expiration : %s"
+
+#: templates/overrides/manage.php:48 templates/overrides140/manage.php:48
+msgid "View"
+msgstr "Afficher"
+
+#: templates/overrides/manage.php:49 templates/overrides140/manage.php:49
+#: templates/wpadverts/wpadverts-item.php:75
+msgid "Edit"
+msgstr "Éditer"
+
+#: templates/overrides/manage.php:50 templates/overrides/manage.php:51
+#: templates/overrides140/manage.php:50 templates/overrides140/manage.php:51
+#: templates/wpadverts/wpadverts-item.php:55
+#: templates/wpadverts/wpadverts-item.php:60
+#: templates/wpadverts/wpadverts-item.php:65
+#: templates/wpadverts/wpadverts-item.php:70
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/overrides/manage.php:56 templates/overrides140/manage.php:56
+#: templates/wpadverts/wpadverts-item.php:84
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr(e) ?"
+
+#: templates/overrides/manage.php:58 templates/overrides140/manage.php:58
+#: templates/wpadverts/wpadverts-item.php:85
+msgid "Yes"
+msgstr "Oui"
+
+#: templates/overrides/manage.php:76 templates/overrides140/manage.php:76
+msgid "You do not have any Ads posted yet."
+msgstr "Vous n'avez pas encore posté de pub."
+
+#: templates/overrides/single.php:19 templates/overrides140/single.php:21
+#, php-format
+msgid "by <strong>%s</strong>"
+msgstr "par <strong>%s</strong>"
+
+#: templates/overrides/single.php:20 templates/overrides140/single.php:22
+#, php-format
+msgid "Published: %1$s (%2$s ago)"
+msgstr "Publication : %1$s (il y a %2$s)"
+
+#: templates/overrides/single.php:37 templates/overrides140/single.php:43
+#: templates/wpadverts/wpadverts.php:52
+msgid "Category"
+msgstr "Catégorie"
+
+#: templates/overrides/single.php:52 templates/overrides140/single.php:58
+#: templates/wpadverts/wpadverts.php:45
+msgid "Location"
+msgstr "Emplacement"
+
+#: templates/wpadverts/profile-wpadverts.php:12
+#: templates/wpadverts/wpadverts-category.php:12
+#: templates/wpadverts/wpadverts.php:12
+msgid "Create"
+msgstr "Créer"
+
+#: templates/wpadverts/wpadverts-category.php:16
+#: templates/wpadverts/wpadverts-category.php:21
+#: templates/wpadverts/wpadverts.php:22
+msgid "Classifieds Categories"
+msgstr "Catégories classifiées"
+
+#: templates/wpadverts/wpadverts-item.php:30
+msgid "expired"
+msgstr "expiré"
+
+#: templates/wpadverts/wpadverts.php:28 templates/wpadverts/wpadverts.php:46
+msgid "Start typing to search..."
+msgstr "Écrivez ici pour effectuer une recherche..."
+
+#: templates/wpadverts/wpadverts.php:54
+msgid "All categories"
+msgstr "Toutes les catégories"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: WPAdverts"
+msgstr "PeepSo Monetization : WPAdverts"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the WpAdverts plugin</strong>. Integrate WPAdverts  with PeepSo"
+msgstr "<strong>Nécessite le plugin WpAdverts</strong>. Intègre WPAdverts à PeepSo"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

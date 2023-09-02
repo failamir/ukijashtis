@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:16+0700\n"
+"PO-Revision-Date: 2018-04-18 05:30-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsovip.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: peepso-vip.pot\n"
+"Language: bg_BG\n"
+
+#: classes/admin/configsectionvip.php:19
+msgid "<b>Managing the icons</b>: please go to  <a href=\"admin.php?page=peepso-vip\"><i>VIP Icons</i></a>. You can  also find it inside <i>PeepSo</i> option in the side menu."
+msgstr "<b>Управление на икони</b>: моля отидете на <a href=\"admin.php?page=peepso-vip\"> <i>VIP икони</i></a>. Можете да го намерите в страничното меню в <i>PeepSo</i>."
+
+#: classes/admin/configsectionvip.php:25
+msgid "<b>Assigning icons</b>: edit a particular user and configure their <i>VIP</i> section. Go to <a href=\"users.php\">users</a> or try it on <a href=\"profile.php\">yourself</a>"
+msgstr "<b>Присвояване на икони</b>: редактиране потребител и настройване <i>VIP</i> секцията му. Отидете на <a href=\"users.php\"> потребители</a> или опитайте го направите за <a href=\"profile.php\">себе си</a>"
+
+#: classes/admin/configsectionvip.php:31
+msgid "<b>Get more icons</b>:  <a href=\"http://www.flaticon.com/\" target=\"_blank\">http://www.flaticon.com/</a>"
+msgstr "За да изтеглите още икони посетете: <a href=\"http://www.flaticon.com/\" target=\"_blank\"> http://www.flaticon.com/</a>"
+
+#: classes/admin/configsectionvip.php:37
+msgid "<b>Default icons</b>: made by <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\" target=\"_blank\">Roundicons</a> from <a href=\"http://www.flaticon.com\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>"
+msgstr "<b>Стандартни икони</b>: създадени от <a href=\"http://www.flaticon.com/authors/roundicons\" title=\"Roundicons\"> Roundicons</a> от <a href=\"http://www.flaticon.com\" title=\"Flaticon\"> www.flaticon.com</a> с лиценз <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\"> CC 3.0 BY</a>"
+
+#: classes/admin/configsectionvip.php:45
+msgid "Quick Tips"
+msgstr "Бързи съвети"
+
+#: classes/admin/configsectionvip.php:53
+msgid "Left"
+msgstr "Отляво"
+
+#: classes/admin/configsectionvip.php:54
+msgid "Right"
+msgstr "Отдясно"
+
+#: classes/admin/configsectionvip.php:60
+msgid "Icon position relative to user name"
+msgstr "Положение на иконата спрямо потребителско име"
+
+#: classes/admin/configsectionvip.php:87
+msgid "General"
+msgstr "Основни настройки"
+
+#: classes/api/adminconfigvipicons.php:9 classes/api/adminconfigvipicons.php:55
+#: classes/api/adminconfigvipicons.php:93
+#: classes/api/adminconfigvipicons.php:114
+msgid "Insufficient permissions."
+msgstr "Нямате необходимите права."
+
+#: classes/api/adminconfigvipicons.php:15
+msgid "New VIP Icon"
+msgstr "Нова VIP икона"
+
+#: classes/api/adminconfigvipicons.php:17
+msgid "VIP Icon description"
+msgstr "Описание на VIP иконата"
+
+#: classes/api/adminconfigvipicons.php:101
+msgid "Cannot delete core vip icon"
+msgstr "Не може да изтривате vip икона по подразбиране"
+
+#: install/activate.php:19 install/activate.php:20
+msgid "Verified icon 1"
+msgstr "Икона 1"
+
+#: install/activate.php:26 install/activate.php:27
+msgid "Verified icon 2"
+msgstr "Икона 2"
+
+#: install/activate.php:34 install/activate.php:35
+msgid "Verified icon 3"
+msgstr "Икона 3"
+
+#: install/activate.php:42 install/activate.php:43
+msgid "Verified icon 4"
+msgstr "Икона 4"
+
+#: install/activate.php:49 install/activate.php:50
+msgid "Verified icon 5"
+msgstr "Икона 5"
+
+#: install/activate.php:56 install/activate.php:57
+msgid "Verified icon 6"
+msgstr "Икона 6"
+
+#: install/activate.php:63 install/activate.php:64
+msgid "Verified icon 7"
+msgstr "Икона 7"
+
+#: install/activate.php:70 install/activate.php:71
+msgid "Verified icon 8"
+msgstr "Икона 8"
+
+#: peepsovip.php:202
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: peepsovip.php:204
+msgid "Get it now!"
+msgstr "Вземи го сега!"
+
+#: peepsovip.php:221 templates/peepsovip/admin_vipicons.php:24
+#: templates/peepsovip/admin_vipicons.php:52
+msgid "VIP Icons"
+msgstr "VIP икони"
+
+#: peepsovip.php:281 peepsovip.php:295
+msgid "VIP"
+msgstr "VIP"
+
+#: peepsovip.php:284
+msgid "PeepSo - VIP"
+msgstr "PeepSo - VIP"
+
+#: peepsovip.php:298
+msgid "Icon to display next to name/username in PeepSo"
+msgstr "Икона, която да се показва до име/потребителско име в PeepSo"
+
+#: peepsovip.php:301
+msgid "Icon to display"
+msgstr "Икона за показване"
+
+#: peepsovip.php:312
+msgid "unpublished"
+msgstr "непубликувана"
+
+#: templates/peepsovip/admin_vipicon.php:15
+msgid "PeepSo-VIP Default"
+msgstr "PeepSo-VIP по подразбиране"
+
+#: templates/peepsovip/admin_vipicon.php:18
+msgid "PeepSo-VIP Custom"
+msgstr "PeepSo-VIP персонализирана"
+
+#: templates/peepsovip/admin_vipicon.php:57
+#: templates/peepsovip/admin_vipicon.php:98
+#: templates/peepsovip/admin_vipicons.php:78
+msgid "Cancel"
+msgstr "Отказ"
+
+#: templates/peepsovip/admin_vipicon.php:58
+#: templates/peepsovip/admin_vipicon.php:99
+msgid "Save"
+msgstr "Запиши"
+
+#: templates/peepsovip/admin_vipicon.php:74
+msgid "Published"
+msgstr "Публикувана"
+
+#: templates/peepsovip/admin_vipicon.php:89
+msgid "Icon Description"
+msgstr "Описание на иконата"
+
+#: templates/peepsovip/admin_vipicons.php:29
+msgid "Welcome to  PeepSo VIP"
+msgstr "Добре дошли в PeepSo VIP"
+
+#: templates/peepsovip/admin_vipicons.php:30
+msgid "Here's what you should know:"
+msgstr "Ето какво трябва да знаете:"
+
+#: templates/peepsovip/admin_vipicons.php:31
+msgid "click here to dismiss permanently"
+msgstr "Щракнете тук, за да скриете окончателно"
+
+#: templates/peepsovip/admin_vipicons.php:53
+msgid "FTP Uploads"
+msgstr "FTP качени"
+
+#: templates/peepsovip/admin_vipicons.php:82
+msgid "Add icon"
+msgstr "Добавяне на икона"
+
+#: templates/peepsovip/admin_vipicons.php:85
+msgid "Want to use SVG files with Media Library? We recommend"
+msgstr "Искате ли да използвате SVG файлове в библиотеката с изображения? Препоръчваме"
+
+#: templates/peepsovip/admin_vipicons.php:99
+msgid "Use FTP to upload your custom SVG images to"
+msgstr "Използвайте FTP за да качите вашите собствени SVG изображения в"
+
+#: templates/peepsovip/admin_vipicons.php:104
+msgid "No icons"
+msgstr "Няма икони"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:4
+msgid "Expand All"
+msgstr "Разгъни всички"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:7
+msgid "Collapse All"
+msgstr "Свий всички"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:13
+msgid "Add New"
+msgstr "Добавяне на нова"
+
+#: templates/peepsovip/admin_vipicons_buttons.php:18
+msgid "reacted to"
+msgstr "реагира на"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: VIP"
+msgstr "PeepSo Extras: VIP"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Assign custom badges to users"
+msgstr "Поставяне на значки на потребителите"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
