@@ -24,10 +24,10 @@
 define( 'DB_NAME', 'ukijashtis' );
 
 /** Database username */
-define( 'DB_USER', 'ukijashtis' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '6HsI8ByFEDAZWEPrLwfl' );
+define( 'DB_PASSWORD', '8c1e7c17adbcefe626a2eddd62551b84fb552928a2505a1f' );
 
 /** Database hostname */
 define( 'DB_HOST', '127.0.0.1:3306' );
